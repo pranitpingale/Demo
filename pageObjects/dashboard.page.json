@@ -1,0 +1,49 @@
+{
+    "dashboard": {
+
+        "selector": {
+
+            "root": "#root",
+            "meter": ".meter",
+            "amwaterLogo": "a[href='/dashboard'][tabindex='1'] img",
+            "loadingSpinner": "div[class='fade-leave fade-leave-active']",
+            "accountMeter": ".premise-header .meter-details",
+
+            "loggedUserDropdownMenu": ".login-user>a",
+            "loggedUserSignOutMenuItem": "//li[a[text()='Sign out']]",
+            "loggedUserEditProfileMenuItem": "//a[text()='Edit Profile/Alert Preference']",
+
+            "editProfilePaperlessEnrollmentStat": "//span[text()='Paperless Enrollment']/following-sibling::span/span",
+            "editProfilePaperlessEnrollButton": "#paperless button",
+
+            "servicePeriodLabel": ".amw-bill-period",
+            "makePaymentButton": ".amw-bill-payment-card-button",
+            "autoPayContinueButton": ".Payment-button-search",
+            "paymentsDropdownMenu": "//a[text()='Payments']",
+            "makePaymentDropdownMenuItem": "//a[text()='Make Payment']",
+            "makeAPaymentButton": ".amw-bill-payment-card-button",
+
+            "goPaperlessCard": ".amw-go-paperless-card",
+            "gopaperlessCardSignupButton": ".amw-paperless-submit-button",
+            "paperlessBillingEnrollmentWindow": ".amw-detailed-card-title",
+            "paperlessBillingLabel": "//label[@class='amw-detailed-card-title' or @class='amw-discontinue-card-title']",
+            "paperlessThankyouMessage": ".amw-paperless-allcontent",
+            "paperlessUserAck": ".ant-checkbox+span",
+            "paperlessUserAckCheckbox": "#agreement",
+            "paperlessUserSubmitButton": "button[value='Submit']",
+            "paperlessEnrollmentStatus": "h3[class*='-content']",
+            "modalWindowCloseButton": ".amw-bill-payment-close-icon",
+
+            "autopayContinueButton": ".Payment-button-search",
+
+            "servicesRequestCard": "//h2[text()='Service Request']//following-sibling::div[@class='amw-bill-card']",
+            "serviceRequestDescription": "p[class= 'amw-service-request-text']",
+            "serviceRequestNumber": ".amw-service-request-number",
+            "serviceRequestDetails": "span[class*='amw-service-request-label']",
+
+            "paymentLocationsCard": ".ant-card.amw-payment-location-card.aw-card-shadows",
+            "paymentLocationSearchButton": ".buttonSearchImg"
+
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "webdriverio-course-content",
+  "version": "1.0.0",
+  "description": "WebdriverIO",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server sample-site -p 8303",
+    "test": "wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/"
+  },
+  "author": "Author",
+  "license": "lic",
+  "bugs": {
+    "url": "https://github.com/"
+  },
+  "homepage": "https://github.com/",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.5.0",
+    "chai": "^4.1.2",
+    "fs": "0.0.1-security",
+    "fs-extra": "^6.0.1",
+    "glob": "^7.1.2",
+    "json-file": "^0.1.0",
+    "jsonpath": "^1.0.0",
+    "node-notifier": "^5.2.1",
+    "os": "^0.1.1",
+    "os-name": "^2.0.1",
+    "path": "^0.12.7",
+    "selenium-standalone": "^6.15.0",
+    "wdio-allure-reporter": "^0.6.2",
+    "wdio-cucumber-framework": "^1.1.1",
+    "wdio-firefox-profile-service": "^0.1.2",
+    "wdio-iedriver-service": "^0.1.0",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "wdio-spec-reporter": "^0.1.4",
+    "wdio-visual-regression-service": "^0.7.0",
+    "webdriverio": "4.10.2"
+  }
+}
