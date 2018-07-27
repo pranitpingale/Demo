@@ -1,0 +1,4 @@
+allure-report/
+errorShots/
+reports/
+screenshots/
