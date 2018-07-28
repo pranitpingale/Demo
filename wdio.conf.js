@@ -62,7 +62,7 @@ exports.config = {
             // 5 instances get started at a time.
             maxInstances: 5,
             //
-            browserName: 'chrome',
+            browserName:'chrome',
             acceptSslCerts: true,
             acceptInsecureCerts : true,
         }, 
@@ -108,7 +108,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://hsynlwsss101.amwaternp.net:8443/selfservice-web/login.do',
+    baseUrl: 'https://hsynlwsss201.amwaternp.net:8443/selfservice-web/login.do',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 120000,
@@ -250,12 +250,12 @@ exports.config = {
         expect = require('chai').expect;
 
         //User login QA
-        //loginId = file.get('testData.qa.loginData.Alexander.loginID')
-        //password = file.get('testData.qa.loginData.Alexander.password')
+        loginId = file.get('testData.qa.loginData.Alexander.loginID')
+        password = file.get('testData.qa.loginData.Alexander.password')
 
         //User login Dev
-        loginId = file.get('testData.dev.loginData.Gail.loginID')
-        password = file.get('testData.dev.loginData.Gail.password')
+        //loginId = file.get('testData.dev.loginData.Gail.loginID')
+        //password = file.get('testData.dev.loginData.Gail.password')
 
         console.log("LoginID: " + loginId)
         console.log("Password: " + password)
