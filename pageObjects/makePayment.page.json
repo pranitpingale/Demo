@@ -22,7 +22,7 @@
             "paymentAmountTextbox": "input[name='paymentAmount']",
             "recieptNumberTextbox":"input[name='receiptNumber']",
             "cPostPaymentMessage": "div[class*='amw-billing-completed']",
-            "cashSubmitButton": "input[value='Sumbit'][class*='payment-button-search']",
+            "cashSubmitButton": "input[value='Submit'][class*='payment-button-search']",
 
             "makePaymentCloseButton": ".amw-bill-payment-close-icon"
 
