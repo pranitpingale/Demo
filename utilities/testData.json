@@ -6,6 +6,14 @@
 
             "loginData": {
 
+                "Mike":{
+
+                    "loginID": "SUN112SET",
+                    "password": "P1assword",
+                    "cashRecieptConstant": "AB123"
+
+                },
+
                 "Alexander":{
 
                     "loginID": "ALEXDARE",

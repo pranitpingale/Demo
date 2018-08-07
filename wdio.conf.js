@@ -250,8 +250,8 @@ exports.config = {
         expect = require('chai').expect;
 
         //User login QA
-        loginId = file.get('testData.qa.loginData.Alexander.loginID')
-        password = file.get('testData.qa.loginData.Alexander.password')
+        loginId = file.get('testData.qa.loginData.Mike.loginID')
+        password = file.get('testData.qa.loginData.Mike.password')
 
         //User login Dev
         //loginId = file.get('testData.dev.loginData.Gail.loginID')
