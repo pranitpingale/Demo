@@ -12,7 +12,7 @@ class CommonFunctions {
         var regex = /-?\d*\.{0,1}\d+/g;
         var regexArray = regex.exec(stringValue);
 
-        return parseFloat(regexArray[0])
+        return parseFloat(regexArray[0]).toFixed(2)
 
     }
 

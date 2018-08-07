@@ -105,7 +105,7 @@ class MakePayment {
     }
 
     getMakePaymentAmountDue(){
-        return commonLib.getElementText(makePaymentPage.amtDueText)
+       return commonLib.getElementText(makePaymentPage.amtDueText) 
     }
 
     selectPaymentCard(cardpos){
