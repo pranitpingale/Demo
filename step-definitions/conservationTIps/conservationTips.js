@@ -23,6 +23,35 @@ Then(/^Conservation tips is displayed on the card \"([^\"]*)\"$/, function (expM
 
 });
 
+Given(/^again user navigates to usage menu$/, function () {
+  
+  dashboardLib.navigateToUsageHeaderMenu()
+});
+
+When(/^again user click on Conservation Tips$/, function () {
+
+  dashboardLib.navigateToConservationTips()
+
+});
+
+Then(/^user navigates to each conservation tips and verify the content$/, function () {
+
+
+    dashboardPage.tipTitle.waitForExist(2000)
+    commonLib.assertValue(true, dashboardPage.tipTitle.isExisting())    
+    dashboardLib.navigateToNextConservationTips()
+    dashboardPage.tipTitle.waitForExist(2000)
+    commonLib.assertValue(true, dashboardPage.tipTitle.isExisting())
+    dashboardLib.navigateToNextConservationTips()
+    dashboardPage.tipTitle.waitForExist(2000)
+    commonLib.assertValue(true, dashboardPage.tipTitle.isExisting())
+    dashboardLib.navigateToNextConservationTips()
+    browser.pause(1000)
+    dashboardPage.highlightOverlay.click()
+    browser.pause(3000)
+
+});
+
 
 
 

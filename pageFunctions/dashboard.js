@@ -135,6 +135,18 @@ class dashboardLib {
         //dashboardPage.loggedUserFeedbackMenuItem.click()
     }
 
+    navigateToNextConservationTips(){
+
+
+        console.log("under next conservation tips")
+        dashboardPage.nextArrowCT.click()
+        console.log("nextTip Clicked")
+        //dashboardPage.conservationTipsSubMenu.waitForExist(10000)
+        browser.pause(2000)
+
+        //dashboardPage.loggedUserFeedbackMenuItem.click()
+    }
+
 
 
 

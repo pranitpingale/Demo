@@ -24,6 +24,10 @@ class dashboard {
     get conservationTipsSubMenu() {return $(file.get('dashboard.selector.conservationTipsSubMenu')); }
     get conservationTipsText() {return $(file.get('dashboard.selector.conservationTipsText')); }
     get highlightOverlay() {return $(file.get('dashboard.selector.highlightOverlay')); }
+    get nextArrowCT() {return $(file.get('dashboard.selector.nextArrowCT')); }
+    get gallonsAmonthText() {return $(file.get('dashboard.selector.gallonsAmonthText')); }
+    get tipTitle() {return $(file.get('dashboard.selector.tipTitle')); }
+    
 
     //conservation tips
     get secondQuestionSecondRadioButton() { return $(file.get('dashboard.selector.secondQuestionSecondRadioButton')); }

@@ -30,7 +30,9 @@
             "paperlessText": "label[class= 'amw-paperless-card-title']",
             "highlightOverlay": "div[class= 'overlay highlight']",
             "profileClose":  "span[class= 'icon-close']",
-            
+            "nextArrowCT": "button[class= 'slick-arrow slick-next']",
+            "gallonsAmonthText": ".slick-slide[data-index='2'] span[text()='gallons a month']",
+            "tipTitle": "//*[@id='conservationTips']/div/div/div[2]/div/div/div/div[2]/div/div/h3",
             
             
 
