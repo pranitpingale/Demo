@@ -1,3 +1,4 @@
+//loginPage = require('../pageObjects/login.page.js')
 class Login {
 
     loginToAmwater(loginId, password){
@@ -10,7 +11,7 @@ class Login {
         loginPage.loginButton.click();
         console.log('Clicked on Login button');
 
-        //Handle Paperless billing acknowledgement if appears
+       // Handle Paperless billing acknowledgement if appears
         let paperLessUrl = browser.getUrl()
 
         if (paperLessUrl.includes('paperlessBillingInterceptEnroll.do')) {

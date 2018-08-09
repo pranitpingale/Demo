@@ -6,10 +6,31 @@ class dashboard {
     get rootElement() { return $(file.get('dashboard.selector.root')); }
     get meter() { return $(file.get('dashboard.selector.meter')); }
     get amwaterLogo() { return $(file.get('dashboard.selector.amwaterLogo')); }
+    get profileClose() { return $(file.get('dashboard.selector.profileClose')); }
     get accountMeter() { return $(file.get('dashboard.selector.accountMeter')); }
     get loadingSpinner() { return $(file.get('dashboard.selector.loadingSpinner')); }
     get loggedUserDropdownMenu() { return $(file.get('dashboard.selector.loggedUserDropdownMenu')); }
     get loggedUserEditProfileMenuItem() { return $(file.get('dashboard.selector.loggedUserEditProfileMenuItem')); }
+
+
+    //feedback
+    get loggedUserFeedbackMenuItem() { return $(file.get('dashboard.selector.loggedUserFeedbackMenuItem')); }
+    get feedbackSubmitButton() { return $(file.get('dashboard.selector.feedbackSubmitButton')); }
+    get firstQuestionSecondRadioButton() { return $(file.get('dashboard.selector.firstQuestionSecondRadioButton')); }
+    get secondQuestionSecondRadioButton() { return $(file.get('dashboard.selector.secondQuestionSecondRadioButton')); }
+    get feedbackStatus() {return $(file.get('dashboard.selector.feedbackStatus')); }
+    get paperlessText() {return $(file.get('dashboard.selector.paperlessText')); }
+    get headerusageMenu() {return $(file.get('dashboard.selector.headerusageMenu')); }
+    get conservationTipsSubMenu() {return $(file.get('dashboard.selector.conservationTipsSubMenu')); }
+    get conservationTipsText() {return $(file.get('dashboard.selector.conservationTipsText')); }
+    get highlightOverlay() {return $(file.get('dashboard.selector.highlightOverlay')); }
+
+    //conservation tips
+    get secondQuestionSecondRadioButton() { return $(file.get('dashboard.selector.secondQuestionSecondRadioButton')); }
+    get feedbackStatus() {return $(file.get('dashboard.selector.feedbackStatus')); }
+
+
+
     get loggedUserSignOutMenuItem() { return $(file.get('dashboard.selector.loggedUserSignOutMenuItem')); }
     get servicePeriodLabel() { return $(file.get('dashboard.selector.servicePeriodLabel')); }
     get makePaymentButton() { return $(file.get('dashboard.selector.makePaymentButton')); }
