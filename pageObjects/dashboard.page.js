@@ -28,6 +28,9 @@ class dashboard {
     get gallonsAmonthText() {return $(file.get('dashboard.selector.gallonsAmonthText')); }
     get tipTitle() {return $(file.get('dashboard.selector.tipTitle')); }
     get tipSummary() {return $(file.get('dashboard.selector.tipSummary')); }
+    get cashpaymentLabel() {return $(file.get('dashboard.selector.cashpaymentLabel')); }
+    get headerPaymentMenu() {return $(file.get('dashboard.selector.headerPaymentMenu')); }
+    get CashPaymentssSubMenu() {return $(file.get('dashboard.selector.CashPaymentssSubMenu')); }
     
 
     //conservation tips

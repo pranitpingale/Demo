@@ -135,6 +135,36 @@ class dashboardLib {
         //dashboardPage.loggedUserFeedbackMenuItem.click()
     }
 
+
+   navigateToCashPayment(){
+
+        var CashPaymentssSubMenu = dashboardPage.CashPaymentssSubMenu
+        console.log(CashPaymentssSubMenu)
+        browser.moveTo(CashPaymentssSubMenu,0,60)
+        //dashboardPage.headerusageMenu.click()
+        console.log("cash payment menu found")
+        dashboardPage.CashPaymentssSubMenu.click()
+        console.log("cash payment menu click")
+        //dashboardPage.conservationTipsSubMenu.waitForExist(10000)
+        browser.pause(5000)
+
+        //dashboardPage.loggedUserFeedbackMenuItem.click()
+    }
+
+    navigateToMakePayment(){
+
+        var makePaymentssSubMenu = dashboardPage.makePaymentssSubMenu
+        console.log(makePaymentssSubMenu)
+        browser.moveTo(makePaymentssSubMenu,0,60)
+        //dashboardPage.headerusageMenu.click()
+        console.log("cash payment menu found")
+        dashboardPage.makePaymentssSubMenu.click()
+        console.log("cash payment menu click")
+        //dashboardPage.conservationTipsSubMenu.waitForExist(10000)
+        browser.pause(3000)
+    }
+
+
     navigateToNextConservationTips(){
 
 
@@ -147,6 +177,20 @@ class dashboardLib {
         //dashboardPage.loggedUserFeedbackMenuItem.click()
     }
 
+    navigateToPaymentsHeaderMenu(){
+        commonLib.scrolToScreenTop()
+       
+        browser.pause(3000)
+        //dashboardPage.headerusageMenu.waitForExist(10000)
+        console.log("before hover")
+        var headerPaymentMenu = dashboardPage.headerPaymentMenu
+        console.log(headerPaymentMenu)
+        browser.moveTo(headerPaymentMenu,0,5)
+        //dashboardPage.headerusageMenu.click()
+        console.log("hover header payment")
+        dashboardPage.headerPaymentMenu.click()
+        browser.pause(3000)
+    }
 
 
 

@@ -25,7 +25,9 @@
 
 
             "headerusageMenu": ".aw-menu-link[data-target='#usage-menu']",
+            "headerPaymentMenu": ".aw-menu-link[data-target='#payment-menus']",
             "conservationTipsSubMenu": "//li[a[text()='Conservation Tips']]",
+            "makePaymentssSubMenu": "//li[a[text()='Make Payment']]",
             "conservationTipsText": "//h2[text()='Conservation Tips']",
             "paperlessText": "label[class= 'amw-paperless-card-title']",
             "highlightOverlay": "div[class= 'overlay highlight']",
@@ -35,6 +37,12 @@
             "tipTitle": "//*[@id='conservationTips']/div/div/div[2]/div/div/div/div[2]/div/div/h3",
             "tipSummary": "//*[@id='conservationTips']/div/div/div[2]/div/div/div/div[2]/div/div/div[3]/div/div[1]/p",
             "tipNumber": "//*[@id='conservationTips']/div/div/div[2]/div/div/div/div[2]/div/div/div[3]/div/div[1]/span",
+
+            "cashpaymentLabel":  "label[class= 'amw-case-receipt-payment']",
+            "CashPaymentssSubMenu": "//li[a[text()='Cash Payments']]",
+            
+
+            
             
 
             "editProfilePaperlessEnrollmentStat": "//span[text()='Paperless Enrollment']/following-sibling::span/span",
