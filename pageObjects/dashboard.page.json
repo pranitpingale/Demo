@@ -33,7 +33,8 @@
             "nextArrowCT": "button[class= 'slick-arrow slick-next']",
             "gallonsAmonthText": ".slick-slide[data-index='2'] span[text()='gallons a month']",
             "tipTitle": "//*[@id='conservationTips']/div/div/div[2]/div/div/div/div[2]/div/div/h3",
-            
+            "tipSummary": "//*[@id='conservationTips']/div/div/div[2]/div/div/div/div[2]/div/div/div[3]/div/div[1]/p",
+            "tipNumber": "//*[@id='conservationTips']/div/div/div[2]/div/div/div/div[2]/div/div/div[3]/div/div[1]/span",
             
 
             "editProfilePaperlessEnrollmentStat": "//span[text()='Paperless Enrollment']/following-sibling::span/span",

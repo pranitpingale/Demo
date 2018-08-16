@@ -53,5 +53,35 @@ Then(/^user navigates to each conservation tips and verify the content$/, functi
 });
 
 
+Given(/^user navigates to usage menu to verify detailed content$/, function () {
+  
+  dashboardLib.navigateToUsageHeaderMenu()
+});
+
+When(/^user click on Conservation Tips to verfiy detailed content$/, function () {
+
+  dashboardLib.navigateToConservationTips()
+
+});
+
+Then(/^user navigates to each conservation tips and verify the content for each tips$/, function () {
+
+
+    dashboardPage.tipSummary.waitForExist(2000)
+    commonLib.assertValue(true, dashboardPage.tipTitle.isExisting())    
+    dashboardLib.navigateToNextConservationTips()
+    dashboardPage.tipSummary.waitForExist(2000)
+    commonLib.assertValue(true, dashboardPage.tipTitle.isExisting())
+    dashboardLib.navigateToNextConservationTips()
+    dashboardPage.tipSummary.waitForExist(2000)
+    commonLib.assertValue(true, dashboardPage.tipTitle.isExisting())
+    dashboardLib.navigateToNextConservationTips()
+    browser.pause(1000)
+    dashboardPage.highlightOverlay.click()
+    browser.pause(3000)
+
+});
+
+
 
 

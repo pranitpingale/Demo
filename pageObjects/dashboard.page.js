@@ -27,6 +27,7 @@ class dashboard {
     get nextArrowCT() {return $(file.get('dashboard.selector.nextArrowCT')); }
     get gallonsAmonthText() {return $(file.get('dashboard.selector.gallonsAmonthText')); }
     get tipTitle() {return $(file.get('dashboard.selector.tipTitle')); }
+    get tipSummary() {return $(file.get('dashboard.selector.tipSummary')); }
     
 
     //conservation tips

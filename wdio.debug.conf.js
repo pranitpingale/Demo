@@ -257,6 +257,9 @@ exports.config = {
         loginId = file.get('testData.dev.loginData.Gail.loginID')
         password = file.get('testData.dev.loginData.Gail.password')
 
+        // loginId = file.get('testData.qa.loginData.Gail.loginID')
+        // password = file.get('testData.qa.loginData.Gail.password')      
+
         console.log("LoginID: " + loginId)
         console.log("Password: " + password)
         console.log('Running on browser: ' + capabilities.browserName);
