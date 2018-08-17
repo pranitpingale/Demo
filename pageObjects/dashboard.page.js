@@ -31,7 +31,17 @@ class dashboard {
     get cashpaymentLabel() {return $(file.get('dashboard.selector.cashpaymentLabel')); }
     get headerPaymentMenu() {return $(file.get('dashboard.selector.headerPaymentMenu')); }
     get CashPaymentssSubMenu() {return $(file.get('dashboard.selector.CashPaymentssSubMenu')); }
+    get makePaymentssSubMenu() {return $(file.get('dashboard.selector.makePaymentssSubMenu')); }
     
+    
+    //Make Payment modal view
+    get autoPayInMakePayment() {return $(file.get('dashboard.selector.autoPayInMakePayment')); }
+    get electronicCheckInMakePayment() {return $(file.get('dashboard.selector.electronicCheckInMakePayment')); }
+    get debitCreditInMakePayment() {return $(file.get('dashboard.selector.debitCreditInMakePayment')); }
+    get cashInMakePayment() {return $(file.get('dashboard.selector.cashInMakePayment')); }
+    get makePaymentLabel() {return $(file.get('dashboard.selector.makePaymentLabel')); }
+    get makePaymentCloseModalView() {return $(file.get('dashboard.selector.makePaymentCloseModalView')); }
+
 
     //conservation tips
     get secondQuestionSecondRadioButton() { return $(file.get('dashboard.selector.secondQuestionSecondRadioButton')); }

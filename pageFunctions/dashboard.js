@@ -155,7 +155,7 @@ class dashboardLib {
 
         var makePaymentssSubMenu = dashboardPage.makePaymentssSubMenu
         console.log(makePaymentssSubMenu)
-        browser.moveTo(makePaymentssSubMenu,0,60)
+        browser.moveTo(makePaymentssSubMenu,0,18)
         //dashboardPage.headerusageMenu.click()
         console.log("cash payment menu found")
         dashboardPage.makePaymentssSubMenu.click()

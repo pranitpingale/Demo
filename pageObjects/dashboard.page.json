@@ -37,6 +37,12 @@
             "tipTitle": "//*[@id='conservationTips']/div/div/div[2]/div/div/div/div[2]/div/div/h3",
             "tipSummary": "//*[@id='conservationTips']/div/div/div[2]/div/div/div/div[2]/div/div/div[3]/div/div[1]/p",
             "tipNumber": "//*[@id='conservationTips']/div/div/div[2]/div/div/div/div[2]/div/div/div[3]/div/div[1]/span",
+            "autoPayInMakePayment": "//*[@id='aw-body aw-body-container']/div[2]/div/div[2]/div/div[1]/div/div/div/div/div[4]/div/div/div[1]/div/div/div",
+            "electronicCheckInMakePayment": "//*[@id='aw-body aw-body-container']/div[2]/div/div[2]/div/div[1]/div/div/div/div/div[4]/div/div/div[2]/div/div",
+            "debitCreditInMakePayment": "//*[@id='aw-body aw-body-container']/div[2]/div/div[2]/div/div[1]/div/div/div/div/div[4]/div/div/div[3]/div/div",
+            "cashInMakePayment": "//*[@id='aw-body aw-body-container']/div[2]/div/div[2]/div/div[1]/div/div/div/div/div[4]/div/div/div[4]/div/div",
+            "makePaymentLabel": "label[class= 'amw-detailed-card-title']",
+
 
             "cashpaymentLabel":  "label[class= 'amw-case-receipt-payment']",
             "CashPaymentssSubMenu": "//li[a[text()='Cash Payments']]",
@@ -64,7 +70,8 @@
             "paperlessUserAckCheckbox": "#agreement",
             "paperlessUserSubmitButton": "button[value='Submit']",
             "paperlessEnrollmentStatus": "h3[class*='-content']",
-            "modalWindowCloseButton": ".amw-bill-payment-close-icon",
+            "modalWindowCloseButton": "//*[@id='aw-body aw-body-container']/div[2]/div/div[2]/div/div[1]/div/div/div/img",
+            "makePaymentCloseModalView": "//*[@id='aw-body aw-body-container']/div[2]/div/div[2]/div/div[1]/div/div/div/img",
 
             "autopayContinueButton": ".Payment-button-search",
 

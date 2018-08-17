@@ -8,5 +8,3 @@ Feature: A registered user can submit the feedback
       When user selects radio button for first question and second question
       Then user submit the feedback form
       And feedback is successfull with message "Thank you for providing your feedback"
-
-    
