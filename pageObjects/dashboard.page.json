@@ -18,7 +18,7 @@
 
             "servicePeriodLabel": ".amw-bill-period",
             "makePaymentButton": ".amw-bill-payment-card-button",
-            "autoPayContinueButton": ".Payment-button-search",
+            "autoPayContinueButton": ".amw-pay-bill-now-button",
             "paymentsDropdownMenu": "//a[text()='Payments']",
             "makePaymentDropdownMenuItem": "//a[text()='Make Payment']",
             "makeAPaymentButton": ".amw-bill-payment-card-button",
@@ -34,7 +34,7 @@
             "paperlessEnrollmentStatus": "h3[class*='-content']",
             "modalWindowCloseButton": ".amw-bill-payment-close-icon",
 
-            "autopayContinueButton": ".Payment-button-search",
+            "autopayContinueButton": ".amw-pay-bill-now-button",
 
             "servicesRequestCard": "//h2[text()='Service Request']//following-sibling::div[@class='amw-bill-card']",
             "serviceRequestDescription": "p[class= 'amw-service-request-text']",

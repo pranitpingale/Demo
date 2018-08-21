@@ -39,6 +39,7 @@ class MakePayment {
     payByCash(amount) {
 
         makePaymentPage.paymentAmountTextbox.waitForExist(10000)
+        makePaymentPage.paymentAmountTextbox.getLocationInView()
         makePaymentPage.paymentAmountTextbox.setValue(amount)
         makePaymentPage.recieptNumberTextbox.setValue(this.getCashReceiptNumber())
         makePaymentPage.cashSubmitButton.getLocationInView()
@@ -105,7 +106,7 @@ class MakePayment {
     }
 
     getMakePaymentAmountDue(){
-       return commonLib.getElementText(makePaymentPage.amtDueText) 
+        return commonLib.getElementText(makePaymentPage.amtDueText)
     }
 
     selectPaymentCard(cardpos){

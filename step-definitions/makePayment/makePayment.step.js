@@ -48,7 +48,6 @@ const { Given, When, Then} = require('cucumber')
       browser.frameParent()
       finalBal = commonLib.parseIntergerFromString(makePaymentLib.getMakePaymentAmountDue())
       var deductedValue = commonLib.parseIntergerFromString(initialBal - payAmount)
-      //commonLib.assertValue(finalBal, initialBal - payAmount)
       commonLib.assertValue(finalBal, deductedValue)
       makePaymentLib.closeMakePaymentWindow()
   });

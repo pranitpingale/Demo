@@ -8,7 +8,7 @@ var path = require('path');
 
 var json = require('json-file');
 var file = json.read('./utilities/testData.json');
-
+//const { Given, When, Then } = require('cucumber');
 
 exports.config = {
 
@@ -108,7 +108,14 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://hsynlwsss201.amwaternp.net:8443/selfservice-web/login.do',
+    // ********************************************************************************************** //
+    //
+    //*************************************** Dev URL *********************************************** //
+    baseUrl: 'https://hsynlwsss101.amwaternp.net:8443/selfservice-web/login.do',
+    //
+    //
+    //*************************************** QA URL *********************************************** //
+    //baseUrl: 'https://wssqa.amwaternp.net/selfservice-web/login.do',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 120000,
@@ -250,12 +257,12 @@ exports.config = {
         expect = require('chai').expect;
 
         //User login QA
-        loginId = file.get('testData.qa.loginData.Mike.loginID')
-        password = file.get('testData.qa.loginData.Mike.password')
+        //loginId = file.get('testData.qa.loginData.Alexander.loginID')
+        //password = file.get('testData.qa.loginData.Alexander.password')
 
         //User login Dev
-        //loginId = file.get('testData.dev.loginData.Gail.loginID')
-        //password = file.get('testData.dev.loginData.Gail.password')
+        loginId = file.get('testData.dev.loginData.Richard.loginID')
+        password = file.get('testData.dev.loginData.Richard.password')
 
         console.log("LoginID: " + loginId)
         console.log("Password: " + password)

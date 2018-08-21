@@ -3,7 +3,7 @@
 
         "selector": {
 
-            "amtDueText": ".amw-bill-payment-amount",
+            "amtDueText": ".amw-make-payment-amount",
 
             "electronicCheck": "//div[label[text()='Electronic Check']]",
             "paymentFrame": ".amw-bill-payment-iframe",
@@ -22,7 +22,7 @@
             "paymentAmountTextbox": "input[name='paymentAmount']",
             "recieptNumberTextbox":"input[name='receiptNumber']",
             "cPostPaymentMessage": "div[class*='amw-billing-completed']",
-            "cashSubmitButton": "input[value='Submit'][class*='payment-button-search']",
+            "cashSubmitButton": "input[value='Submit']",
 
             "makePaymentCloseButton": ".amw-bill-payment-close-icon"
 
