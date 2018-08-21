@@ -12,6 +12,9 @@ Given(/^user navigates to payment menu$/, function () {
 When(/^user click on cash payment$/, function () {
 
   dashboardLib.navigateToCashPayment()
+  browser.pause(3000)
+  dashboardPage.autoPayContinueButtonNew.click()
+  browser.pause(3000)
 
 });
 
@@ -36,6 +39,9 @@ Given(/^again user navigates to payment menu$/, function () {
 When(/^user click on make payment$/, function () {
 
   dashboardLib.navigateToMakePayment()
+  browser.pause(3000)
+  dashboardPage.autoPayContinueButtonNew.click()
+  browser.pause(3000)
 
 });
 
@@ -73,7 +79,7 @@ When(/^user click on Payment Location$/, function () {
 
 });
 
-Then(/^Payment Location card is displayed with the content text box and a label asl \"([^\"]*)\"$/, function (expMessage) {
+Then(/^Payment Location card is displayed with the content text box and a label as \"([^\"]*)\"$/, function (expMessage) {
 
     dashboardPage.zipCodeTextBoxPL.waitForExist(2000)
     commonLib.assertValue(true, dashboardPage.zipCodeTextBoxPL.isExisting())
@@ -83,5 +89,51 @@ Then(/^Payment Location card is displayed with the content text box and a label 
     console.log("nearestLocationText")
     dashboardPage.highlightOverlay.click()
     browser.pause(3000)
+
+});
+
+Given(/^again user navigates to usage menu from header$/, function () {
+  
+  //dashboardPage.headerusageMenu.waitForExist(10000)
+  dashboardLib.navigateToUsageHeaderMenu()
+});
+
+When(/^user click on usage overview sub menu$/, function () {
+
+  dashboardLib.navigateToUsageOverviewFromUsageMenu()
+
+});
+
+Then(/^usage overview card is displayed in focus with a label as \"([^\"]*)\"$/, function (expMessage) {
+
+    console.log("usage overview text")
+    commonLib.assertElementText(dashboardPage.usageOverviewText, expMessage)
+    console.log("matched usage overview text")
+    commonLib.scrollToScreenBottom()
+    dashboardPage.highlightOverlay.click()
+    browser.pause(5000)
+
+});
+
+Given(/^again user navigates to usage menu header menu present in dashboard$/, function () {
+  
+  //dashboardPage.headerusageMenu.waitForExist(10000)
+  dashboardLib.navigateToUsageHeaderMenu()
+});
+
+When(/^user click on usage projection sub menu$/, function () {
+
+  dashboardLib.navigateToUsageProjectionFromUsageMenu()
+
+});
+
+Then(/^usage projection card is displayed in focus with a label as \"([^\"]*)\"$/, function (expMessage) {
+
+    console.log("usageProjectionText")
+    commonLib.assertElementText(dashboardPage.usageProjectionText, expMessage)
+    console.log("matched usageProjectionText")
+    commonLib.scrollToScreenBottom()
+    dashboardPage.highlightOverlay.click()
+    browser.pause(5000)
 
 });

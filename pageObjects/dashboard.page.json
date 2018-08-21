@@ -26,8 +26,12 @@
 
             "headerusageMenu": ".aw-menu-link[data-target='#usage-menu']",
             "headerPaymentMenu": ".aw-menu-link[data-target='#payment-menus']",
+            "usageOverviewSubMenu": "//li[a[text()='Usage Overview']]",
+            "usageProjectionSubMenu": "//li[a[text()='Usage Projection']]",
             "conservationTipsSubMenu": "//li[a[text()='Conservation Tips']]",
             "makePaymentssSubMenu": "//li[a[text()='Make Payment']]",
+            "usageOverviewText": "//h2[text()='Usage Overview']",
+            "usageProjectionText": "//h2[text()='Usage Projection']",
             "conservationTipsText": "//h2[text()='Conservation Tips']",
             "paperlessText": "label[class= 'amw-paperless-card-title']",
             "highlightOverlay": "div[class= 'overlay highlight']",
@@ -37,11 +41,12 @@
             "tipTitle": "//*[@id='conservationTips']/div/div/div[2]/div/div/div/div[2]/div/div/h3",
             "tipSummary": "//*[@id='conservationTips']/div/div/div[2]/div/div/div/div[2]/div/div/div[3]/div/div[1]/p",
             "tipNumber": "//*[@id='conservationTips']/div/div/div[2]/div/div/div/div[2]/div/div/div[3]/div/div[1]/span",
-            "autoPayInMakePayment": "//*[@id='aw-body aw-body-container']/div[2]/div/div[2]/div/div[1]/div/div/div/div/div[4]/div/div/div[1]/div/div/div",
-            "electronicCheckInMakePayment": "//*[@id='aw-body aw-body-container']/div[2]/div/div[2]/div/div[1]/div/div/div/div/div[4]/div/div/div[2]/div/div",
-            "debitCreditInMakePayment": "//*[@id='aw-body aw-body-container']/div[2]/div/div[2]/div/div[1]/div/div/div/div/div[4]/div/div/div[3]/div/div",
-            "cashInMakePayment": "//*[@id='aw-body aw-body-container']/div[2]/div/div[2]/div/div[1]/div/div/div/div/div[4]/div/div/div[4]/div/div",
+            "autoPayInMakePayment": "//*[@id='root']/div[8]/div[2]/div[3]/div/div[2]/div[4]/div/div/div[1]/div/div/div",
+            "electronicCheckInMakePayment": "//*[@id='root']/div[8]/div[2]/div[3]/div/div[2]/div[4]/div/div/div[2]/div/div/div",
+            "debitCreditInMakePayment": "//*[@id='root']/div[8]/div[2]/div[3]/div/div[2]/div[4]/div/div/div[3]/div/div/div",
+            "cashInMakePayment": "//*[@id='root']/div[8]/div[2]/div[3]/div/div[2]/div[4]/div/div/div[4]/div/div/div",
             "makePaymentLabel": "label[class= 'amw-detailed-card-title']",
+            "autoPayContinueButtonNew": "//a[text()='Continue']",
 
 
             "cashpaymentLabel":  "label[class= 'amw-case-receipt-payment']",
@@ -49,6 +54,8 @@
             "paymentLocationsSubMenu": "//li[a[text()='Payment Locations']]",
             "nearestLocationText": "//p[text()='Find Your Nearest Payment Location']",
             "zipCodeTextBoxPL":  "input[class= 'amw-input-search-field blackColor']",
+
+
             
 
             
@@ -74,7 +81,7 @@
             "paperlessUserSubmitButton": "button[value='Submit']",
             "paperlessEnrollmentStatus": "h3[class*='-content']",
             "modalWindowCloseButton": "//*[@id='aw-body aw-body-container']/div[2]/div/div[2]/div/div[1]/div/div/div/img",
-            "makePaymentCloseModalView": "//*[@id='aw-body aw-body-container']/div[2]/div/div[2]/div/div[1]/div/div/div/img",
+            "makePaymentCloseModalView": "//*[@id='root']/div[8]/div[2]/div[3]/div/div[2]/div[1]/a/img",
 
             "autopayContinueButton": ".Payment-button-search",
 

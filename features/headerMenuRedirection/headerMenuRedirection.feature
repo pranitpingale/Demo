@@ -15,7 +15,19 @@ Feature: A registered user can open different menu and submenu
       Then all the payment methods are displayed under make payment modal view with label "Make a Payment"
 
     @am_paymentLocation
-    Scenario: User can check the payment location are displayed with correct content
+    Scenario: User can check the redirection to payment location card from the header menu
       Given again user navigates to payment menu from header
       When user click on Payment Location
       Then Payment Location card is displayed with the content text box and a label as "Find Your Nearest Payment Location"
+
+    @am_usageOverview
+    Scenario: User can check the redirection to usage overview card from the header menu
+      Given again user navigates to usage menu from header
+      When user click on usage overview sub menu
+      Then usage overview card is displayed in focus with a label as "Usage Overview"
+
+    @am_usageProjection
+    Scenario: User can check the redirection to usage projection card from the header menu
+      Given again user navigates to usage menu header menu present in dashboard
+      When user click on usage projection sub menu
+      Then usage projection card is displayed in focus with a label as "Usage projection"

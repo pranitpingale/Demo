@@ -135,6 +135,36 @@ class dashboardLib {
         //dashboardPage.loggedUserFeedbackMenuItem.click()
     }
 
+      navigateToUsageOverviewFromUsageMenu(){
+
+        var usageOverviewSubMenu = dashboardPage.usageOverviewSubMenu
+        console.log(usageOverviewSubMenu)
+        browser.moveTo(usageOverviewSubMenu,0,35)
+        //dashboardPage.headerusageMenu.click()
+        console.log("usageOverviewSubMenu menu found")
+        dashboardPage.usageOverviewSubMenu.click()
+        console.log("usageOverviewSubMenu sub menu click")
+        //dashboardPage.conservationTipsSubMenu.waitForExist(10000)
+        browser.pause(5000)
+
+        //dashboardPage.loggedUserFeedbackMenuItem.click()
+    }
+
+      navigateToUsageProjectionFromUsageMenu(){
+
+        var usageProjectionSubMenu = dashboardPage.usageProjectionSubMenu
+        console.log(usageProjectionSubMenu)
+        browser.moveTo(usageProjectionSubMenu,0,40)
+        //dashboardPage.headerusageMenu.click()
+        console.log("usageProjectionSubMenu menu found")
+        dashboardPage.conservationTipsSubMenu.click()
+        console.log("usageProjectionSubMenu click")
+        //dashboardPage.conservationTipsSubMenu.waitForExist(10000)
+        browser.pause(5000)
+
+        //dashboardPage.loggedUserFeedbackMenuItem.click()
+    }
+
 
    navigateToCashPayment(){
 

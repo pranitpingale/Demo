@@ -23,6 +23,10 @@ class dashboard {
     get headerusageMenu() {return $(file.get('dashboard.selector.headerusageMenu')); }
     get conservationTipsSubMenu() {return $(file.get('dashboard.selector.conservationTipsSubMenu')); }
     get conservationTipsText() {return $(file.get('dashboard.selector.conservationTipsText')); }
+    get usageOverviewSubMenu() {return $(file.get('dashboard.selector.usageOverviewSubMenu')); }
+    get usageOverviewText() {return $(file.get('dashboard.selector.usageOverviewText')); }
+    get usageProjectionSubMenu() {return $(file.get('dashboard.selector.usageProjectionSubMenu')); }
+    get usageProjectionText() {return $(file.get('dashboard.selector.usageProjectionText')); }
     get highlightOverlay() {return $(file.get('dashboard.selector.highlightOverlay')); }
     get nextArrowCT() {return $(file.get('dashboard.selector.nextArrowCT')); }
     get gallonsAmonthText() {return $(file.get('dashboard.selector.gallonsAmonthText')); }
@@ -35,6 +39,7 @@ class dashboard {
     get paymentLocationsSubMenu() {return $(file.get('dashboard.selector.paymentLocationsSubMenu')); }
     get nearestLocationText() {return $(file.get('dashboard.selector.nearestLocationText')); }
     get zipCodeTextBoxPL() {return $(file.get('dashboard.selector.zipCodeTextBoxPL')); }
+    get autoPayContinueButtonNew() {return $(file.get('dashboard.selector.autoPayContinueButtonNew')); }
 
     
     
