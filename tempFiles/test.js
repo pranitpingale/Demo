@@ -1,13 +1,15 @@
+var request = require('request');
+ var agentOptions;  
 
-
-console.log(isPhoneNumberNANP("(234) 555 1000"))
-
-function isPhoneNumberNANP(number){
-
-        let regex = /^\(?([2-9][0-9]{2})\)?[-. ]?([2-9](?!11)[0-9]{2})[-. ]?([0-9]{4})$/
-        return regex.test(number)
+request({
+    url: 'https://wssqa.amwaternp.net/selfservice-web/portalWebUser.do',
+    //url: 'https://api.amwaternp.com/api/login-service-proxy/external-login?query=EC459C0FC9AF7C2D9DAD8BBA8C2A45AA',
+    agentOptions: {
+      rejectUnauthorized: false
     }
-
+  }, function (err, resp, body) {
+    console.log(body)
+  });
 
 
 

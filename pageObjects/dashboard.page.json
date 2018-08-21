@@ -46,6 +46,9 @@
 
             "cashpaymentLabel":  "label[class= 'amw-case-receipt-payment']",
             "CashPaymentssSubMenu": "//li[a[text()='Cash Payments']]",
+            "paymentLocationsSubMenu": "//li[a[text()='Payment Locations']]",
+            "nearestLocationText": "//p[text()='Find Your Nearest Payment Location']",
+            "zipCodeTextBoxPL":  "input[class= 'amw-input-search-field blackColor']",
             
 
             

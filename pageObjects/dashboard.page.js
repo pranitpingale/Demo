@@ -32,6 +32,10 @@ class dashboard {
     get headerPaymentMenu() {return $(file.get('dashboard.selector.headerPaymentMenu')); }
     get CashPaymentssSubMenu() {return $(file.get('dashboard.selector.CashPaymentssSubMenu')); }
     get makePaymentssSubMenu() {return $(file.get('dashboard.selector.makePaymentssSubMenu')); }
+    get paymentLocationsSubMenu() {return $(file.get('dashboard.selector.paymentLocationsSubMenu')); }
+    get nearestLocationText() {return $(file.get('dashboard.selector.nearestLocationText')); }
+    get zipCodeTextBoxPL() {return $(file.get('dashboard.selector.zipCodeTextBoxPL')); }
+
     
     
     //Make Payment modal view

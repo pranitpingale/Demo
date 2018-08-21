@@ -1,8 +1,11 @@
 const { Given, When, Then } = require('cucumber')
+ 
 
 Given(/^user navigates to payment menu$/, function () {
+
   
   //dashboardPage.headerusageMenu.waitForExist(10000)
+  console.log("Session id: " + browser.sessionId)
   dashboardLib.navigateToPaymentsHeaderMenu()
 });
 
@@ -55,5 +58,30 @@ Then(/^all the payment methods are displayed under make payment modal view with 
     dashboardPage.makePaymentCloseModalView.click()
     //makePaymentLib.closeMakePaymentWindow()
     browser.pause(5000)
+
+});
+
+Given(/^again user navigates to payment menu from header$/, function () {
+  
+  //dashboardPage.headerusageMenu.waitForExist(10000)
+  dashboardLib.navigateToPaymentsHeaderMenu()
+});
+
+When(/^user click on Payment Location$/, function () {
+
+  dashboardLib.navigateToPaymentlLocation()
+
+});
+
+Then(/^Payment Location card is displayed with the content text box and a label asl \"([^\"]*)\"$/, function (expMessage) {
+
+    dashboardPage.zipCodeTextBoxPL.waitForExist(2000)
+    commonLib.assertValue(true, dashboardPage.zipCodeTextBoxPL.isExisting())
+    //makePaymentLib.closeMakePaymentWindow()
+    console.log("nearestLocationText")
+    commonLib.assertElementText(dashboardPage.nearestLocationText, expMessage)
+    console.log("nearestLocationText")
+    dashboardPage.highlightOverlay.click()
+    browser.pause(3000)
 
 });

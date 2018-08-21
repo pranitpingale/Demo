@@ -164,6 +164,20 @@ class dashboardLib {
         browser.pause(3000)
     }
 
+    navigateToPaymentlLocation(){
+
+        var paymentLocationsSubMenu = dashboardPage.paymentLocationsSubMenu
+        console.log(paymentLocationsSubMenu)
+        browser.moveTo(paymentLocationsSubMenu,0,50)
+        //dashboardPage.headerusageMenu.click()
+        console.log("paymentLocationsSubMenu found")
+        dashboardPage.paymentLocationsSubMenu.click()
+        console.log("paymentLocationsSubMenu click")
+        //dashboardPage.conservationTipsSubMenu.waitForExist(10000)
+        browser.pause(3000)
+
+    }
+
 
     navigateToNextConservationTips(){
 

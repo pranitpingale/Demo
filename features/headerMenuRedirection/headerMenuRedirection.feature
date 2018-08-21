@@ -13,3 +13,9 @@ Feature: A registered user can open different menu and submenu
       Given again user navigates to payment menu
       When user click on make payment
       Then all the payment methods are displayed under make payment modal view with label "Make a Payment"
+
+    @am_paymentLocation
+    Scenario: User can check the payment location are displayed with correct content
+      Given again user navigates to payment menu from header
+      When user click on Payment Location
+      Then Payment Location card is displayed with the content text box and a label as "Find Your Nearest Payment Location"
