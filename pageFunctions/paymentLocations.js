@@ -99,8 +99,9 @@ class PaymentLocations {
         let status = true
         
         for (var location of locationList) {
+
             location.getLocationInView()
-            let fee = location.$(".//span[text()='Fee:']/following-sibling::span[1]").getText()
+            let fee = location.$(".//span[contains(text(),'Fee')]/following-sibling::span[1]").getText()
 
             console.log("Fee dispayed for address: " + fee)
 
@@ -122,7 +123,7 @@ class PaymentLocations {
 
         for (var location of locationList) {
             location.getLocationInView()
-            let phoneNumber = location.$(".//span[text()='Phone:']/following-sibling::span[1]").getText()
+            let phoneNumber = location.$(".//span[contains(text(),'Phone')]/following-sibling::span[1]").getText()
 
             console.log("Phone number dispayed for address: " + phoneNumber)
 

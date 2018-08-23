@@ -82,6 +82,211 @@ class dashboardLib {
 
     }
 
+    navigateToFeedbackModalView(){
+
+        commonLib.scrolToScreenTop()
+        dashboardPage.loggedUserDropdownMenu.waitForExist(10000)
+        dashboardPage.loggedUserDropdownMenu.click()
+        dashboardPage.loggedUserFeedbackMenuItem.waitForExist(10000)
+        browser.pause(3000)
+
+        dashboardPage.loggedUserFeedbackMenuItem.click()
+    }
+
+
+
+    navigateToUsageHeaderMenu(){
+
+        commonLib.scrolToScreenTop()
+       
+        browser.pause(3000)
+        //dashboardPage.headerusageMenu.waitForExist(10000)
+        console.log("before hover")
+        var usageMenu = dashboardPage.headerusageMenu
+        console.log(usageMenu)
+        browser.moveTo(usageMenu,0,10)
+        //dashboardPage.headerusageMenu.click()
+        console.log("hover header usage")
+        dashboardPage.headerusageMenu.click()
+        browser.pause(3000)
+
+        // browser.moveTo(downloadButton,0,1100);
+        // downloadButton.click()
+        // browser.pause(2000)
+       // dashboardPage.conservationTipsSubMenu.waitForExist(10000)
+        //browser.pause(3000)
+
+        //dashboardPage.loggedUserFeedbackMenuItem.click()
+    }
+
+
+    navigateToConservationTips(){
+
+        var conservationTipsSMenu = dashboardPage.conservationTipsSubMenu
+        console.log(conservationTipsSMenu)
+        browser.moveTo(conservationTipsSMenu,0,60)
+        //dashboardPage.headerusageMenu.click()
+        console.log("conservation tips menu found")
+        dashboardPage.conservationTipsSubMenu.click()
+        console.log("conservation tips sub menu click")
+        //dashboardPage.conservationTipsSubMenu.waitForExist(10000)
+        browser.pause(5000)
+
+        //dashboardPage.loggedUserFeedbackMenuItem.click()
+    }
+
+      navigateToUsageOverviewFromUsageMenu(){
+
+        var usageOverviewSubMenu = dashboardPage.usageOverviewSubMenu
+        console.log(usageOverviewSubMenu)
+        browser.moveTo(usageOverviewSubMenu,0,35)
+        //dashboardPage.headerusageMenu.click()
+        console.log("usageOverviewSubMenu menu found")
+        dashboardPage.usageOverviewSubMenu.click()
+        console.log("usageOverviewSubMenu sub menu click")
+        //dashboardPage.conservationTipsSubMenu.waitForExist(10000)
+        browser.pause(5000)
+
+        //dashboardPage.loggedUserFeedbackMenuItem.click()
+    }
+
+      navigateToUsageProjectionFromUsageMenu(){
+
+        var usageProjectionSubMenu = dashboardPage.usageProjectionSubMenu
+        console.log(usageProjectionSubMenu)
+        browser.moveTo(usageProjectionSubMenu,0,40)
+        //dashboardPage.headerusageMenu.click()
+        console.log("usageProjectionSubMenu menu found")
+        dashboardPage.conservationTipsSubMenu.click()
+        console.log("usageProjectionSubMenu click")
+        //dashboardPage.conservationTipsSubMenu.waitForExist(10000)
+        browser.pause(5000)
+
+        //dashboardPage.loggedUserFeedbackMenuItem.click()
+    }
+
+
+   navigateToCashPayment(){
+
+        var CashPaymentssSubMenu = dashboardPage.CashPaymentssSubMenu
+        console.log(CashPaymentssSubMenu)
+        browser.moveTo(CashPaymentssSubMenu,0,60)
+        //dashboardPage.headerusageMenu.click()
+        console.log("cash payment menu found")
+        dashboardPage.CashPaymentssSubMenu.click()
+        console.log("cash payment menu click")
+        //dashboardPage.conservationTipsSubMenu.waitForExist(10000)
+        browser.pause(5000)
+
+        //dashboardPage.loggedUserFeedbackMenuItem.click()
+    }
+
+    navigateToMakePayment(){
+
+        var makePaymentssSubMenu = dashboardPage.makePaymentssSubMenu
+        console.log(makePaymentssSubMenu)
+        browser.moveTo(makePaymentssSubMenu,0,18)
+        //dashboardPage.headerusageMenu.click()
+        console.log("cash payment menu found")
+        dashboardPage.makePaymentssSubMenu.click()
+        console.log("cash payment menu click")
+        //dashboardPage.conservationTipsSubMenu.waitForExist(10000)
+        browser.pause(3000)
+    }
+
+    navigateToPaymentlLocation(){
+
+        var paymentLocationsSubMenu = dashboardPage.paymentLocationsSubMenu
+        console.log(paymentLocationsSubMenu)
+        browser.moveTo(paymentLocationsSubMenu,0,50)
+        //dashboardPage.headerusageMenu.click()
+        console.log("paymentLocationsSubMenu found")
+        dashboardPage.paymentLocationsSubMenu.click()
+        console.log("paymentLocationsSubMenu click")
+        //dashboardPage.conservationTipsSubMenu.waitForExist(10000)
+        browser.pause(3000)
+
+    }
+
+
+    navigateToNextConservationTips(){
+
+
+        console.log("under next conservation tips")
+        dashboardPage.nextArrowCT.click()
+        console.log("nextTip Clicked")
+        //dashboardPage.conservationTipsSubMenu.waitForExist(10000)
+        browser.pause(2000)
+
+        //dashboardPage.loggedUserFeedbackMenuItem.click()
+    }
+
+    navigateToPaymentsHeaderMenu(){
+        commonLib.scrolToScreenTop()
+       
+        browser.pause(3000)
+        //dashboardPage.headerusageMenu.waitForExist(10000)
+        console.log("before hover")
+        var headerPaymentMenu = dashboardPage.headerPaymentMenu
+        console.log(headerPaymentMenu)
+        browser.moveTo(headerPaymentMenu,0,5)
+        //dashboardPage.headerusageMenu.click()
+        console.log("hover header payment")
+        dashboardPage.headerPaymentMenu.click()
+        browser.pause(3000)
+    }
+
+
+
+    submitFeedback(){
+
+        commonLib.waitForElementExistWithoutException(dashboardPage.firstQuestionSecondRadioButton, 5000)
+        if (dashboardPage.firstQuestionSecondRadioButton.isExisting()) {
+            dashboardPage.firstQuestionSecondRadioButton.click()
+        }
+        if (dashboardPage.secondQuestionSecondRadioButton.isExisting()) {
+            dashboardPage.secondQuestionSecondRadioButton.click()
+        }
+    //dashboardPage.feedbackSubmitButton.click()
+    }
+
+    submitFeedbackNew(){
+        dashboardPage.feedbackSubmitButton.click()
+        browser.pause(5000)
+    }
+
+
+
+       navigateToDashboardAfterPaperlessUnsubscription(){
+
+        if (dashboardPage.editProfilePaperlessEnrollButton.getText() == "Unenroll") {
+            
+            console.log("Paperless enrollment is active. Attempting to deactivate")
+            dashboardPage.editProfilePaperlessEnrollButton.click()
+            
+            this.submitPaperlessEnrollmentAck()
+            this.closePaperlessEnrollmentWindow()
+            console.log("Paperless enrollment deactivation successfull") 
+            dashboardPage.amwaterLogo.click()
+            //commonLib.scrolToScreenTop()
+            //browser.pause(5000)
+        }
+        else{
+            commonLib.scrolToScreenTop()
+            dashboardPage.profileClose.click()
+            //dashboardPage.amwaterLogo.click()
+            console.log("under else")
+           // commonLib.scrolToScreenTop()
+            browser.pause(5000)
+
+        }
+
+       // browser.back()
+       /// commonLib.scrolToScreenTop()
+
+    }
+
+   
     gotoEditProfilePaperlessEnrollmentSection(){
 
         dashboardPage.editProfilePaperlessEnrollButton.waitForExist(10000)
@@ -120,6 +325,8 @@ class dashboardLib {
             this.submitPaperlessEnrollmentAck()
             this.closePaperlessEnrollmentWindow()
             console.log("Paperless enrollment deactivation successfull") 
+            browser.back()
+            commonLib.scrolToScreenTop()
         }
 
         browser.back()
@@ -127,6 +334,15 @@ class dashboardLib {
 
     }
 
+        scrollPage(){
+
+        browser.execute(function(){
+            var root = document.querySelector("#root")
+            root.scrollTo(0, 200)
+
+        })
+
+    }
     //Service request card functions
 
     getServiceRequestDetails(field){
