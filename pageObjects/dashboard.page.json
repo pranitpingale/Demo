@@ -53,12 +53,6 @@
             "nearestLocationText": "//p[text()='Find Your Nearest Payment Location']",
             "zipCodeTextBoxPL":  "input[class= 'amw-input-search-field blackColor']",
 
-
-            
-
-            
-            
-
             "editProfilePaperlessEnrollmentStat": "//span[text()='Paperless Enrollment']/following-sibling::span/span",
             "editProfilePaperlessEnrollButton": "#paperless button",
 
@@ -66,6 +60,7 @@
             "makePaymentButton": ".amw-bill-payment-card-button",
             "autoPayContinueButton": ".amw-pay-bill-now-button",
             "paymentsDropdownMenu": "//a[text()='Payments']",
+            "billingAndPaymentsDropdownMenu": "//a[text()='Billing & Payments']",
             "makePaymentDropdownMenuItem": "//a[text()='Make Payment']",
             "makeAPaymentButton": ".amw-bill-payment-card-button",
 

@@ -246,13 +246,15 @@ exports.config = {
         dashboardLib = require('./pageFunctions/dashboard.js')
         makePaymentLib = require('./pageFunctions/makePayment.js')
         paymentLocationsLib = require('./pageFunctions/paymentLocations.js')
+        billAndPaymentsLib = require('./pageFunctions/billingAndPayments.js')
 
         //Load Page objects
         loginPage = require('./pageObjects/login.page.js')
         dashboardPage = require('./pageObjects/dashboard.page.js')
         makePaymentPage = require('./pageObjects/makePayment.page.js')
         paymentLocationsPage = require('./pageObjects/paymentLocations.page.js')
-
+        billAndPaymentsPage = require('./pageObjects/billingAndPayments.page.js')
+        
         //Load assertion library
         expect = require('chai').expect;
 

@@ -1,0 +1,9 @@
+{
+    "billingAndPayments": {
+
+        "selector": {
+
+            "sliderBar": ".ant-slider-step"
+        }
+    }
+}
