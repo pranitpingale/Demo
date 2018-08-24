@@ -4,12 +4,12 @@ var debugConfig = Object.assign(wdioConfig, {
 
     debug: true,
 
-    execArgv: ['--inspect'], 
+    execArgv: ['--inspect-brk'], 
 
     capabilities: [
          {
             maxInstances: 1,
-            browserName: 'chrome',
+            browserName: 'firefox',
             acceptSslCerts: true,
             acceptInsecureCerts : true,
         }

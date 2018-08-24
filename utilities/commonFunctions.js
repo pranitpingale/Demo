@@ -73,6 +73,65 @@ class CommonFunctions {
         
     }
 
+    getCurrentMonth(format) {
+        let date = new Date()
+        //format: long, short
+        let currentMonth = date.toLocaleString("en-us", { month: format });
+        console.log(`Current month is ${currentMonth}`)
+        return currentMonth
+    }
+
+    getMonthIndex(month) {
+
+        let index;
+
+        switch (month) {
+            case "Jan":
+                index = 0
+                break;
+            case "Feb":
+                index = 1
+                break;
+            case "Mar":
+                index = 2
+                break;
+            case "Apr":
+                index = 3
+                break;
+            case "May":
+                index = 4
+                break;
+            case "Jun":
+                index = 5
+                break;
+            case "Jul":
+                index = 6
+                break;
+            case "Aug":
+                index = 7
+                break;
+            case "Sep":
+                index = 8
+                break;
+            case "Oct":
+                index = 9
+                break;
+            case "Nov":
+                index = 10
+                break;
+            case "Dec":
+                index = 11
+                break;
+        
+            default:
+                index = -1
+                break;
+
+            return index
+        }
+
+    }
+
     getJulianDate(){
 
         let today = new Date();

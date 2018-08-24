@@ -32,7 +32,7 @@ class dashboardLib {
         dashboardPage.paymentsDropdownMenu.moveToObject();
         browser.pause(2000)
         dashboardPage.billingAndPaymentsDropdownMenu.click();
-        billAndPaymentsLib.sliderBar.waitForExist(20000)
+        billAndPaymentsPage.sliderBar.waitForExist(20000)
 
     }
 

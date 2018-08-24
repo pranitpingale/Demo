@@ -3,7 +3,10 @@
 
         "selector": {
 
-            "sliderBar": ".ant-slider-step"
+            "sliderBar": ".ant-slider-step",
+            "sliderBarMonthMarker": "//div[@class='ant-slider-mark']",
+            "sliderHandleStart": ".ant-slider-handle.ant-slider-handle-1",
+            "sliderHandleEnd": ".ant-slider-handle.ant-slider-handle-2"
         }
     }
 }
