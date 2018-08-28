@@ -1,7 +1,7 @@
 var json = require('json-file');
 var file = json.read('./pageObjects/autoPay.page.json');
 
-class autoPay {
+class autoPaypage {
 
     //Dashboard level selectors for AutoPay
     get autopayContinueButton() {return $(file.get('autopay.selector.autopayContinueButton')); }
@@ -15,8 +15,17 @@ class autoPay {
     get autopayCheckbox() {return $(file.get('autopay.selector.autopayCheckbox')); }
     get nextbutton() {return $(file.get('autopay.selector.nextbutton')); }
     get autoPayconfirmEnrollmentinformationEnrollmentWindow() {return $(file.get('autopay.selector.confirmEnrollmentinformation')); }
+    get autopaysuccessmsgTitle() {return $(file.get('autopay.selector.autopaysuccessmsgTitle')); }
+    get autopaysuccessmsg() {return $(file.get('autopay.selector.autopaysuccessmsg')); }
     get xicon() {return $(file.get('autopay.selector.xicon')); }
-    
+
+    //Edit Profile page related elements for AutoPay
+
+    get editProfileautopayenrollbutton() {return $(file.get('autopay.selector.editProfileautopayenrollbutton')); }
+
+    //Cancel AutoPay related elements
+    get cancelautopayradiobutton() {return $(file.get('autopay.selector.cancelautopayradiobutton')); }
+
   }
   
-  module.exports = new autoPay();
+  module.exports = new autoPaypage();

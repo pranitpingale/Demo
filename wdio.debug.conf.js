@@ -9,7 +9,7 @@ var debugConfig = Object.assign(wdioConfig, {
     capabilities: [
          {
             maxInstances: 1,
-            browserName: 'firefox',
+            browserName: 'chrome',
             acceptSslCerts: true,
             acceptInsecureCerts : true,
         }

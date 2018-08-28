@@ -111,6 +111,48 @@ class BillingAndPayments {
         throw new Error(`Column ${columnHeader} was not found in Billing And Payments Table`)
     }
 
+    clickOnInvoicingLinkImpotantInformation(){
+        let rowIndex = 0;
+        let columnIndex = this.getBillingAndPaymentsColumnIndex("IMPORTANT INFORMATION")
+        
+        billAndPaymentsPage.nextPageLink.getLocationInView()
+
+        do {
+            
+            if (this.isNextPageLinkEnabled() && rowIndex > 0 ) {
+                billAndPaymentsPage.nextPageLink.click()
+                billAndPaymentsPage.billingAndPaymentsTableBody.waitForVisible()
+            }
+
+            let rows = billAndPaymentsPage.billingAndPaymentsTableBody.$$(`tr`)
+            for (let [index, row] of rows.entries()) {
+                rowIndex++
+                row.getLocationInView()
+                let impInformationCell =  row.$(`td:nth-of-type(${columnIndex})`)
+
+                let invoicingLinkCount = impInformationCell.$$('a').length
+
+                if (invoicingLinkCount > 0) {
+                   impInformationCell.$$('a')[0].click()
+                   return
+                }
+
+            }
+            
+            billAndPaymentsPage.nextPageLink.getLocationInView()
+            
+        } while (this.isNextPageLinkEnabled());
+
+        throw new Error("Invoicing was not found in Billing and Payments Table")
+    }
+
+    isInvoicingPdfDisplayed(){
+        let doc = $('embed')
+        doc.waitForExist(10000)
+        return doc.getAttribute('type') === 'application/pdf'
+        
+    }
+
 }
 
 module.exports = new BillingAndPayments()

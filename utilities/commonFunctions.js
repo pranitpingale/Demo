@@ -152,6 +152,17 @@ class CommonFunctions {
         return regex.test(number)
     }
 
+    switchToTab(tabIndex){
+        let handles = browser.windowHandles();
+        console.log(`Total number of active tabs: ${handles.value.length}`)
+        browser.switchTab(handles.value[tabIndex]).pause(2000);
+        console.log(`Switched control to tab: ${tabIndex}\nPageTitle: ${browser.getTitle()}`)
+    }
+
+    getTabCount(){
+        return browser.windowHandles().value.length;
+    }
+
 }
 
 module.exports = new CommonFunctions();
