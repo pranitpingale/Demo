@@ -6,14 +6,14 @@ Given(/^user navigates to Billing and Payments page$/, function () {
 
 });
 
-When(/^user slides the slider bar to set statement period for 3 months$/, function () {
+When(/^user slides the slider bar to set statement period for 1 month$/, function () {
 
-    billAndPaymentsLib.setStatementPeriodFromCurrentToLaterMonth()
+    billAndPaymentsLib.setSliderHandleStartFromDefaultToLaterMonth()
 
 });
 
 Then(/^billing and payments table should display transactions only for the selected statement period$/, function () {
 
-    
+    commonLib.assertValue(true, billAndPaymentsLib.areDatesDisplayedInBillingAndPaymentsTableWithinRange())
 
 });

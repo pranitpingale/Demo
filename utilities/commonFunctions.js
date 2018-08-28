@@ -81,55 +81,32 @@ class CommonFunctions {
         return currentMonth
     }
 
-    getMonthIndex(month) {
+    getLastMonth(format) {
+        let x = new Date();
+        x.setDate(1);   
+        x.setMonth(x.getMonth()-1);
+        let date = new Date(x)
+        //format: long, short
+        let lastMonth = date.toLocaleString("en-us", { month: format });
+        console.log(`Last month is ${lastMonth}`)
+        return lastMonth
+    }
 
-        let index;
+    getLastMonthYear(){
+        let x = new Date();
+        x.setDate(1);
+        x.setMonth(x.getMonth()-1);
+        let date = new Date(x)
+        console.log(`Year associated with last month is ${date.getFullYear()}`)
+        return date.getFullYear()
+    }
 
-        switch (month) {
-            case "Jan":
-                index = 0
-                break;
-            case "Feb":
-                index = 1
-                break;
-            case "Mar":
-                index = 2
-                break;
-            case "Apr":
-                index = 3
-                break;
-            case "May":
-                index = 4
-                break;
-            case "Jun":
-                index = 5
-                break;
-            case "Jul":
-                index = 6
-                break;
-            case "Aug":
-                index = 7
-                break;
-            case "Sep":
-                index = 8
-                break;
-            case "Oct":
-                index = 9
-                break;
-            case "Nov":
-                index = 10
-                break;
-            case "Dec":
-                index = 11
-                break;
-        
-            default:
-                index = -1
-                break;
-
-            return index
-        }
-
+    getLastMonthFirstDay() {
+        let x = new Date();
+        x.setDate(1);
+        x.setMonth(x.getMonth()-1);
+        console.log(`Last month first day is ${x}`)
+        return x
     }
 
     getJulianDate(){
@@ -141,7 +118,6 @@ class CommonFunctions {
         let julianDate = (temp).toLocaleString('en-US', {minimumIntegerDigits: 3, useGrouping:false})
         
         return julianDate;
-
 
     }
 
