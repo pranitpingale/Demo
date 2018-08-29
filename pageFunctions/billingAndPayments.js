@@ -111,7 +111,7 @@ class BillingAndPayments {
         throw new Error(`Column ${columnHeader} was not found in Billing And Payments Table`)
     }
 
-    clickOnInvoicingLinkImpotantInformation(){
+    clickOnServiceLinkImpotantInformation(){
         let rowIndex = 0;
         let columnIndex = this.getBillingAndPaymentsColumnIndex("IMPORTANT INFORMATION")
         
@@ -129,10 +129,9 @@ class BillingAndPayments {
                 rowIndex++
                 row.getLocationInView()
                 let impInformationCell =  row.$(`td:nth-of-type(${columnIndex})`)
+                let serviceLinkCount = impInformationCell.$$('a').length
 
-                let invoicingLinkCount = impInformationCell.$$('a').length
-
-                if (invoicingLinkCount > 0) {
+                if (serviceLinkCount > 0) {
                    impInformationCell.$$('a')[0].click()
                    return
                 }
@@ -143,7 +142,43 @@ class BillingAndPayments {
             
         } while (this.isNextPageLinkEnabled());
 
+        throw new Error("Service link was not found in Billing and Payments Table")
+    }
+
+    clickOnInvoicingLinkTranscationType(){
+
+        let rowIndex = 0;
+        let columnIndex = this.getBillingAndPaymentsColumnIndex("TRANSACTION TYPE")
+        
+        billAndPaymentsPage.nextPageLink.getLocationInView()
+
+        do {
+            
+            if (this.isNextPageLinkEnabled() && rowIndex > 0 ) {
+                billAndPaymentsPage.nextPageLink.click()
+                billAndPaymentsPage.billingAndPaymentsTableBody.waitForVisible()
+            }
+
+            let rows = billAndPaymentsPage.billingAndPaymentsTableBody.$$(`tr`)
+            for (let [index, row] of rows.entries()) {
+                rowIndex++
+                row.getLocationInView()
+                let transactionTypeCell =  row.$(`td:nth-of-type(${columnIndex})`)
+                let invoicingLinkCount = transactionTypeCell.$$('img').length
+
+                if (invoicingLinkCount > 0) {
+                   transactionTypeCell.$$('img')[0].click()
+                   return
+                }
+
+            }
+            
+            billAndPaymentsPage.nextPageLink.getLocationInView()
+            
+        } while (this.isNextPageLinkEnabled());
+
         throw new Error("Invoicing was not found in Billing and Payments Table")
+
     }
 
     isInvoicingPdfDisplayed(){

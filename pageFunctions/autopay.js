@@ -6,7 +6,7 @@ var testData = json.read('./utilities/testData.json');
 
 class autopayLib {
 
-     checkAutopayEnrollmentstatus(){
+     ensureUserisNotEnrolledforAutoPay(){
         
         //commonLib.waitForElementExistWithoutException(dashboardPage.loadingSpinner, 30000)
         dashboardLib.navigateToEditUserProfilePage()
@@ -31,6 +31,30 @@ class autopayLib {
 
     }
 
+    ensureUserisEnrolledforAutoPay(){
+
+        dashboardLib.navigateToEditUserProfilePage()
+
+        autoPaypage.editProfileautopayenrollbutton.waitForExist(10000)
+        commonLib.scrollToScreenBottom()
+
+        console.log("Status of AutoPay enrollment: " + autoPaypage.editProfileautopayenrollbutton.getText())
+
+        if (autoPaypage.editProfileautopayenrollbutton.getText() === "Enroll") {
+            
+            console.log("Customer not enrolled for AutoPay. Attempting to enroll")
+            autoPaypage.editProfileautopayenrollbutton.click()
+            autoPaypage.autoPayEnrollmentWindow.waitForExist(10000)
+            this.autoPayinputdata()
+            this.closeAutoPaySuccessWindow()
+            console.log("User enrolled for AutoPay successfully!") 
+        }
+        
+        console.log("Status of AutoPay enrollment: " + autoPaypage.editProfileautopayenrollbutton.getText())
+        console.log("User is enrolled for AutoPay")
+        
+
+    }
     enrollforAutoPay(){
 
         autoPaypage.autoPayCard.waitForExist(10000)
@@ -42,12 +66,13 @@ class autopayLib {
     }
 
      autoPayinputdata(){
-        autoPaypage.autoPayEnrollmentWindow.waitForExist(5000)
+        autoPaypage.autoPayEnrollmentWindow.waitForExist(10000)
         autoPaypage.routingNumber.setValue('122000247')
         autoPaypage.bankAcctNumber.setValue('1234567890')
         autoPaypage.confirmbankAcctNumber.setValue('1234567890')
         autoPaypage.autopayCheckbox.waitForExist(10000)
         autoPaypage.autopayCheckbox.click()
+        autoPaypage.nextbutton.waitForExist(10000)
         autoPaypage.nextbutton.getLocationInView()
         autoPaypage.nextbutton.click()
         autoPaypage.autoPayconfirmEnrollmentinformationEnrollmentWindow.waitForExist(10000)
@@ -65,8 +90,7 @@ class autopayLib {
         commonLib.clickButtonByQuerySelector(file.get('autopay.selector.autopayCheckbox'))
         autoPaypage.nextbutton.getLocationInView()
         commonLib.clickButtonByQuerySelector(file.get('autopay.selector.nextbutton'))
-        //dashboardPage.paperlessUserSubmitButton.waitForExist(10000, true)
-
+        
     }
 
     closeAutoPaySuccessWindow(){

@@ -9,7 +9,13 @@ Feature: Biliing and Payment history
         Then billing and payments table should display transactions only for the selected statement period
 
     Scenario: verify invoice is attached and opens in billing and payments table
-        Given user clicks on the invoicing link under column Important Information
-        Then invoice is displayed in a new tab
-        And new tab contains invoicing as pdf
+        When user clicks on the invoicing link under column TRANSACTION TYPE
+        Then information is displayed in a new tab
+        And new tab contains information as pdf
         And user closes new tab
+
+    Scenario: verify service information is attached and opens in billing and payments table
+        When user clicks on the service link under column IMPORTANT INFORMATION
+        Then information is displayed in a new tab
+        And new tab contains information as pdf
+        And user closes new tab 

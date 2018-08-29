@@ -14,31 +14,36 @@ When(/^user slides the slider bar to set statement period for 1 month$/, functio
 
 Then(/^billing and payments table should display transactions only for the selected statement period$/, function () {
 
-    commonLib.assertValue(true, billAndPaymentsLib.areDatesDisplayedInBillingAndPaymentsTableWithinRange())
+    expect(billAndPaymentsLib.areDatesDisplayedInBillingAndPaymentsTableWithinRange()).to.be.true
 
 });
 
-Given(/^user clicks on the invoicing link under column Important Information$/, function () {
+When(/^user clicks on the invoicing link under column TRANSACTION TYPE$/, function () {
 
-    billAndPaymentsLib.clickOnInvoicingLinkImpotantInformation()
+    billAndPaymentsLib.clickOnInvoicingLinkTranscationType()
 
 });
 
-Then(/^invoice is displayed in a new tab$/, function () {
+When(/^user clicks on the service link under column IMPORTANT INFORMATION$/, function () {
+
+    billAndPaymentsLib.clickOnServiceLinkImpotantInformation()
+
+});
+
+Then(/^information is displayed in a new tab$/, function () {
 
     expect(2).to.equal(commonLib.getTabCount(), "Tab count");
     commonLib.switchToTab(1)
-    
+
 });
 
-Then(/^new tab contains invoicing as pdf$/, function () {
-    
-    expect(billAndPaymentsLib.isInvoicingPdfDisplayed()).to.be.true;
+Then(/^new tab contains information as pdf$/, function () {
 
+    expect(billAndPaymentsLib.isInvoicingPdfDisplayed()).to.be.true;
 });
 
 Then(/^user closes new tab$/, function () {
-    
+
     browser.close()
     commonLib.switchToTab(0)
 
