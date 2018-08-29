@@ -12,3 +12,4 @@ Feature: Biliing and Payment history
         Given user clicks on the invoicing link under column Important Information
         Then invoice is displayed in a new tab
         And new tab contains invoicing as pdf
+        And user closes new tab

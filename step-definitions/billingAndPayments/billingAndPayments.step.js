@@ -27,13 +27,19 @@ Given(/^user clicks on the invoicing link under column Important Information$/, 
 Then(/^invoice is displayed in a new tab$/, function () {
 
     expect(2).to.equal(commonLib.getTabCount(), "Tab count");
+    commonLib.switchToTab(1)
     
 });
 
 Then(/^new tab contains invoicing as pdf$/, function () {
-
-    commonLib.switchToTab(1)
+    
     expect(billAndPaymentsLib.isInvoicingPdfDisplayed()).to.be.true;
+
+});
+
+Then(/^user closes new tab$/, function () {
+    
+    browser.close()
     commonLib.switchToTab(0)
 
 });
