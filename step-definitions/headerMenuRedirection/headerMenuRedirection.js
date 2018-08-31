@@ -131,7 +131,7 @@ Then(/^usage projection card is displayed in focus with a label as \"([^\"]*)\"$
     console.log("usageProjectionText")
     commonLib.assertElementText(dashboardPage.usageProjectionText, expMessage)
     console.log("matched usageProjectionText")
-    commonLib.scrollToScreenBottom()
+    //commonLib.scrollToScreenBottom()
     dashboardPage.highlightOverlay.click()
     browser.pause(5000)
 

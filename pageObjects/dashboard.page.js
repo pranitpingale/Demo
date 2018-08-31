@@ -18,6 +18,10 @@ class dashboard {
     get feedbackSubmitButton() { return $(file.get('dashboard.selector.feedbackSubmitButton')); }
     get firstQuestionSecondRadioButton() { return $(file.get('dashboard.selector.firstQuestionSecondRadioButton')); }
     get secondQuestionSecondRadioButton() { return $(file.get('dashboard.selector.secondQuestionSecondRadioButton')); }
+    get commentBox() { return $(file.get('dashboard.selector.commentBox')); }
+    get selectRadioButtonValidationMsg() { return $(file.get('dashboard.selector.selectRadioButtonValidationMsg')); }
+    get feedbackModalClose() { return $(file.get('dashboard.selector.feedbackModalClose')); }
+
     get feedbackStatus() {return $(file.get('dashboard.selector.feedbackStatus')); }
     get paperlessText() {return $(file.get('dashboard.selector.paperlessText')); }
     get headerusageMenu() {return $(file.get('dashboard.selector.headerusageMenu')); }

@@ -19,6 +19,9 @@
             "feedbackSubmitButton": "button[class= 'submitbtn']",
             "firstQuestionSecondRadioButton": "input[name='Field 0'][value*='03']",
             "secondQuestionSecondRadioButton": "input[name='Field 1'][value*='03']",
+            "commentBox": "//*[@class='ant-input comment-textarea']",
+            "selectRadioButtonValidationMsg": "//*[@class='ant-form-explain']",
+            "feedbackModalClose": "//*[@class='ant-modal-close-x']",
             "feedbackStatus": "div[class= 'ant-notification-notice-description']",
             "messageArrowClick": "i[class= 'fa fa-angle-down']",
             "message": "li[class= 'message-list-item']//following-sibling::span[@class='timestamp']",
@@ -31,7 +34,7 @@
             "conservationTipsSubMenu": "//li[a[text()='Conservation Tips']]",
             "makePaymentssSubMenu": "//li[a[text()='Make Payment']]",
             "usageOverviewText": "//h2[text()='Usage Overview']",
-            "usageProjectionText": "//h2[text()='Usage Projection']",
+            "usageProjectionText": "//*[@class='title' and contains(text(), 'Usage Projection')]",
             "conservationTipsText": "//h2[text()='Conservation Tips']",
             "paperlessText": "label[class= 'amw-paperless-card-title']",
             "highlightOverlay": "div[class= 'overlay highlight']",
@@ -93,7 +96,8 @@
             "paperlessUserAckCheckbox": "#agreement",
             "paperlessUserSubmitButton": "button[value='Submit']",
             "paperlessEnrollmentStatus": "h3[class*='-content']",
-            "modalWindowCloseButton": "//*[@id='aw-body aw-body-container']/div[2]/div/div[2]/div/div[1]/div/div/div/img",
+            "modalWindowCloseButton": "//*[@id='aw-body aw-body-container']/div[2]/div/div[2]/div/div[1]/div/div/div/button/img",
+            
             "makePaymentCloseModalView": "//*[@id='root']/div[8]/div[2]/div[3]/div/div[2]/div[1]/a/img",
 
             "autopayContinueButton": ".Payment-button-search",
