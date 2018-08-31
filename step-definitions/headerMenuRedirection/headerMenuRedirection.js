@@ -5,7 +5,6 @@ Given(/^user navigates to payment menu$/, function () {
 
   
   //dashboardPage.headerusageMenu.waitForExist(10000)
-  console.log("Session id: " + browser.sessionId)
   dashboardLib.navigateToPaymentsHeaderMenu()
 });
 

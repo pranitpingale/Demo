@@ -3,11 +3,12 @@ class Login {
 
     loginToAmwater(loginId, password){
         
-        loginPage.loginTextbox.waitForExist(10000)
+        loginPage.loginTextbox.waitForExist(25000)
         loginPage.loginTextbox.setValue(loginId)
         console.log('Entered loginID');
         loginPage.passwordTextbox.setValue(password)
         console.log('Entered password');
+        browser.pause(2000)
         loginPage.loginButton.click();
         console.log('Clicked on Login button');
 

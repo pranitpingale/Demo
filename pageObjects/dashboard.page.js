@@ -40,7 +40,17 @@ class dashboard {
     get nearestLocationText() {return $(file.get('dashboard.selector.nearestLocationText')); }
     get zipCodeTextBoxPL() {return $(file.get('dashboard.selector.zipCodeTextBoxPL')); }
     get autoPayContinueButtonNew() {return $(file.get('dashboard.selector.autoPayContinueButtonNew')); }
+    get msgarrowDown() {return $(file.get('dashboard.selector.msgarrowDown')); }
+    get alertarrowDown() {return $(file.get('dashboard.selector.alertarrowDown')); }
+    get requestarrowDown() {return $(file.get('dashboard.selector.requestarrowDown')); }
 
+    get btnDownload() {return $(file.get('dashboard.selector.btnDownload')); }
+    get messageTitle() {return $(file.get('dashboard.selector.messageTitle')); }
+    get messageIcon() {return $(file.get('dashboard.selector.messageIcon')); }
+    get noAlerts() {return $(file.get('dashboard.selector.noAlerts')); }
+    get noOpenRequest() {return $(file.get('dashboard.selector.noOpenRequest')); }
+    get alertTitle() {return $(file.get('dashboard.selector.alertTitle')); }
+    get alertIcon() {return $(file.get('dashboard.selector.messageIcon')); }
     
     
     //Make Payment modal view

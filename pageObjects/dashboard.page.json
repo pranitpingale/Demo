@@ -47,6 +47,19 @@
             "cashInMakePayment": "//*[@id='root']/div[8]/div[2]/div[3]/div/div[2]/div[4]/div/div/div[4]/div/div/div",
             "makePaymentLabel": "label[class= 'amw-detailed-card-title']",
             "autoPayContinueButtonNew": "//a[text()='Continue']",
+            "messageTitle": "//*[@class='message-block']//*[text()='Your bill was due on Fri, Jul 27 2018 and is now past due.']",
+            "messageIcon": "//*[@class='icon-block']//*[@class='icon-message']",
+
+            "alertTitle": "//*[@class='message-block']//*[text()='High usage has been detected at your premise at 2:15 AM.']",
+            "alertIcon": "//*[@class='icon-block']//*[@class='icon-alert']",
+            "msgarrowDown": "//*[@class='message-block']//*[@class='fa fa-angle-down']",
+            "alertarrowDown": "//*[@class='alert-block']//*[@class='fa fa-angle-down']",
+            "requestarrowDown": "//*[@class='request-block']//*[@class='fa fa-angle-down']",
+
+            "btnDownload": "button[class= 'action-button messages']",
+
+            "noAlerts": "//*[@class='no-message-error']",
+            "noOpenRequest": "//*[@class='no-message-error']",
 
 
             "cashpaymentLabel":  "label[class= 'amw-case-receipt-payment']",
