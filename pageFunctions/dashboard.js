@@ -265,11 +265,11 @@ class dashboardLib {
             
             console.log("Paperless enrollment is active. Attempting to deactivate")
             dashboardPage.editProfilePaperlessEnrollButton.click()
-            browser.pause(2000)
+            
             this.submitPaperlessEnrollmentAck()
-            browser.pause(2000)
+            
             this.closePaperlessEnrollmentWindow()
-            browser.pause(2000)
+            
             console.log("Paperless enrollment deactivation successfull") 
             browser.pause(2000)
             dashboardPage.amwaterLogo.click()
