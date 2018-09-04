@@ -17,7 +17,7 @@
             "console": "integratedTerminal",
             "args":[
                 "", "${workspaceRoot}/wdio.debug.conf.js",
-                "--spec", "${workspaceRoot}/features/headerMenuRedirection/headerMenuRedirection.feature"
+                "--spec", "${relativeFile}"
                 ]
         
             }
