@@ -19,6 +19,9 @@
             "feedbackSubmitButton": "button[class= 'submitbtn']",
             "firstQuestionSecondRadioButton": "input[name='Field 0'][value*='03']",
             "secondQuestionSecondRadioButton": "input[name='Field 1'][value*='03']",
+            "commentBox": "//*[@class='ant-input comment-textarea']",
+            "selectRadioButtonValidationMsg": "//*[@class='ant-form-explain']",
+            "feedbackModalClose": "//*[@class='ant-modal-close-x']",
             "feedbackStatus": "div[class= 'ant-notification-notice-description']",
             "messageArrowClick": "i[class= 'fa fa-angle-down']",
             "message": "li[class= 'message-list-item']//following-sibling::span[@class='timestamp']",
@@ -31,7 +34,7 @@
             "conservationTipsSubMenu": "//li[a[text()='Conservation Tips']]",
             "makePaymentssSubMenu": "//li[a[text()='Make Payment']]",
             "usageOverviewText": "//h2[text()='Usage Overview']",
-            "usageProjectionText": "//h2[text()='Usage Projection']",
+            "usageProjectionText": "//*[@class='title' and contains(text(), 'Usage Projection')]",
             "conservationTipsText": "//h2[text()='Conservation Tips']",
             "paperlessText": "label[class= 'amw-paperless-card-title']",
             "highlightOverlay": "div[class= 'overlay highlight']",
@@ -47,6 +50,19 @@
             "cashInMakePayment": "//*[@id='root']/div[8]/div[2]/div[3]/div/div[2]/div[4]/div/div/div[4]/div/div/div",
             "makePaymentLabel": "label[class= 'amw-detailed-card-title']",
             "autoPayContinueButtonNew": "//a[text()='Continue']",
+            "messageTitle": "//*[@class='message-block']//*[text()='Your bill was due on Fri, Jul 27 2018 and is now past due.']",
+            "messageIcon": "//*[@class='icon-block']//*[@class='icon-message']",
+
+            "alertTitle": "//*[@class='message-block']//*[text()='High usage has been detected at your premise at 2:15 AM.']",
+            "alertIcon": "//*[@class='icon-block']//*[@class='icon-alert']",
+            "msgarrowDown": "//*[@class='message-block']//*[@class='fa fa-angle-down']",
+            "alertarrowDown": "//*[@class='alert-block']//*[@class='fa fa-angle-down']",
+            "requestarrowDown": "//*[@class='request-block']//*[@class='fa fa-angle-down']",
+
+            "btnDownload": "button[class= 'action-button messages']",
+
+            "noAlerts": "//*[@class='no-message-error']",
+            "noOpenRequest": "//*[@class='no-message-error']",
 
 
             "cashpaymentLabel":  "label[class= 'amw-case-receipt-payment']",
@@ -80,7 +96,8 @@
             "paperlessUserAckCheckbox": "#agreement",
             "paperlessUserSubmitButton": "button[value='Submit']",
             "paperlessEnrollmentStatus": "h3[class*='-content']",
-            "modalWindowCloseButton": "//*[@id='aw-body aw-body-container']/div[2]/div/div[2]/div/div[1]/div/div/div/img",
+            "modalWindowCloseButton": "//*[@id='aw-body aw-body-container']/div[2]/div/div[2]/div/div[1]/div/div/div/button/img",
+            
             "makePaymentCloseModalView": "//*[@id='root']/div[8]/div[2]/div[3]/div/div[2]/div[1]/a/img",
 
             "autopayContinueButton": ".Payment-button-search",
@@ -91,7 +108,27 @@
             "serviceRequestDetails": "span[class*='amw-service-request-label']",
 
             "paymentLocationsCard": ".ant-card.amw-payment-location-card.aw-card-shadows",
-            "paymentLocationSearchButton": ".buttonSearchImg"
+            "paymentLocationSearchButton": ".buttonSearchImg",
+
+            "PrivacyPolicylink": "//a[text()='Privacy Policy']",
+            "PrivacyPolicyHeadertag": "#dnn_ctr2866_HtmlModule_lblContent > h1 > strong",
+
+            "termsOfUse": "//a[text()='Terms of Use']",
+            "facebookFooterLink": "#root > div:nth-child(3) > div.defaultLayout > div.footer-container.fixed > div.footer-block-white > div > div:nth-child(3) > ul > li.facebook > a > i",
+            "twitterFooterLink": "#root > div:nth-child(3) > div.defaultLayout > div.footer-container.fixed > div.footer-block-white > div > div:nth-child(3) > ul > li.twitter > a > i",
+            "youtubeFooterLink": "#root > div:nth-child(3) > div.defaultLayout > div.footer-container.fixed > div.footer-block-white > div > div:nth-child(3) > ul > li.youtube > a > i",
+            "blogFooterLink": "#root > div:nth-child(3) > div.defaultLayout > div.footer-container.fixed > div.footer-block-white > div > div:nth-child(3) > ul > li.blog > a > i",
+            "puddleDuckFooterLink": "#root > div:nth-child(3) > div.defaultLayout > div.footer-container.fixed > div.footer-block-white > div > div:nth-child(3) > ul > li.puddle > a > svg > use",
+
+            "leakDetectionlink": "//a[text()='Leak Detection Information']",
+            "leakDetectionSpanishlink": "//a[text()='Leak Detection Information Spanish']",
+            "billCalculatorlink": "//a[text()='bill calculator']",
+            "searchForOpeningsLink": "//a[text()='Search for Openings']",
+            "accomodationLink": "//a[text()='View our EEO/Accommodation policy']",
+            "formLink": "//a[text()='form']",
+            "contactusLink": "//a[text()='Contact Us']",
+            "contactUsText": "//h1[text()='Contact us']"
+
 
         }
     }

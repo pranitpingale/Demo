@@ -16,7 +16,7 @@ When(/^user navigates to the paperless enrollment section$/, function () {
 
 Then(/^unsubscribe paperless if it is subscribed and navigate to dashboard \"([^\"]*)\"$/, function (expMessage) {
 
-  dashboardPage.editProfilePaperlessEnrollButton.waitForExist(10000)
+  dashboardPage.editProfilePaperlessEnrollButton.waitForExist(20000)
   dashboardLib.navigateToDashboardAfterPaperlessUnsubscription()
     dashboardLib.scrollPage()
   dashboardPage.paperlessText.waitForExist(10000)

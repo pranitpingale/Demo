@@ -94,6 +94,17 @@ class CommonFunctions {
 
     }
 
+    switchWindowTab(){
+       let handles = browser.windowHandles();
+      
+      // console.log('TabId 1:'+browser.getCurrentTabId());
+       var tab1 = browser.getCurrentTabId();
+       console.log('TabId 1:' +handles.value[0]);
+       //browser.switchTab(handles[0]).pause(2000);
+       console.log('TabId 2:'+browser.getCurrentTabId());
+       browser.switchTab(handles.value[1])
+   }
+
     scrollToScreenBottom(){
 
         browser.execute(function(){

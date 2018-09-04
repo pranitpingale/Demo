@@ -19,8 +19,8 @@ class dashboardLib {
         browser.pause(2000)
         dashboardPage.makePaymentDropdownMenuItem.click();
         commonLib.waitForElementExistWithoutException(dashboardPage.autoPayContinueButton, 5000)
-        if (dashboardPage.autoPayContinueButton.isExisting()) {
-            dashboardPage.autoPayContinueButton.click()
+        if (dashboardPage.autoPayContinueButtonNew.isExisting()) {
+            dashboardPage.autoPayContinueButtonNew.click()
         }
         makePaymentPage.electronicCheck.waitForExist(20000)
 
@@ -139,7 +139,7 @@ class dashboardLib {
 
         var usageOverviewSubMenu = dashboardPage.usageOverviewSubMenu
         console.log(usageOverviewSubMenu)
-        browser.moveTo(usageOverviewSubMenu,0,35)
+        browser.moveTo(usageOverviewSubMenu,0,30)
         //dashboardPage.headerusageMenu.click()
         console.log("usageOverviewSubMenu menu found")
         dashboardPage.usageOverviewSubMenu.click()
@@ -157,7 +157,7 @@ class dashboardLib {
         browser.moveTo(usageProjectionSubMenu,0,40)
         //dashboardPage.headerusageMenu.click()
         console.log("usageProjectionSubMenu menu found")
-        dashboardPage.conservationTipsSubMenu.click()
+        dashboardPage.usageProjectionSubMenu.click()
         console.log("usageProjectionSubMenu click")
         //dashboardPage.conservationTipsSubMenu.waitForExist(10000)
         browser.pause(5000)
@@ -182,7 +182,7 @@ class dashboardLib {
     }
 
     navigateToMakePayment(){
-
+        browser.pause(15000)
         var makePaymentssSubMenu = dashboardPage.makePaymentssSubMenu
         console.log(makePaymentssSubMenu)
         browser.moveTo(makePaymentssSubMenu,0,18)
@@ -258,18 +258,23 @@ class dashboardLib {
 
 
        navigateToDashboardAfterPaperlessUnsubscription(){
-
+        
+        browser.pause(3000)
+         
         if (dashboardPage.editProfilePaperlessEnrollButton.getText() == "Unenroll") {
             
             console.log("Paperless enrollment is active. Attempting to deactivate")
             dashboardPage.editProfilePaperlessEnrollButton.click()
             
             this.submitPaperlessEnrollmentAck()
+            
             this.closePaperlessEnrollmentWindow()
+            
             console.log("Paperless enrollment deactivation successfull") 
+            browser.pause(2000)
             dashboardPage.amwaterLogo.click()
             //commonLib.scrolToScreenTop()
-            //browser.pause(5000)
+            browser.pause(2000)
         }
         else{
             commonLib.scrolToScreenTop()

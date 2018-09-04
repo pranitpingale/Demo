@@ -18,6 +18,10 @@ class dashboard {
     get feedbackSubmitButton() { return $(file.get('dashboard.selector.feedbackSubmitButton')); }
     get firstQuestionSecondRadioButton() { return $(file.get('dashboard.selector.firstQuestionSecondRadioButton')); }
     get secondQuestionSecondRadioButton() { return $(file.get('dashboard.selector.secondQuestionSecondRadioButton')); }
+    get commentBox() { return $(file.get('dashboard.selector.commentBox')); }
+    get selectRadioButtonValidationMsg() { return $(file.get('dashboard.selector.selectRadioButtonValidationMsg')); }
+    get feedbackModalClose() { return $(file.get('dashboard.selector.feedbackModalClose')); }
+
     get feedbackStatus() {return $(file.get('dashboard.selector.feedbackStatus')); }
     get paperlessText() {return $(file.get('dashboard.selector.paperlessText')); }
     get headerusageMenu() {return $(file.get('dashboard.selector.headerusageMenu')); }
@@ -40,7 +44,17 @@ class dashboard {
     get nearestLocationText() {return $(file.get('dashboard.selector.nearestLocationText')); }
     get zipCodeTextBoxPL() {return $(file.get('dashboard.selector.zipCodeTextBoxPL')); }
     get autoPayContinueButtonNew() {return $(file.get('dashboard.selector.autoPayContinueButtonNew')); }
+    get msgarrowDown() {return $(file.get('dashboard.selector.msgarrowDown')); }
+    get alertarrowDown() {return $(file.get('dashboard.selector.alertarrowDown')); }
+    get requestarrowDown() {return $(file.get('dashboard.selector.requestarrowDown')); }
 
+    get btnDownload() {return $(file.get('dashboard.selector.btnDownload')); }
+    get messageTitle() {return $(file.get('dashboard.selector.messageTitle')); }
+    get messageIcon() {return $(file.get('dashboard.selector.messageIcon')); }
+    get noAlerts() {return $(file.get('dashboard.selector.noAlerts')); }
+    get noOpenRequest() {return $(file.get('dashboard.selector.noOpenRequest')); }
+    get alertTitle() {return $(file.get('dashboard.selector.alertTitle')); }
+    get alertIcon() {return $(file.get('dashboard.selector.messageIcon')); }
     
     
     //Make Payment modal view
@@ -92,6 +106,23 @@ class dashboard {
     //Payment Locations
     get paymentLocationsCard() {return $(file.get('dashboard.selector.paymentLocationsCard')); }
     get paymentLocationSearchButton() {return $(file.get('dashboard.selector.paymentLocationSearchButton')); }
+
+    //Social Media links
+    get FacebookFooterLink() { return $(file.get('dashboard.selector.facebookFooterLink')); }
+    get TwitterFooterink() { return $(file.get('dashboard.selector.twitterFooterLink')); }
+    get YoutubeFooterink() { return $(file.get('dashboard.selector.youtubeFooterLink')); }
+    get BlogFooterink() { return $(file.get('dashboard.selector.blogFooterLink')); }
+    get PuddleDuckFooterink() { return $(file.get('dashboard.selector.puddleDuckFooterLink')); }
+
+    //navy footer link
+    get LeakDetectionLink() { return $(file.get('dashboard.selector.leakDetectionlink')); }
+    get LeakDetectionSpanish() { return $(file.get('dashboard.selector.leakDetectionSpanishlink')); }
+    get BillCalculator() { return $(file.get('dashboard.selector.billCalculatorlink')); }
+    get SearchForOpenings() { return $(file.get('dashboard.selector.searchForOpeningsLink')); }
+    get Accomodation() { return $(file.get('dashboard.selector.accomodationLink')); }
+    get AdjustmentFormLink() { return $(file.get('dashboard.selector.formLink')); }
+    get ContactusLink() { return $(file.get('dashboard.selector.contactusLink')); }
+    get ContactusText() { return $(file.get('dashboard.selector.contactUsText')); }
     
 
   }

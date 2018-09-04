@@ -5,7 +5,6 @@ Given(/^user navigates to payment menu$/, function () {
 
   
   //dashboardPage.headerusageMenu.waitForExist(10000)
-  console.log("Session id: " + browser.sessionId)
   dashboardLib.navigateToPaymentsHeaderMenu()
 });
 
@@ -38,9 +37,11 @@ Given(/^again user navigates to payment menu$/, function () {
 
 When(/^user click on make payment$/, function () {
 
-  dashboardLib.navigateToMakePayment()
+  //dashboardLib.navigateToMakePayment()
+  dashboardLib.goToMakePaymentsPage()
+  console.log("#####3make payment label")
   browser.pause(3000)
-  dashboardPage.autoPayContinueButtonNew.click()
+  //dashboardPage.autoPayContinueButtonNew.click()
   browser.pause(3000)
 
 });
@@ -132,8 +133,31 @@ Then(/^usage projection card is displayed in focus with a label as \"([^\"]*)\"$
     console.log("usageProjectionText")
     commonLib.assertElementText(dashboardPage.usageProjectionText, expMessage)
     console.log("matched usageProjectionText")
-    commonLib.scrollToScreenBottom()
+    //commonLib.scrollToScreenBottom()
     dashboardPage.highlightOverlay.click()
     browser.pause(5000)
 
 });
+
+//Contact Us Link
+
+When(/^user click on Contact Us$/, function () {
+    
+    navyFooterLinksLib.ContactUsNavigation()
+    
+}); 
+
+Then(/^user validate Contact Us page with text \"([^\"]*)\"$/, function (expMessage) {
+    
+    commonLib.switchWindowTab()
+    var ContactUsPageText = commonLib.getElementText(dashboardPage.ContactusText)
+    console.log(ContactUsPageText);
+    commonLib.assertElementText(dashboardPage.ContactusText, expMessage)
+    
+});
+
+Then(/^verify Contact Us page by validating url$/, function () {
+    
+    navyFooterLinksLib.validateContactUs()
+    
+}); 
