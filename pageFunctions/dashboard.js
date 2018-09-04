@@ -19,8 +19,8 @@ class dashboardLib {
         browser.pause(2000)
         dashboardPage.makePaymentDropdownMenuItem.click();
         commonLib.waitForElementExistWithoutException(dashboardPage.autoPayContinueButton, 5000)
-        if (dashboardPage.autoPayContinueButton.isExisting()) {
-            dashboardPage.autoPayContinueButton.click()
+        if (dashboardPage.autoPayContinueButtonNew.isExisting()) {
+            dashboardPage.autoPayContinueButtonNew.click()
         }
         makePaymentPage.electronicCheck.waitForExist(20000)
 
@@ -182,7 +182,7 @@ class dashboardLib {
     }
 
     navigateToMakePayment(){
-
+        browser.pause(15000)
         var makePaymentssSubMenu = dashboardPage.makePaymentssSubMenu
         console.log(makePaymentssSubMenu)
         browser.moveTo(makePaymentssSubMenu,0,18)

@@ -108,7 +108,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://hsynlwsss201.amwaternp.net:8443/selfservice-web/login.do',
+    baseUrl: 'https://wssqa.amwaternp.net/selfservice-web/login.do',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 120000,
@@ -240,11 +240,20 @@ exports.config = {
         makePaymentLib = require('./pageFunctions/makePayment.js')
         paymentLocationsLib = require('./pageFunctions/paymentLocations.js')
 
+        footerLinkLib = require('./pageFunctions/footerLink.js')
+ 
+        navyFooterLinksLib = require('./pageFunctions/navyFooterLinks.js')
+
         //Load Page objects
         loginPage = require('./pageObjects/login.page.js')
         dashboardPage = require('./pageObjects/dashboard.page.js')
         makePaymentPage = require('./pageObjects/makePayment.page.js')
         paymentLocationsPage = require('./pageObjects/paymentLocations.page.js')
+
+        
+        footerLinkPage = require('./pageObjects/footerLink.page.js')
+
+        navyFooterLinksPage = require('./pageObjects/navyFooterLinks.page.js')
 
         //Load assertion library
         expect = require('chai').expect;

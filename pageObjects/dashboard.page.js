@@ -106,6 +106,23 @@ class dashboard {
     //Payment Locations
     get paymentLocationsCard() {return $(file.get('dashboard.selector.paymentLocationsCard')); }
     get paymentLocationSearchButton() {return $(file.get('dashboard.selector.paymentLocationSearchButton')); }
+
+    //Social Media links
+    get FacebookFooterLink() { return $(file.get('dashboard.selector.facebookFooterLink')); }
+    get TwitterFooterink() { return $(file.get('dashboard.selector.twitterFooterLink')); }
+    get YoutubeFooterink() { return $(file.get('dashboard.selector.youtubeFooterLink')); }
+    get BlogFooterink() { return $(file.get('dashboard.selector.blogFooterLink')); }
+    get PuddleDuckFooterink() { return $(file.get('dashboard.selector.puddleDuckFooterLink')); }
+
+    //navy footer link
+    get LeakDetectionLink() { return $(file.get('dashboard.selector.leakDetectionlink')); }
+    get LeakDetectionSpanish() { return $(file.get('dashboard.selector.leakDetectionSpanishlink')); }
+    get BillCalculator() { return $(file.get('dashboard.selector.billCalculatorlink')); }
+    get SearchForOpenings() { return $(file.get('dashboard.selector.searchForOpeningsLink')); }
+    get Accomodation() { return $(file.get('dashboard.selector.accomodationLink')); }
+    get AdjustmentFormLink() { return $(file.get('dashboard.selector.formLink')); }
+    get ContactusLink() { return $(file.get('dashboard.selector.contactusLink')); }
+    get ContactusText() { return $(file.get('dashboard.selector.contactUsText')); }
     
 
   }

@@ -2,7 +2,7 @@
 class Login {
 
     loginToAmwater(loginId, password){
-        
+        browser.pause(3000)
         loginPage.loginTextbox.waitForExist(25000)
         loginPage.loginTextbox.setValue(loginId)
         console.log('Entered loginID');

@@ -108,7 +108,27 @@
             "serviceRequestDetails": "span[class*='amw-service-request-label']",
 
             "paymentLocationsCard": ".ant-card.amw-payment-location-card.aw-card-shadows",
-            "paymentLocationSearchButton": ".buttonSearchImg"
+            "paymentLocationSearchButton": ".buttonSearchImg",
+
+            "PrivacyPolicylink": "//a[text()='Privacy Policy']",
+            "PrivacyPolicyHeadertag": "#dnn_ctr2866_HtmlModule_lblContent > h1 > strong",
+
+            "termsOfUse": "//a[text()='Terms of Use']",
+            "facebookFooterLink": "#root > div:nth-child(3) > div.defaultLayout > div.footer-container.fixed > div.footer-block-white > div > div:nth-child(3) > ul > li.facebook > a > i",
+            "twitterFooterLink": "#root > div:nth-child(3) > div.defaultLayout > div.footer-container.fixed > div.footer-block-white > div > div:nth-child(3) > ul > li.twitter > a > i",
+            "youtubeFooterLink": "#root > div:nth-child(3) > div.defaultLayout > div.footer-container.fixed > div.footer-block-white > div > div:nth-child(3) > ul > li.youtube > a > i",
+            "blogFooterLink": "#root > div:nth-child(3) > div.defaultLayout > div.footer-container.fixed > div.footer-block-white > div > div:nth-child(3) > ul > li.blog > a > i",
+            "puddleDuckFooterLink": "#root > div:nth-child(3) > div.defaultLayout > div.footer-container.fixed > div.footer-block-white > div > div:nth-child(3) > ul > li.puddle > a > svg > use",
+
+            "leakDetectionlink": "//a[text()='Leak Detection Information']",
+            "leakDetectionSpanishlink": "//a[text()='Leak Detection Information Spanish']",
+            "billCalculatorlink": "//a[text()='bill calculator']",
+            "searchForOpeningsLink": "//a[text()='Search for Openings']",
+            "accomodationLink": "//a[text()='View our EEO/Accommodation policy']",
+            "formLink": "//a[text()='form']",
+            "contactusLink": "//a[text()='Contact Us']",
+            "contactUsText": "//h1[text()='Contact us']"
+
 
         }
     }
