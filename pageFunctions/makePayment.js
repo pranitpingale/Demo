@@ -46,7 +46,7 @@ class MakePayment {
         commonLib.clickButtonByQuerySelector(file.get('makePayment.selector.cashSubmitButton'))
         //makePaymentPage.cashSubmitButton.click()
         makePaymentPage.cPostPaymentMessage.waitForExist(20000)
-        console.log("Paid amount" + amount)
+        console.log("Paid amount: " + amount)
                             
     }
 

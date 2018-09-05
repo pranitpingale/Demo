@@ -12,7 +12,7 @@
             "routingNumber":"#bankRoutingNumber",
             "bankAcctNumber":"#bankAccountNumber",
             "confirmbankAcctNumber":"#confirmBankAccountNumber",
-            "autopayCheckbox":".ant-checkbox-input",
+            "autopayCheckbox":".amw-autopay-checkbox",
             "nextbutton":".ant-btn.amw-bill-payment-modal-button-action.ant-btn-lg",
             "confirmEnrollmentinformation":".blackColor",
             "autopaysuccessmsgTitle":".amw-autopay-success-page",

@@ -11,13 +11,13 @@ const { Given, When, Then} = require('cucumber')
 
   })
 
-  When(/^user pays with amount \"([^\"]*)\" and receipt number \"([^\"]*)\" and submits$/, function (amount, receiptNo) {
+  When(/^user pays with amount \"([^\"]*)\" and enters receipt number to submit$/, function (amount) {
     makePaymentLib.payByCash(amount)
     });
 
   
   
-  Then(/^cash payment is successfull with message \"([^\"]*)\"$/, function (expMessage) {
+  Then(/^cash payment is successful with message \"([^\"]*)\"$/, function (expMessage) {
     commonLib.assertElementText(makePaymentPage.cPostPaymentMessage, expMessage)
     makePaymentLib.closeMakePaymentWindow()
   });
@@ -37,7 +37,7 @@ const { Given, When, Then} = require('cucumber')
       makePaymentLib.payByCheckOrCard(payAmount)
   });
 
-  Then(/^user recieves payment successfull message \"([^\"]*)\"$/, function (expMessage) {
+  Then(/^user recieves payment successful message \"([^\"]*)\"$/, function (expMessage) {
       commonLib.assertElementText(makePaymentPage.ecPostPaymentMessage, expMessage)
   
   });

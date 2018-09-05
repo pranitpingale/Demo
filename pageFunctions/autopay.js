@@ -71,34 +71,69 @@ class autopayLib {
         autoPaypage.bankAcctNumber.setValue('1234567890')
         autoPaypage.confirmbankAcctNumber.setValue('1234567890')
         autoPaypage.autopayCheckbox.waitForExist(10000)
+        autoPaypage.autopayCheckbox.getLocationInView()
+        console.log($("//span[input[@type='checkbox']]").getAttribute('class'))
         autoPaypage.autopayCheckbox.click()
-        autoPaypage.nextbutton.waitForExist(10000)
+        console.log($("//span[input[@type='checkbox']]").getAttribute('class'))
+        browser.waitForExist(".ant-checkbox.ant-checkbox-checked",5000)
+        browser.pause(5000)
         autoPaypage.nextbutton.getLocationInView()
-        autoPaypage.nextbutton.click()
+        commonLib.clickButtonByQuerySelector(file.get('autopay.selector.nextbutton'))
+        console.log($("//span[input[@type='checkbox']]").getAttribute('class'))
         autoPaypage.autoPayconfirmEnrollmentinformationEnrollmentWindow.waitForExist(10000)
         autoPaypage.autopayCheckbox.click()
         autoPaypage.nextbutton.getLocationInView()
-        autoPaypage.nextbutton.click()
+        commonLib.clickButtonByQuerySelector(file.get('autopay.selector.nextbutton'))
      }
      cancelautoPayenrollment(){
 
         autoPaypage.cancelautopayradiobutton.waitForExist(10000)
         commonLib.clickButtonByQuerySelector(file.get('autopay.selector.cancelautopayradiobutton'))
         autoPaypage.nextbutton.getLocationInView()
+        autoPaypage.nextbutton.click()
+        autoPaypage.autopayCheckbox.click()
+        browser.waitForExist(".ant-checkbox.ant-checkbox-checked",5000)
+        autoPaypage.nextbutton.getLocationInView()
+        autoPaypage.nextbutton.click()
+        
+    }
+
+    updateautoPayenrollment(){
+
+        autoPaypage.nextbutton.waitForExist(10000)
+        autoPaypage.nextbutton.getLocationInView()
+        autoPaypage.nextbutton.click()
+        autoPaypage.autoPayEnrollmentWindow.waitForExist(10000)
+        autoPaypage.routingNumber.clearElement()
+        autoPaypage.routingNumber.setValue('026073079')
+        autoPaypage.bankAcctNumber.clearElement()
+        autoPaypage.bankAcctNumber.setValue('1234567123')
+        autoPaypage.confirmbankAcctNumber.clearElement()
+        autoPaypage.confirmbankAcctNumber.setValue('1234567123')
+        console.log($("//span[input[@type='checkbox']]").getAttribute('class'))
+        autoPaypage.autopayCheckbox.getLocationInView()
+        autoPaypage.autopayCheckbox.click()
+        console.log($("//span[input[@type='checkbox']]").getAttribute('class'))
+        //browser.waitForExist(".ant-checkbox.ant-checkbox-checked",5000)
+        browser.pause(5000)
+        autoPaypage.nextbutton.getLocationInView()
         commonLib.clickButtonByQuerySelector(file.get('autopay.selector.nextbutton'))
-        autoPaypage.autopayCheckbox.waitForExist(10000)
-        commonLib.clickButtonByQuerySelector(file.get('autopay.selector.autopayCheckbox'))
+        autoPaypage.autoPayconfirmEnrollmentinformationEnrollmentWindow.waitForExist(5000)
+         console.log($("//span[input[@type='checkbox']]").getAttribute('class'))
+        autoPaypage.autopayCheckbox.getLocationInView()
+        autoPaypage.autopayCheckbox.click()
+        console.log($("//span[input[@type='checkbox']]").getAttribute('class'))
+        browser.waitForExist(".ant-checkbox.ant-checkbox-checked",5000)
         autoPaypage.nextbutton.getLocationInView()
         commonLib.clickButtonByQuerySelector(file.get('autopay.selector.nextbutton'))
         
     }
-
     closeAutoPaySuccessWindow(){
 
-        autoPaypage.xicon.waitForExist(10000)
+        autoPaypage.xicon.waitForExist(5000)
         autoPaypage.xicon.getLocationInView()
         commonLib.clickButtonByQuerySelector(file.get('autopay.selector.xicon'))
-        autoPaypage.xicon.waitForExist(10000, true)
+        autoPaypage.xicon.waitForExist(5000, true)
     }
 }
 

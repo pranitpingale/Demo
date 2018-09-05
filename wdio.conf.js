@@ -111,11 +111,11 @@ exports.config = {
     // ********************************************************************************************** //
     //
     //*************************************** Dev URL *********************************************** //
-    baseUrl: 'https://hsynlwsss101.amwaternp.net:8443/selfservice-web/login.do',
+    //baseUrl: 'https://hsynlwsss101.amwaternp.net:8443/selfservice-web/login.do',
     //
     //
     //*************************************** QA URL *********************************************** //
-    //baseUrl: 'https://wssqa.amwaternp.net/selfservice-web/login.do',
+    baseUrl: 'https://wssqa.amwaternp.net/selfservice-web/login.do',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 120000,
@@ -261,12 +261,12 @@ exports.config = {
         expect = require('chai').expect;
 
         //User login QA
-        //loginId = file.get('testData.qa.loginData.Alexander.loginID')
-        //password = file.get('testData.qa.loginData.Alexander.password')
+        loginId = file.get('testData.qa.loginData.Alexander.loginID')
+        password = file.get('testData.qa.loginData.Alexander.password')
 
         //User login Dev
-        loginId = file.get('testData.dev.loginData.Richard.loginID')
-        password = file.get('testData.dev.loginData.Richard.password')
+        //loginId = file.get('testData.dev.loginData.Richard.loginID')
+        //password = file.get('testData.dev.loginData.Richard.password')
 
         console.log("LoginID: " + loginId)
         console.log("Password: " + password)

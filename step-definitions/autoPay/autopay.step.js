@@ -55,3 +55,40 @@ Then(/^user closes success message dialog and AutoPay card is now displayed in D
 });
 
 //**********************************Scenario Ends : User has an option to Cancel AutoPay Enrollment ***************************************************//
+
+
+
+//**********************************Scenario Starts : User has an option to Update AutoPay Information ************************************************//
+
+
+Given(/^user is enrolled for AutoPay to update information$/, function () {
+ 
+  autopayLib.ensureUserisEnrolledforAutoPay()
+
+});
+
+When(/^user updates AutoPay enrollment and gets the message \"([^\"]*)\"$/, function (expMessage) {
+ 
+  autoPaypage.editProfileautopayenrollbutton.click()
+  autopayLib.updateautoPayenrollment()
+  autoPaypage.autopaysuccessmsgTitle.waitForExist(10000)
+  commonLib.assertElementText(autoPaypage.autopaysuccessmsgTitle, expMessage)
+});
+
+Then(/^user closes success message dialog and AutoPay card is displayed with updated Information$/, function () {
+ 
+ autoPaypage.xicon.click()
+ commonLib.scrolToScreenTop()
+ autoPaypage.editProfileautopayenrollbutton.waitForExist(10000)
+ console.log(autoPaypage.editProfileautopayenrollbutton.getText())
+ browser.back()
+ commonLib.scrolToScreenTop()
+ autoPaypage.autoPayCard.waitForExist(10000,true)
+
+});
+
+//**********************************Scenario Ends : User has an option to Update AutoPay Information ***************************************************//
+
+
+
+

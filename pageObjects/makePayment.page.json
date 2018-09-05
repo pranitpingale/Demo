@@ -18,7 +18,7 @@
             "cardPaymentMode": "//div[label[contains(text(), 'Debit Card')]]",
             "paymentCards": ".standard-label-msg.paymentRadio", 
 
-            "cashPaymentMode": "//div[label[text()='Cash']]",
+            "cashPaymentMode": "//div[label[text()='Cash Payment']]",
             "paymentAmountTextbox": "input[name='paymentAmount']",
             "recieptNumberTextbox":"input[name='receiptNumber']",
             "cPostPaymentMessage": "div[class*='amw-billing-completed']",
