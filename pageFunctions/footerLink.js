@@ -9,8 +9,8 @@ class FooterLink {
     navigateToPrivacyPolicy(){
                 
         commonLib.scrollToScreenBottom()
-       dashboardPage.PrivacyPolicylink.waitForExist(50000)
-       commonLib.clickElement(dashboardPage.PrivacyPolicylink)
+       footerLinkPage.PrivacyPolicylink.waitForExist(50000)
+       commonLib.clickElement(footerLinkPage.PrivacyPolicylink)
        browser.pause(3000)
              
 
@@ -51,9 +51,9 @@ class FooterLink {
     navigateToTermsofUse(){
 
         commonLib.scrollToScreenBottom()
-        dashboardPage.TermsOfUse.waitForExist(50000)
+        dashboardPage.termsOfUse.waitForExist(50000)
        // browser.debug();
-        commonLib.clickElement(dashboardPage.TermsOfUse)
+        commonLib.clickElement(dashboardPage.termsOfUse)
 
     }
 

@@ -78,7 +78,8 @@ class dashboard {
     get autoPayContinueButton() { return $(file.get('dashboard.selector.autoPayContinueButton')); }
     get paymentsDropdownMenu() { return $(file.get('dashboard.selector.paymentsDropdownMenu')); }
     get makePaymentDropdownMenuItem() { return $(file.get('dashboard.selector.makePaymentDropdownMenuItem')); }
-    get makeAPaymentButton() {return $(file.get('dashboard.selector.makeAPaymentButton')); }
+    get billingAndPaymentsDropdownMenu() {return $(file.get('dashboard.selector.billingAndPaymentsDropdownMenu')); }
+    get makeAPaymentButton() {return $(file.get('dashboard.selector.makeAPaymentButton')); }    
     
     //Paperless Enrollment
     get goPaperlessCard() {return $(file.get('dashboard.selector.goPaperlessCard')); }
@@ -123,6 +124,7 @@ class dashboard {
     get AdjustmentFormLink() { return $(file.get('dashboard.selector.formLink')); }
     get ContactusLink() { return $(file.get('dashboard.selector.contactusLink')); }
     get ContactusText() { return $(file.get('dashboard.selector.contactUsText')); }
+    get termsOfUse() { return $(file.get('dashboard.selector.termsOfUse')); }
     
 
   }

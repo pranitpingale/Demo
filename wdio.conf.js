@@ -8,7 +8,7 @@ var path = require('path');
 
 var json = require('json-file');
 var file = json.read('./utilities/testData.json');
-
+//const { Given, When, Then } = require('cucumber');
 
 exports.config = {
 
@@ -95,7 +95,7 @@ exports.config = {
     coloredLogs: true,
     //
     // Warns when a deprecated command is used
-    deprecationWarnings: true,
+    deprecationWarnings: false,
     //
     // If you only want to run your tests until a specific amount of tests have failed use
     // bail (default is 0 - don't bail, run all tests).
@@ -108,6 +108,13 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
+    // ********************************************************************************************** //
+    //
+    //*************************************** Dev URL *********************************************** //
+    //baseUrl: 'https://hsynlwsss101.amwaternp.net:8443/selfservice-web/login.do',
+    //
+    //
+    //*************************************** QA URL *********************************************** //
     baseUrl: 'https://wssqa.amwaternp.net/selfservice-web/login.do',
     //
     // Default timeout for all waitFor* commands.
@@ -188,7 +195,7 @@ exports.config = {
         profile: [],        // <string[]> (name) specify the profile to use
         strict: false,      // <boolean> fail if there are any undefined or pending steps
         tags: [],           // <string[]> (expression) only execute the features or scenarios with tags matching the expression
-        timeout: 120000,     // <number> timeout for step definitions
+        timeout: 999999,     // <number> timeout for step definitions
         ignoreUndefinedDefinitions: false, // <boolean> Enable this config to treat undefined definitions as warnings.
     },
 
@@ -239,9 +246,9 @@ exports.config = {
         dashboardLib = require('./pageFunctions/dashboard.js')
         makePaymentLib = require('./pageFunctions/makePayment.js')
         paymentLocationsLib = require('./pageFunctions/paymentLocations.js')
-
+        billAndPaymentsLib = require('./pageFunctions/billingAndPayments.js')
+        autopayLib = require('./pageFunctions/autopay.js')
         footerLinkLib = require('./pageFunctions/footerLink.js')
- 
         navyFooterLinksLib = require('./pageFunctions/navyFooterLinks.js')
 
         //Load Page objects
@@ -249,12 +256,11 @@ exports.config = {
         dashboardPage = require('./pageObjects/dashboard.page.js')
         makePaymentPage = require('./pageObjects/makePayment.page.js')
         paymentLocationsPage = require('./pageObjects/paymentLocations.page.js')
-
-        
+        billAndPaymentsPage = require('./pageObjects/billingAndPayments.page.js')
+        autoPaypage = require('./pageObjects/autoPay.page.js')
         footerLinkPage = require('./pageObjects/footerLink.page.js')
-
         navyFooterLinksPage = require('./pageObjects/navyFooterLinks.page.js')
-
+        
         //Load assertion library
         expect = require('chai').expect;
 
@@ -263,8 +269,8 @@ exports.config = {
         password = file.get('testData.qa.loginData.Alexander.password')
 
         //User login Dev
-        //loginId = file.get('testData.dev.loginData.Gail.loginID')
-        //password = file.get('testData.dev.loginData.Gail.password')
+        //loginId = file.get('testData.dev.loginData.Richard.loginID')
+        //password = file.get('testData.dev.loginData.Richard.password')
 
         console.log("LoginID: " + loginId)
         console.log("Password: " + password)
