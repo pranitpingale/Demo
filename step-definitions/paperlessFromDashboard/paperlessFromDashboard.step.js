@@ -16,10 +16,25 @@ When(/^user navigates to the paperless enrollment section$/, function () {
 
 Then(/^unsubscribe paperless if it is subscribed and navigate to dashboard \"([^\"]*)\"$/, function (expMessage) {
 
-  dashboardPage.editProfilePaperlessEnrollButton.waitForExist(10000)
+  dashboardPage.editProfilePaperlessEnrollButton.waitForExist(20000)
   dashboardLib.navigateToDashboardAfterPaperlessUnsubscription()
     dashboardLib.scrollPage()
   dashboardPage.paperlessText.waitForExist(10000)
   commonLib.assertElementText(dashboardPage.paperlessText, expMessage) 
+//  commonLib.assertElementText(dashboardPage.paperlessEnrollmentStatus, expMessage)
 
 });
+
+// Then(/^paperless marketing card is displayed on dashboard page \"([^\"]*)\"$/, function (expMessage) {
+//   dashboardLib.scrollPage()
+//   dashboardPage.paperlessText.waitForExist(10000)
+//   commonLib.assertElementText(dashboardPage.paperlessText, expMessage) 
+
+// /* dashboardPage.paperlessText.waitForExist(10000).then(function(elementFound){
+//        if(elementFound){
+//          console.log(e)
+//          commonLib.assertElementText(dashboardPage.paperlessText, expMessage);
+//        }
+// }) */
+
+// });

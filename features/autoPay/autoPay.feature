@@ -11,7 +11,6 @@ Feature: AutoPay enrollment
        Then user updates AutoPay enrollment and gets the message "You successfully enrolled in Auto Pay! You will receive a confirmation email shortly."
        And user closes success message dialog and AutoPay card is displayed with updated Information
 
-
      Scenario: User has an option to Cancel AutoPay Enrollment
        Given user is enrolled for AutoPay
        Then user cancels AutoPay enrollment and gets the message "You successfully cancelled enrollment in Auto Pay."

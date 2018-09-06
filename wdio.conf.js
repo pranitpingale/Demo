@@ -248,6 +248,8 @@ exports.config = {
         paymentLocationsLib = require('./pageFunctions/paymentLocations.js')
         billAndPaymentsLib = require('./pageFunctions/billingAndPayments.js')
         autopayLib = require('./pageFunctions/autopay.js')
+        footerLinkLib = require('./pageFunctions/footerLink.js')
+        navyFooterLinksLib = require('./pageFunctions/navyFooterLinks.js')
 
         //Load Page objects
         loginPage = require('./pageObjects/login.page.js')
@@ -256,6 +258,8 @@ exports.config = {
         paymentLocationsPage = require('./pageObjects/paymentLocations.page.js')
         billAndPaymentsPage = require('./pageObjects/billingAndPayments.page.js')
         autoPaypage = require('./pageObjects/autoPay.page.js')
+        footerLinkPage = require('./pageObjects/footerLink.page.js')
+        navyFooterLinksPage = require('./pageObjects/navyFooterLinks.page.js')
         
         //Load assertion library
         expect = require('chai').expect;

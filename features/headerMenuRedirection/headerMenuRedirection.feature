@@ -30,4 +30,10 @@ Feature: A registered user can open different menu and submenu
     Scenario: User can check the redirection to usage projection card from the header menu
       Given again user navigates to usage menu header menu present in dashboard
       When user click on usage projection sub menu
-      Then usage projection card is displayed in focus with a label as "Usage projection"
+      Then usage projection card is displayed in focus with a label as "Usage Projection"
+
+    @am_contactUs
+    Scenario: User can contact the amwater team using contact us link
+        When user click on Contact Us 
+        Then user validate Contact Us page with text "CONTACT US"
+        And verify Contact Us page by validating url
