@@ -4,7 +4,7 @@ var file = json.read('./pageObjects/dashboard.page.json');
 class dashboardLib {
 
     waitUntilDashboardLoads(){
-        commonLib.waitForElementExistWithoutException(dashboardPage.meter, 60000)
+        commonLib.waitForElementExistWithoutException(dashboardPage.meter, 100000)
         if (!dashboardPage.meter.isExisting()) {
             throw "Dashboard did not load within the time limit"
         }
@@ -19,20 +19,10 @@ class dashboardLib {
         browser.pause(2000)
         dashboardPage.makePaymentDropdownMenuItem.click();
         commonLib.waitForElementExistWithoutException(dashboardPage.autoPayContinueButton, 5000)
-        if (dashboardPage.autoPayContinueButton.isExisting()) {
-            dashboardPage.autoPayContinueButton.click()
+        if (dashboardPage.autoPayContinueButtonNew.isExisting()) {
+            dashboardPage.autoPayContinueButtonNew.click()
         }
         makePaymentPage.electronicCheck.waitForExist(20000)
-
-    }
-
-    goToBillingAndPaymentsPage() {
-
-        dashboardPage.paymentsDropdownMenu.waitForExist(20000)
-        dashboardPage.paymentsDropdownMenu.moveToObject();
-        browser.pause(2000)
-        dashboardPage.billingAndPaymentsDropdownMenu.click();
-        billAndPaymentsPage.sliderBar.waitForExist(20000)
 
     }
 
@@ -192,7 +182,7 @@ class dashboardLib {
     }
 
     navigateToMakePayment(){
-
+        browser.pause(15000)
         var makePaymentssSubMenu = dashboardPage.makePaymentssSubMenu
         console.log(makePaymentssSubMenu)
         browser.moveTo(makePaymentssSubMenu,0,18)
@@ -277,7 +267,9 @@ class dashboardLib {
             dashboardPage.editProfilePaperlessEnrollButton.click()
             
             this.submitPaperlessEnrollmentAck()
+            
             this.closePaperlessEnrollmentWindow()
+            
             console.log("Paperless enrollment deactivation successfull") 
             browser.pause(2000)
             dashboardPage.amwaterLogo.click()
@@ -299,7 +291,45 @@ class dashboardLib {
 
     }
 
-   
+    // navigateToMessageMenu(){
+
+    //    // commonLib.scrolToScreenTop()
+    //     dashboardPage.messageArrowClick.waitForExist(10000)
+    //     dashboardPage.messageArrowClick.click
+    //     dashboardPage.message.waitForExist(10000)
+    //     var FirstMsgTimestamp = dashboardPage.message.getText();
+    //     console.log("First",FirstMsgTimestamp);
+                
+    //     var monthsName = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+    //     var firstDate = "Jul 28";
+    //     var firstDateSplit = firstDate.split(" ");
+    //     var date1 = {"day":firstDateSplit[1],"monthIndex": monthsName.indexOf(firstDateSplit[0])};
+
+    //     var date2 = {"day":"25","monthIndex":8};
+
+    //     var compareDates = [];
+    //     compareData.push(date1);
+
+
+    //     if(date1.monthIndex > date2.monthIndex) {
+    //         console.log("Date1 is greater than Date2");
+    //     } else if(date1.monthIndex < date2.monthIndex) {
+    //         console.log("Date2 is greater than Date1");
+    //     } else {
+    //         if(date1.day >= date2.day) {
+    //         console.log("Date1 is greater than Date2");
+    //         } else if(date1.day < date2.day) {
+    //             console.log("Date2 is greater than Date1");
+    //         }
+    //     }
+        
+
+    //     dashboardPage.loggedUserFeedbackMenuItem.waitForExist(10000)
+    //     browser.pause(3000)
+
+    //     dashboardPage.loggedUserFeedbackMenuItem.click()
+    // }
+
     gotoEditProfilePaperlessEnrollmentSection(){
 
         dashboardPage.editProfilePaperlessEnrollButton.waitForExist(10000)
