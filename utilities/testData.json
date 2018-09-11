@@ -6,6 +6,14 @@
 
             "loginData": {
 
+                "Mike":{
+
+                    "loginID": "SUN112SET",
+                    "password": "P1assword",
+                    "cashRecieptConstant": "AB123"
+
+                },
+
                 "Alexander":{
 
                     "loginID": "ALEXDARE",
@@ -54,10 +62,11 @@
 
                     },
 
-                    "user2":{
+                    "Richard":{
 
-                        "loginID": "",
-                        "password": ""
+                        "loginID": "RONNSHORT444",
+                        "password": "P1assword",
+                        "cashRecieptConstant": "AB120"
 
                     },
 

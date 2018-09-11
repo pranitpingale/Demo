@@ -1,5 +1,5 @@
-node_modules
-reports
-errorShots
-allure-report
-screenshots
+/node_modules
+/reports
+/errorShots
+/allure-report
+/screenshots

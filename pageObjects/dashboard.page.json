@@ -10,8 +10,6 @@
             "accountMeter": ".premise-header .meter-details",
 
             "loggedUserDropdownMenu": ".login-user>a",
-     
-
             "loggedUserSignOutMenuItem": "//li[a[text()='Sign out']]",
             "loggedUserEditProfileMenuItem": "//a[text()='Edit Profile/Alert Preference']",
             "loggedUserFeedbackMenuItem": "//li[a[text()='Feedback']]",
@@ -71,19 +69,14 @@
             "nearestLocationText": "//p[text()='Find Your Nearest Payment Location']",
             "zipCodeTextBoxPL":  "input[class= 'amw-input-search-field blackColor']",
 
-
-            
-
-            
-            
-
             "editProfilePaperlessEnrollmentStat": "//span[text()='Paperless Enrollment']/following-sibling::span/span",
             "editProfilePaperlessEnrollButton": "#paperless button",
 
             "servicePeriodLabel": ".amw-bill-period",
             "makePaymentButton": ".amw-bill-payment-card-button",
-            "autoPayContinueButton": ".Payment-button-search",
+            "autoPayContinueButton": ".amw-pay-bill-now-button",
             "paymentsDropdownMenu": "//a[text()='Payments']",
+            "billingAndPaymentsDropdownMenu": "//a[text()='Billing & Payments']",
             "makePaymentDropdownMenuItem": "//a[text()='Make Payment']",
             "makeAPaymentButton": ".amw-bill-payment-card-button",
 
@@ -96,11 +89,10 @@
             "paperlessUserAckCheckbox": "#agreement",
             "paperlessUserSubmitButton": "button[value='Submit']",
             "paperlessEnrollmentStatus": "h3[class*='-content']",
-            "modalWindowCloseButton": "//*[@id='aw-body aw-body-container']/div[2]/div/div[2]/div/div[1]/div/div/div/button/img",
-            
+            "modalWindowCloseButton": ".amw-bill-payment-close-icon",
             "makePaymentCloseModalView": "//*[@id='root']/div[8]/div[2]/div[3]/div/div[2]/div[1]/a/img",
 
-            "autopayContinueButton": ".Payment-button-search",
+            "autopayContinueButton": ".amw-pay-bill-now-button",
 
             "servicesRequestCard": "//h2[text()='Service Request']//following-sibling::div[@class='amw-bill-card']",
             "serviceRequestDescription": "p[class= 'amw-service-request-text']",

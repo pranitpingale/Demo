@@ -20,5 +20,5 @@ npm install
 Run the test server:
 
 ```sh
-npm test
+npm start
 ```

@@ -39,13 +39,14 @@ class MakePayment {
     payByCash(amount) {
 
         makePaymentPage.paymentAmountTextbox.waitForExist(10000)
+        makePaymentPage.paymentAmountTextbox.getLocationInView()
         makePaymentPage.paymentAmountTextbox.setValue(amount)
         makePaymentPage.recieptNumberTextbox.setValue(this.getCashReceiptNumber())
         makePaymentPage.cashSubmitButton.getLocationInView()
         commonLib.clickButtonByQuerySelector(file.get('makePayment.selector.cashSubmitButton'))
         //makePaymentPage.cashSubmitButton.click()
         makePaymentPage.cPostPaymentMessage.waitForExist(20000)
-        console.log("Paid amount" + amount)
+        console.log("Paid amount: " + amount)
                             
     }
 

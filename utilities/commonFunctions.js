@@ -12,7 +12,7 @@ class CommonFunctions {
         var regex = /-?\d*\.{0,1}\d+/g;
         var regexArray = regex.exec(stringValue);
 
-        return parseFloat(regexArray[0])
+        return parseFloat(regexArray[0]).toFixed(2)
 
     }
 
@@ -73,6 +73,42 @@ class CommonFunctions {
         
     }
 
+    getCurrentMonth(format) {
+        let date = new Date()
+        //format: long, short
+        let currentMonth = date.toLocaleString("en-us", { month: format });
+        console.log(`Current month is ${currentMonth}`)
+        return currentMonth
+    }
+
+    getLastMonth(format) {
+        let x = new Date();
+        x.setDate(1);   
+        x.setMonth(x.getMonth()-1);
+        let date = new Date(x)
+        //format: long, short
+        let lastMonth = date.toLocaleString("en-us", { month: format });
+        console.log(`Last month is ${lastMonth}`)
+        return lastMonth
+    }
+
+    getLastMonthYear(){
+        let x = new Date();
+        x.setDate(1);
+        x.setMonth(x.getMonth()-1);
+        let date = new Date(x)
+        console.log(`Year associated with last month is ${date.getFullYear()}`)
+        return date.getFullYear()
+    }
+
+    getLastMonthFirstDay() {
+        let x = new Date();
+        x.setDate(1);
+        x.setMonth(x.getMonth()-1);
+        console.log(`Last month first day is ${x}`)
+        return x
+    }
+
     getJulianDate(){
 
         let today = new Date();
@@ -82,7 +118,6 @@ class CommonFunctions {
         let julianDate = (temp).toLocaleString('en-US', {minimumIntegerDigits: 3, useGrouping:false})
         
         return julianDate;
-
 
     }
 
@@ -126,6 +161,17 @@ class CommonFunctions {
 
         let regex = /^\(?([2-9][0-9]{2})\)?[-. ]?([2-9](?!11)[0-9]{2})[-. ]?([0-9]{4})$/
         return regex.test(number)
+    }
+
+    switchToTab(tabIndex){
+        let handles = browser.windowHandles();
+        console.log(`Total number of active tabs: ${handles.value.length}`)
+        browser.switchTab(handles.value[tabIndex]).pause(2000);
+        console.log(`Switched control to tab: ${tabIndex}\nPageTitle: ${browser.getTitle()}`)
+    }
+
+    getTabCount(){
+        return browser.windowHandles().value.length;
     }
 
 }
