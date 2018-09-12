@@ -53,9 +53,12 @@ class dashboard {
     get messageIcon() {return $(file.get('dashboard.selector.messageIcon')); }
     get noAlerts() {return $(file.get('dashboard.selector.noAlerts')); }
     get noOpenRequest() {return $(file.get('dashboard.selector.noOpenRequest')); }
-    get alertTitle() {return $(file.get('dashboard.selector.alertTitle')); }
-    get alertIcon() {return $(file.get('dashboard.selector.messageIcon')); }
-    
+    get alertTitle1() {return $(file.get('dashboard.selector.alertTitle1')); }
+
+    get alertIcon() {return $(file.get('dashboard.selector.alertIcon')); }
+    get alertTimestamp1() {return $(file.get('dashboard.selector.alertTimestamp1')); }
+    get alertTimestamp2() {return $(file.get('dashboard.selector.alertTimestamp2')); }
+    get alertTimestamp3() {return $(file.get('dashboard.selector.alertTimestamp2')); }
     
     //Make Payment modal view
     get autoPayInMakePayment() {return $(file.get('dashboard.selector.autoPayInMakePayment')); }

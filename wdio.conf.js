@@ -115,7 +115,7 @@ exports.config = {
     //
     //
     //*************************************** QA URL *********************************************** //
-    baseUrl: 'https://wssqa.amwaternp.net/selfservice-web/login.do',
+    baseUrl: 'https://hsynlwsss201.amwaternp.net:8443/selfservice-web/login.do',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 120000,

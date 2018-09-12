@@ -51,7 +51,10 @@
             "messageTitle": "//*[@class='message-block']//*[text()='Your bill was due on Fri, Jul 27 2018 and is now past due.']",
             "messageIcon": "//*[@class='icon-block']//*[@class='icon-message']",
 
-            "alertTitle": "//*[@class='message-block']//*[text()='High usage has been detected at your premise at 2:15 AM.']",
+            "alertTitle1": "//*[@class='message-list-item'][1]//*[@class='message-block']",
+            "alertTimestamp1": "//*[@class='message-list-item'][1]//*[@class='timestamp']",
+            "alertTimestamp2": "//*[@class='message-list-item'][2]//*[@class='timestamp']",
+            "alertTimestamp3": "//*[@class='message-list-item'][3]//*[@class='timestamp']",
             "alertIcon": "//*[@class='icon-block']//*[@class='icon-alert']",
             "msgarrowDown": "//*[@class='message-block']//*[@class='fa fa-angle-down']",
             "alertarrowDown": "//*[@class='alert-block']//*[@class='fa fa-angle-down']",

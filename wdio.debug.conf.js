@@ -19,7 +19,7 @@ var debugConfig = Object.assign(wdioConfig, {
       //none
     ],
 
-    baseUrl: "https://wssqa.amwaternp.net/selfservice-web/login.do"
+    baseUrl: "https://hsynlwsss201.amwaternp.net:8443/selfservice-web/login.do"
     //baseUrl: "https://hsynlwsss101.amwaternp.net:8443/selfservice-web/login.do"
 });
 
