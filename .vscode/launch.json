@@ -17,7 +17,7 @@
             "console": "integratedTerminal",
             "args":[
                 "", "${workspaceRoot}/wdio.debug.conf.js",
-                "--spec", "${relativeFile}"
+                "--spec", "${workspaceRoot}/features/alertMessageOpenRequest/alertMessageOpenRequest.feature"
                 ]
         
             }

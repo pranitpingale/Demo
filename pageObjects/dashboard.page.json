@@ -48,7 +48,7 @@
             "cashInMakePayment": "//*[@id='root']/div[8]/div[2]/div[3]/div/div[2]/div[4]/div/div/div[4]/div/div/div",
             "makePaymentLabel": "label[class= 'amw-detailed-card-title']",
             "autoPayContinueButtonNew": "//a[text()='Continue']",
-            "messageTitle": "//*[@class='message-block']//*[text()='Your bill was due on Fri, Jul 27 2018 and is now past due.']",
+            "messageTitle": "//*[@class='message-list-item'][1]//*[@class='message-block']",
             "messageIcon": "//*[@class='icon-block']//*[@class='icon-message']",
 
             "alertTitle1": "//*[@class='message-list-item'][1]//*[@class='message-block']",
