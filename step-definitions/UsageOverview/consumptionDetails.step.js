@@ -54,8 +54,9 @@ browser.moveTo(downloadButton,0,1000);
 downloadButton.click()
 browser.pause(100)
 
-/*/PDF Button
-var pdfButton = $('//*[contains(text(),"Download PDF")]/parent::button')
+//PDF Button
+/*var pdfButton = $('//*[contains(text(),"Download PDF")]/parent::button')
+
 pdfButton.click()
 browser.pause(10000)
 browser.url('https://cpdev.amwaternp.net/4da9e11f-cc95-489d-8e43-4f7bf33f99cc')
@@ -63,20 +64,26 @@ browser.url('https://cpdev.amwaternp.net/4da9e11f-cc95-489d-8e43-4f7bf33f99cc')
        browser.pause(4000)
     browser.close()
     console.log(browser.getTitle()); 
-     browser.pause(3000)
-     commonLib.switchWindowTab();
-     downloadButton.click()*/
+     browser.pause(3000)*/
 
 //Excel Button
-var exceldownload = $('//*[@id="usageOverview"]/div[3]/div/div/div/div[2]/div/div/div/button[2]')
+var exceldownload = $('//*[@id="usageOverview"]/div[3]/div/div/div/div[2]/div/div/div/button[2]/div')
 exceldownload.click()
 browser.pause(3000)
-var back = $('//*[@id="usageOverview"]/div[1]/div/div/div[1]/div/div[1]')
-back.click()
+//var back = $('//*[@id="usageOverview"]/div[1]/div/div/div[1]/div/div[1]')
+//back.click()
+
+browser.moveTo(downloadButton,0,1000);
+downloadButton.click()
+browser.pause(100)
+
+//PDF Button
+var pdfButton = $('//*[contains(text(),"Download PDF")]/parent::button')
+pdfButton.click()
+browser.pause(10000)
+
 });
 
 Then(/^user view monthly details$/, function () {
     browser.pause(2000)
 });
-
-
