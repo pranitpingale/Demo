@@ -1,13 +1,17 @@
 @am_LoginUser
 Feature: A registered user can Login to Dashboard and can edit personal information
 
-   Scenario: user can change name from change Name option
-     Given user navigates to Edit User Profile page and clicks on change name button
-     When user changes the contact and preferences
-     Then user changes the address
-     Then user changes the Login ID
-     Then user changes the Password
-     Then user changes sec. acc. holder data
+   Scenario: To verify if user can make changes successfully in various fields of Edit Profile section
+     Given user navigates to Edit User Profile page and modifies the name & confirms name changed successfully with message
+     When user changes the contact information & confirms contact & pref.details changed successfully with message
+     Then user changes the alert settings & confirms alert settings changed successfully with message
+     Then user changes the address & confirms address changed successfully with message
+     Then user changes the Login ID & confirms Login ID changed successfully with message
+     Then user changes the Password & confirms Password changed successfully with message
+     Then user adds sec. acc. holder data successfully
+     Then user removes sec. acc. holder data successfully
      
      
+     
+
      

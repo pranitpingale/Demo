@@ -6,7 +6,7 @@ When(/^user clicks on plus button to expand the account information$/, function 
 
     // var plusBtn = $('#root > div:nth-child(3) > div.defaultLayout > div.dashboard-wrapper.push-up-85 > div > div.ant-layout-sider > div > div.sc-gzVnrw.cbyzUV > div > div > div > div > div.ant-collapse-header > div')
     browser.pause(3000)
-    browser.moveToObject('//*[@id="root"]/div[3]/div[2]/div[3]/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div[1]',0,700)
+    browser.moveToObject('//div[@class="account-no"]',0,700)
     // var accNO = $('//*[@id="root"]/div[3]/div[2]/div[3]/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div[1]')
     // accNO.click()
     // browser.pause(1000)
@@ -15,10 +15,10 @@ When(/^user clicks on plus button to expand the account information$/, function 
 });
 
 Then(/^user clicks on account number & verifies it$/, function () {
-    var accNO = $('#root > div:nth-child(3) > div.defaultLayout > div.dashboard-wrapper.push-up-85 > div > div.ant-layout-sider > div > div.sc-gzVnrw.cbyzUV > div > div > div > div > div.ant-collapse-content.ant-collapse-content-active > div > div.account-no')
+    var accNO = $('//div[@class="account-no"]')
     accNO.click()
     var getaccNO = accNO.getText()
-    if(getaccNO=="Account No: 1015-220008856735")
+    if(getaccNO=="Account No: 1015-210020918063")
     console.log('Account no. is correct')
     else
     console.log('Account no. is not correct')
@@ -35,9 +35,11 @@ Then(/^user clicks on account number & verifies it$/, function () {
 
 });
 
+
+
 Then(/^user clicks on Meters service type & verifies the same$/, function () {
-    browser.moveToObject('#root > div:nth-child(3) > div.defaultLayout > div.dashboard-wrapper.push-up-85 > div > div.ant-layout-sider > div > div.sc-gzVnrw.cbyzUV > div > div > div > div > div.ant-collapse-content.ant-collapse-content-active > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(2) > span',0,700)
-    var meterServiceType = $('#root > div:nth-child(3) > div.defaultLayout > div.dashboard-wrapper.push-up-85 > div > div.ant-layout-sider > div > div.sc-gzVnrw.cbyzUV > div > div > div > div > div.ant-collapse-content.ant-collapse-content-active > div > div:nth-child(2) > div:nth-child(3) > div > div:nth-child(2) > span')
+    browser.moveToObject('//div[@class="meter"][1]/div[2]',0,700)
+    var meterServiceType = $('//div[@class="meter"][1]/div[2]')
     meterServiceType.click()
     var getmeterServiceType = meterServiceType.getText()
     if(getmeterServiceType=="Water")
@@ -48,22 +50,34 @@ Then(/^user clicks on Meters service type & verifies the same$/, function () {
 
 });
 
-Then(/^user clicks on meter size & verifes it$/, function () {
-
-    var meterSize = $('//*[@id="root"]/div[3]/div[2]/div[3]/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div[1]')
-    meterSize.click()
-    var getmeterSize = meterSize.getText()
-    if(getmeterSize==11858)
-    console.log('Meter Size is correct')
+Then(/^user clicks on meter serial number & verifies the same$/, function () {
+    browser.moveToObject('//*[contains(text(),"Service Type")]/following-sibling::div[contains(text(),"S/N")]',0,800)
+    var meterSerialNumber = $('//div[@class="meter"][1]/div[@class="meter-details"][2]')
+    meterSerialNumber.click()
+    var getmeterServiceType = meterSerialNumber.getText()
+    if(getmeterServiceType=="26731323")
+    console.log('Meter Serial no. is correct')
     else
-    console.log('Meter Size is not correct')
+    console.log('Meter Serial no. is not correct')
+});
+
+
+Then(/^user clicks on meter size & verifes it$/, function () {
+    browser.moveToObject('//div[@class="meter"][1]/div[@class="meter-details"][3]',0,850)
+    var meterSize = $('//div[@class="meter"][1]/div[@class="meter-details"][3]')
+    meterSize.click()
+    // var getmeterSize = meterSize.getText()
+    // if(getmeterSize==11858)
+    // console.log('Meter Size is correct')
+    // else
+    // console.log('Meter Size is not correct')
 
 
 });
 
 Then(/^user clicks on meter location & verifes it$/, function () {
-
-    var meterLocation = $('//*[@id="root"]/div[3]/div[2]/div[3]/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div[1]')
+    browser.moveToObject('//div[@class="meter"][1]/div[@class="meter-details"][4]',0,870)
+    var meterLocation = $('//div[@class="meter"][1]/div[@class="meter-details"][4]')
     meterLocation.click()
     var getmeterLocation = meterLocation.getText()
     if(meterLocation==11858)
@@ -74,8 +88,8 @@ Then(/^user clicks on meter location & verifes it$/, function () {
 });
 
 Then(/^user clicks on installation date & verifes it$/, function () {
-
-    var meterInstallationDate = $('//*[@id="root"]/div[3]/div[2]/div[3]/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/div[1]')
+    browser.moveToObject('//div[@class="meter"][1]/div[@class="meter-details"][5]',0,890) 
+    var meterInstallationDate = $('//div[@class="meter"][1]/div[@class="meter-details"][5]')
     meterInstallationDate.click()
     var getmeterInstallationDate = meterInstallationDate.getText()
     if(meterInstallationDate==11858)
