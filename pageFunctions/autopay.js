@@ -12,7 +12,7 @@ class autopayLib {
         dashboardLib.navigateToEditUserProfilePage()
 
         autoPaypage.editProfileautopayenrollbutton.waitForExist(10000)
-        commonLib.scrollToScreenBottom()
+       // commonLib.scrollToScreenBottom()
 
         console.log("Status of AutoPay enrollment: " + autoPaypage.editProfileautopayenrollbutton.getText())
 

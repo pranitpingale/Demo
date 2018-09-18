@@ -126,15 +126,15 @@ Then(/^user see the latest alert is displaying on the top$/, function () {
 Given(/^user again navigates to message$/, function () {
   
   //dashboardPage.headerusageMenu.waitForExist(10000)
-  dashboardPage.alertarrowDown.click()
+  dashboardPage.msgarrowDown.click()
   browser.pause(5000)
   console.log("message arrow clicked")
 });
 
-When(/^user see the messages available in the section with each of them having the alert icon$/, function () {
+When(/^user see the messages available in the section with each of them having the message icon$/, function () {
 
-  dashboardPage.alertIcon.waitForExist(4000)
-  commonLib.assertValue(true, dashboardPage.alertIcon.isExisting()) 
+  dashboardPage.messageIcon.waitForExist(4000)
+  commonLib.assertValue(true, dashboardPage.messageIcon.isExisting()) 
 
 });
 
@@ -142,21 +142,21 @@ Then(/^user see the latest message is displaying on the top$/, function () {
    browser.pause(3000)
    var monthsName = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 
-   dashboardPage.alertTitle1.waitForExist(2000)
-   commonLib.assertValue(true, dashboardPage.alertTitle1.isExisting())
+   dashboardPage.messageTitle.waitForExist(2000)
+   commonLib.assertValue(true, dashboardPage.messageTitle.isExisting())
    browser.pause(2000);
     var alertTimestamp1 =  dashboardPage.alertTimestamp1.getText()
     var alertTimestamp2 =  dashboardPage.alertTimestamp2.getText()
-    var alertTimestamp3 =  dashboardPage.alertTimestamp3.getText()
+   // var alertTimestamp3 =  dashboardPage.alertTimestamp3.getText()
 
     console.log("#################################")
     console.log(alertTimestamp1)
     console.log("#################################")
     console.log(alertTimestamp2)
-    console.log("#################################")
-    console.log(alertTimestamp3)
+    // console.log("#################################")
+    // console.log(alertTimestamp3)
 
-    var timestamps = [alertTimestamp1, alertTimestamp2, alertTimestamp3];
+    var timestamps = [alertTimestamp1, alertTimestamp2];
     var testSuccess = true;
     for(let i=0; i<timestamps.length; i++){
     if(!!timestamps[i] && !!timestamps[i+1] && testSuccess){
@@ -173,7 +173,7 @@ Then(/^user see the latest message is displaying on the top$/, function () {
         }
     }
   }
-  
+
   if(testSuccess){
     console.log("test is successful")  }
   });

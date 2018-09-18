@@ -24,6 +24,20 @@ class dashboard {
 
     get feedbackStatus() {return $(file.get('dashboard.selector.feedbackStatus')); }
     get paperlessText() {return $(file.get('dashboard.selector.paperlessText')); }
+    get autoPayText() {return $(file.get('dashboard.selector.autoPayText')); }
+    get editProfileautopayenrollbutton() {return $(file.get('dashboard.selector.editProfileautopayenrollbutton')); }
+
+    get autoPayCard() {return $(file.get('dashboard.selector.autoPayCard')); }
+    get autoPayEnrollmentWindow() {return $(file.get('dashboard.selector.autoPayEnrollmentWindow')); }
+    get autopayCheckbox() {return $(file.get('dashboard.selector.autopayCheckbox')); }
+    get nextbutton() {return $(file.get('dashboard.selector.nextbutton')); }
+    get confirmEnrollmentinformation() {return $(file.get('dashboard.selector.confirmEnrollmentinformation')); }
+    get autopaysuccessmsgTitle() {return $(file.get('dashboard.selector.autopaysuccessmsgTitle')); }
+    get autopaysuccessmsg() {return $(file.get('dashboard.selector.autopaysuccessmsg')); }
+    get xicon() {return $(file.get('dashboard.selector.xicon')); }
+    get cancelautopayradiobutton() {return $(file.get('dashboard.selector.cancelautopayradiobutton')); }
+
+
     get headerusageMenu() {return $(file.get('dashboard.selector.headerusageMenu')); }
     get conservationTipsSubMenu() {return $(file.get('dashboard.selector.conservationTipsSubMenu')); }
     get conservationTipsText() {return $(file.get('dashboard.selector.conservationTipsText')); }

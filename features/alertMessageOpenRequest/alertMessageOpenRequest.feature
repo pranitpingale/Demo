@@ -24,3 +24,9 @@ Feature: A registered user can check for messages alerts & open request
       Given user again navigates to alerts
       When user see the alerts available in the section with each of them having the alert icon
       Then user see the latest alert is displaying on the top
+
+    @am_latestMessage
+    Scenario: User can check the latest alert are displaying at top
+      Given user again navigates to message
+      When user see the messages available in the section with each of them having the message icon
+      Then user see the latest message is displaying on the top
