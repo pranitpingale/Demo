@@ -42,7 +42,7 @@ browser.pause(4000)
 //enter numbers in primary phone field
 browser.moveToObject('#primaryPhone',0,600)
 var primaryphone1 = $('#primaryPhone')
-browser.setValue('#primaryPhone', '1234567699');
+browser.setValue('#primaryPhone', '1234567644');
 browser.pause(2000)
 //click on the checkbox
 // browser.moveToObject('#primaryPhone',0,900)
@@ -54,11 +54,11 @@ browser.pause(3000)
 
 var primaryEmail = $('//input[@id="primaryEmail"]')
 primaryEmail.clearElement()
-browser.setValue('//input[@id="primaryEmail"]', 'pranitpingale@accionlabs.com');
+browser.setValue('//input[@id="primaryEmail"]', 'pranit.pingale@accionlabs.com');
 browser.pause(3000)
 var confPrimaryEmail = $('//input[@id="primaryConfirmEmail"]')
 confPrimaryEmail.clearElement()
-browser.setValue('//input[@id="primaryConfirmEmail"]', 'pranitpingale@accionlabs.com');
+browser.setValue('//input[@id="primaryConfirmEmail"]', 'pranit.pingale@accionlabs.com');
 browser.pause(3000)
 //scroll till save button is visible
 browser.moveToObject('#CustomerContact > div > div.icon-col.profile-col.ant-col-lg-24.ant-col-xl-24 > div > div > div > div > div > div.save-section > div > button.save',0,750);
@@ -107,7 +107,7 @@ var streetField = $('#city').clearElement()
 
 browser.pause(1000)
 //enter the city 
-browser.setValue('#city', 'testtreet12345');
+browser.setValue('#city', 'testtreet1246');
 //scroll till save button is visible
 browser.moveToObject('#CustomerAddress > div > div.icon-col.profile-col.ant-col-lg-24.ant-col-xl-16 > div > div > div > div > div > div > button.save',0,900);
 //click on save button
