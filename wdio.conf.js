@@ -269,8 +269,8 @@ exports.config = {
         password = file.get('testData.qa.loginData.Alexander.password')
 
         //User login Dev
-        //loginId = file.get('testData.dev.loginData.Richard.loginID')
-        //password = file.get('testData.dev.loginData.Richard.password')
+        // loginId = file.get('testData.dev.loginData.Richard.loginID')
+        // password = file.get('testData.dev.loginData.Richard.password')
 
         console.log("LoginID: " + loginId)
         console.log("Password: " + password)

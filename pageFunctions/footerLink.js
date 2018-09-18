@@ -8,6 +8,7 @@ class FooterLink {
 
     navigateToPrivacyPolicy(){
                 
+        browser.pause(3000)
         commonLib.scrollToScreenBottom()
        footerLinkPage.PrivacyPolicylink.waitForExist(50000)
        commonLib.clickElement(footerLinkPage.PrivacyPolicylink)

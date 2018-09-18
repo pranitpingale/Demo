@@ -1,5 +1,4 @@
 const { Given, When, Then } = require('cucumber')
-
 //Privacy Policy link verification
 When(/^user clicks on Privacy Policy link in Footer$/, function () {
 
@@ -47,6 +46,100 @@ footerLinkLib.validateTermsOfUsePage()
 browser.pause(3000)
 
 });
+
+//Feedback footer link scenario 1
+Given(/^user navigates to feedback from footer link$/, function () {
+        commonLib.scrollToScreenBottom()
+       dashboardPage.footerFeedback.waitForExist(50000)
+       commonLib.clickElement(dashboardPage.footerFeedback)
+       browser.pause(3000)
+});
+
+When(/^user selects radio button for first question and second question for footer$/, function () {
+
+  dashboardLib.submitFeedback()
+
+});
+
+Then(/^user submit the feedback form for footer$/, function () {
+
+   dashboardLib.submitFeedbackNew()
+
+});
+
+Then(/^feedback is successfull with message for footer first \"([^\"]*)\"$/, function (expMessage) {
+
+  dashboardPage.feedbackStatus.waitForExist(10000)
+  commonLib.assertElementText(dashboardPage.feedbackStatus, expMessage)
+
+});
+
+//Feedback footer link scenario 2
+
+
+Given(/^again user navigates to feedback from footer link$/, function () {
+  
+       commonLib.scrollToScreenBottom()
+       dashboardPage.footerFeedback.waitForExist(50000)
+       commonLib.clickElement(dashboardPage.footerFeedback)
+       browser.pause(3000)
+});
+
+When(/^again user selects radio button for first question and second question and the comment box for footer$/, function () {
+
+  dashboardLib.submitFeedback()
+  dashboardPage.commentBox.waitForExist(2000)
+  commonLib.assertValue(true, dashboardPage.commentBox.isExisting()) 
+
+});
+
+Then(/^user submit the feedback form again for footer$/, function () {
+
+   dashboardLib.submitFeedbackNew()
+
+});
+
+Then(/^feedback is successfull with a message for footer second \"([^\"]*)\"$/, function (expMessage) {
+
+  dashboardPage.feedbackStatus.waitForExist(10000)
+  commonLib.assertElementText(dashboardPage.feedbackStatus, expMessage)
+
+});
+
+// Feedback footer link scenario 3
+
+Given(/^a user navigates to feedback from footer link$/, function () {
+
+       commonLib.scrollToScreenBottom()
+       dashboardPage.footerFeedback.waitForExist(50000)
+       commonLib.clickElement(dashboardPage.footerFeedback)
+       browser.pause(3000)
+});
+
+When(/^user selects radio button for second question only for footer$/, function () {
+
+  commonLib.waitForElementExistWithoutException(dashboardPage.firstQuestionSecondRadioButton, 5000)
+       
+        if (dashboardPage.secondQuestionSecondRadioButton.isExisting()) {
+            dashboardPage.secondQuestionSecondRadioButton.click()
+        }
+
+});
+
+Then(/^user tries to submit the feedback form for footer$/, function () {
+
+   dashboardLib.submitFeedbackNew()
+
+});
+
+Then(/^feedback submission ask for the selection of fields with a validation message for footer$/, function () {
+
+  dashboardPage.selectRadioButtonValidationMsg.waitForExist(10000)
+  commonLib.assertValue(true, dashboardPage.selectRadioButtonValidationMsg.isExisting()) 
+  dashboardPage.feedbackModalClose.click()
+
+});
+
 
 //Facebook link verification
 When(/^user clicks on Facebook link in Footer$/, function () {
@@ -152,10 +245,6 @@ Then(/^PuddleDuck link is successfully redirecting to PuddleDuck Page by validat
     footerLinkLib.validatePuddleDuckPage()
 
 });
-
-
-
-
 
 
 

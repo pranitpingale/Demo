@@ -111,6 +111,16 @@ class dashboard {
     get paymentLocationsCard() {return $(file.get('dashboard.selector.paymentLocationsCard')); }
     get paymentLocationSearchButton() {return $(file.get('dashboard.selector.paymentLocationSearchButton')); }
 
+    //Privacy Policy
+    get PrivacyPolicylink() { return $(file.get('dashboard.selector.PrivacyPolicylink')); }
+    get PrivacyPolicyHeadertag() { return $(file.get('dashboard.selector.PrivacyPolicyHeadertag')); }
+
+    //Terms Of Use
+    get TermsOfUse() { return $(file.get('dashboard.selector.termsOfUse')); }
+
+    //footer feedback
+    get footerFeedback() { return $(file.get('dashboard.selector.footerFeedback')); }
+
     //Social Media links
     get FacebookFooterLink() { return $(file.get('dashboard.selector.facebookFooterLink')); }
     get TwitterFooterink() { return $(file.get('dashboard.selector.twitterFooterLink')); }
@@ -129,6 +139,27 @@ class dashboard {
     get ContactusText() { return $(file.get('dashboard.selector.contactUsText')); }
     get termsOfUse() { return $(file.get('dashboard.selector.termsOfUse')); }
     
+    //service alerts
+    get serviceAlertsContent() { return $(file.get('dashboard.selector.serviceAlertsContent')); }
+    get serviceAlertsContent2() { return $(file.get('dashboard.selector.serviceAlertsContent2')); }
+    get serviceAlertsContent3() { return $(file.get('dashboard.selector.serviceAlertsContent3')); }
+    get ServiceAlertsViewMore() { return $(file.get('dashboard.selector.serviceAlertsViewMore')); }
+    get AlertsPage1() { return $(file.get('dashboard.selector.alertsPage1')); }
+    get AlertsText() { return $(file.get('dashboard.selector.latestAlerts')); }
+
+    get LearnMore() { return $(file.get('dashboard.selector.learnMore')); }
+    get LearnMore1Text() { return $(file.get('dashboard.selector.learnMore1Text')); }
+    get LearnMore2() { return $(file.get('dashboard.selector.learnMore2')); }
+    get LearnMore2Text() { return $(file.get('dashboard.selector.learnMore2Text')); }
+    get LearnMore3() { return $(file.get('dashboard.selector.learnMore3')); }
+    get LearnMore3Text() { return $(file.get('dashboard.selector.learnMore3Text')); }
+
+    //Social media links card
+    get cardFacebook() { return $(file.get('dashboard.selector.cardFacebook')); }
+    get cardTwitter() { return $(file.get('dashboard.selector.cardTwitter')); }
+    get cardYoutube() { return $(file.get('dashboard.selector.cardYoutube')); }
+    get cardBlog() { return $(file.get('dashboard.selector.cardBlog')); }
+    get cardPuddle() { return $(file.get('dashboard.selector.cardPuddle')); }
 
   }
   

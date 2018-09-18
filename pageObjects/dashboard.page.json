@@ -109,11 +109,12 @@
             "PrivacyPolicyHeadertag": "#dnn_ctr2866_HtmlModule_lblContent > h1 > strong",
 
             "termsOfUse": "//a[text()='Terms of Use']",
-            "facebookFooterLink": "#root > div:nth-child(3) > div.defaultLayout > div.footer-container.fixed > div.footer-block-white > div > div:nth-child(3) > ul > li.facebook > a > i",
-            "twitterFooterLink": "#root > div:nth-child(3) > div.defaultLayout > div.footer-container.fixed > div.footer-block-white > div > div:nth-child(3) > ul > li.twitter > a > i",
-            "youtubeFooterLink": "#root > div:nth-child(3) > div.defaultLayout > div.footer-container.fixed > div.footer-block-white > div > div:nth-child(3) > ul > li.youtube > a > i",
-            "blogFooterLink": "#root > div:nth-child(3) > div.defaultLayout > div.footer-container.fixed > div.footer-block-white > div > div:nth-child(3) > ul > li.blog > a > i",
-            "puddleDuckFooterLink": "#root > div:nth-child(3) > div.defaultLayout > div.footer-container.fixed > div.footer-block-white > div > div:nth-child(3) > ul > li.puddle > a > svg > use",
+            "footerFeedback": "//*[@class='section second-section']//a[text()='Feedback']",
+            "facebookFooterLink": "//i[@class= 'fa fa-facebook-square']",
+            "twitterFooterLink": "//i[@class= 'fa fa-twitter']",
+            "youtubeFooterLink": "//i[@class= 'fa fa-youtube-play']",
+            "blogFooterLink": "//i[@class= 'fa fa-rss']",
+            "puddleDuckFooterLink": "#root > div:nth-child(3) > div.defaultLayout > div:nth-child(3) > div > div.footer-block-white > div > div.section.social-link-section > ul > li.puddle > a > svg > use",
 
             "leakDetectionlink": "//a[text()='Leak Detection Information']",
             "leakDetectionSpanishlink": "//a[text()='Leak Detection Information Spanish']",
@@ -122,7 +123,29 @@
             "accomodationLink": "//a[text()='View our EEO/Accommodation policy']",
             "formLink": "//a[text()='form']",
             "contactusLink": "//a[text()='Contact Us']",
-            "contactUsText": "//h1[text()='Contact us']"
+            "contactUsText": "//h1[text()='Contact us']",
+
+            "serviceAlertsContent": "//li[@class= 'alert-list-item'][1]//p[@class='message']",
+           "serviceAlertsContent2": "//li[@class= 'alert-list-item'][2]//p[@class='message']",
+           "serviceAlertsContent3": "//li[@class= 'alert-list-item'][3]//p[@class='message']",
+
+           "serviceAlertsViewMore": "//a[text()='View more']",
+
+            "alertsPage1": "//*[@id='NotificationDetails']//tr[2]//table//tr[4]",
+            "latestAlerts": "//h2[text()='Latest Alerts']",
+            "learnMore": "//li[@class= 'alert-list-item'][1]//span[text()='Learn More']",
+            "learnMore1Text": "//td[@class= 'alert-body-td']//pre",
+            "learnMore2": "//li[@class= 'alert-list-item'][2]//span[text()='Learn More']",
+            "learnMore2Text": "//td[@class= 'alert-body-td']//pre",
+            "learnMore3": "//li[@class= 'alert-list-item'][3]//div[@class= 'icon-link']",
+            "learnMore3Text": "//td[@class= 'alert-body-td']//pre",
+
+            
+             "cardFacebook":"//div[@class= 'card-footer']//a[@href= 'https://www.facebook.com/caamwater']",
+             "cardTwitter":"//div[@class= 'card-footer']//a[@href= 'https://twitter.com/caamwater']",
+            "cardYoutube":"//div[@class= 'card-footer']//a[@href= 'https://www.youtube.com/user/caamwater']",
+             "cardBlog":"//div[@class= 'card-footer']//a[@href= 'https://waterstreet.blog/']",
+            "cardPuddle":"//div[@class= 'card-footer']//a[@href= 'https://amwater.com/corp/about-us/puddles']"
 
 
         }
