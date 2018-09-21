@@ -131,7 +131,7 @@ class MakePayment {
         let receiptConst = jsonFilter.query(testData, "$..[?(@.loginID=='" + global.loginId + "')].cashRecieptConstant");
 
         let receiptNo = initialNumber + julianDay + amt + receiptConst[0]
-        console.log("Generated cash receipt no: " + receiptNo)
+        console.log("###################################Generated cash receipt no: " + receiptNo)
         return receiptNo
 
     }

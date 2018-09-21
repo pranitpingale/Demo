@@ -65,7 +65,7 @@
             "debitCreditInMakePayment": "//*[@id='root']/div[8]/div[2]/div[3]/div/div[2]/div[4]/div/div/div[3]/div/div/div",
             "cashInMakePayment": "//*[@id='root']/div[8]/div[2]/div[3]/div/div[2]/div[4]/div/div/div[4]/div/div/div",
             "makePaymentLabel": "label[class= 'amw-detailed-card-title']",
-            "autoPayContinueButtonNew": "//a[text()='Continue']",
+            "autoPayContinueButtonNew": "//a[@class='amw-pay-bill-now-button']",
             "messageTitle": "//*[@class='message-list-item'][1]//*[@class='message-block']",
             "messageTitle2": "//*[@class='message-list-item'][2]//*[@class='message-block']",
             "messageTitle3": "//*[@class='message-list-item'][3]//*[@class='message-block']",
@@ -91,7 +91,7 @@
             "CashPaymentssSubMenu": "//li[a[text()='Cash Payments']]",
             "paymentLocationsSubMenu": "//li[a[text()='Payment Locations']]",
             "nearestLocationText": "//p[text()='Find Your Nearest Payment Location']",
-            "zipCodeTextBoxPL":  "input[class= 'amw-input-search-field blackColor']",
+            "zipCodeTextBoxPL":  "//*[contains(@placeholder,'Zip Code')]",
 
             "editProfilePaperlessEnrollmentStat": "//span[text()='Paperless Enrollment']/following-sibling::span/span",
             "editProfilePaperlessEnrollButton": "#paperless button",
@@ -100,7 +100,7 @@
             "makePaymentButton": ".amw-bill-payment-card-button",
             "paymentsDropdownMenu": "//a[text()='Payments']",
             "billingAndPaymentsDropdownMenu": "//a[text()='Billing & Payments']",
-            "makePaymentDropdownMenuItem": "//a[text()='Make Payment']",
+            "makePaymentDropdownMenuItem": "//ul[@id='payment-menus']/li[1]/a",
             "makeAPaymentButton": ".amw-bill-payment-card-button",
 
             "goPaperlessCard": ".amw-go-paperless-card",
