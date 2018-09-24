@@ -18,10 +18,16 @@
             "args":[
                 "", "${workspaceRoot}/wdio.debug.conf.js",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "--spec", "${workspaceRoot}/features/footerLink/footerLink.feature"
 =======
                 "--spec", "${workspaceRoot}/features/editProfile1/allEdit.feature"
 >>>>>>> 815321cd7193d6b5dd9441cce906cd1b58bcb845
+=======
+
+                "--spec", "${relativeFile}"
+
+>>>>>>> c4823abbdd36726471741342e6e7e3328324294a
                 ]
         
             }

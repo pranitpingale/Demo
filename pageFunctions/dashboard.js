@@ -300,7 +300,65 @@ class dashboardLib {
     }
 
    
+    navigateToDashboardAfterAutoPayUnEnroll(){
+        
+        //commonLib.waitForElementExistWithoutException(dashboardPage.loadingSpinner, 30000)
+        //dashboardLib.navigateToEditUserProfilePage()
+
+        dashboardPage.editProfileautopayenrollbutton.waitForExist(10000)
+        commonLib.scrollToScreenBottom()
+
+        console.log("Status of AutoPay enrollment: " + dashboardPage.editProfileautopayenrollbutton.getText())
+
+        if (dashboardPage.editProfileautopayenrollbutton.getText() === "Change") {
+            
+            console.log("AutoPay enrollment is active. Attempting to deactivate")
+            dashboardPage.editProfileautopayenrollbutton.click()
+            dashboardPage.cancelautopayradiobutton.waitForExist(10000)
+            console.log("##########################e")
+            this.cancelautoPayenrollment()
+            this.closeAutoPaySuccessWindow()
+            console.log("AutoPay enrollment cancelled successfully!") 
+        }
+         console.log("User is not enrolled for AutoPay")
+        browser.back()
+        commonLib.scrolToScreenTop()
+        browser.pause(3000)
+
+    }
+
+
+    cancelautoPayenrollment(){
+
+        dashboardPage.cancelautopayradiobutton.waitForExist(10000)
+        commonLib.clickButtonByQuerySelector(file.get('dashboard.selector.cancelautopayradiobutton'))
+        dashboardPage.nextbutton.getLocationInView()
+        dashboardPage.nextbutton.click()
+        dashboardPage.autopayCheckbox.click()
+        browser.waitForExist(".ant-checkbox.ant-checkbox-checked",5000)
+        dashboardPage.nextbutton.getLocationInView()
+        dashboardPage.nextbutton.click()
+        
+    }
+
+    closeAutoPaySuccessWindow(){
+
+        dashboardPage.xicon.waitForExist(5000)
+        dashboardPage.xicon.getLocationInView()
+        commonLib.clickButtonByQuerySelector(file.get('dashboard.selector.xicon'))
+        dashboardPage.xicon.waitForExist(5000, true)
+    }
+
     gotoEditProfilePaperlessEnrollmentSection(){
+
+        dashboardPage.editProfileautopayenrollbutton.waitForExist(10000)
+        commonLib.scrollToScreenBottom()
+
+        console.log("Status of AutoPay enrollment: " + dashboardPage.editProfileautopayenrollbutton.getText())
+
+    }
+
+       gotoEditProfileAutoPayEnrollmentSection(){
 
         dashboardPage.editProfilePaperlessEnrollButton.waitForExist(10000)
         commonLib.scrollToScreenBottom()

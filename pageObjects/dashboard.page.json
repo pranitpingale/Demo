@@ -29,14 +29,32 @@
             "headerPaymentMenu": ".aw-menu-link[data-target='#payment-menus']",
             "usageOverviewSubMenu": "//li[a[text()='Usage Overview']]",
             "usageProjectionSubMenu": "//li[a[text()='Usage Projection']]",
-            "conservationTipsSubMenu": "//li[a[text()='Conservation Tips']]",
+            "conservationTipsSubMenu": "//ul[@id='usage-menu']/li[3]/a",
             "makePaymentssSubMenu": "//li[a[text()='Make Payment']]",
             "usageOverviewText": "//h2[text()='Usage Overview']",
             "usageProjectionText": "//*[@class='title' and contains(text(), 'Usage Projection')]",
             "conservationTipsText": "//h2[text()='Conservation Tips']",
-            "paperlessText": "label[class= 'amw-paperless-card-title']",
+            "paperlessText": "//*[@class='amw-paperless-card-container']//*[@class='amw-paperless-card-title']",
+            "autoPayText": "//*[@class='amw-autopay-card-autopay']",
+            "editProfileautopayenrollbutton":"#autopay button",
+
+            
+            "autoPayCard": ".amw-autopay-card-right-container",
+
+            "autoPayEnrollmentWindow": ".amw-autopay-page-title.blackColor",
+            "routingNumber":"#bankRoutingNumber",
+            "bankAcctNumber":"#bankAccountNumber",
+            "confirmbankAcctNumber":"#confirmBankAccountNumber",
+            "autopayCheckbox":".amw-autopay-checkbox",
+            "nextbutton":".ant-btn.amw-bill-payment-modal-button-action.ant-btn-lg",
+            "confirmEnrollmentinformation":".blackColor",
+            "autopaysuccessmsgTitle":".amw-autopay-success-page",
+            "autopaysuccessmsg":".//p[@class='blackColor']",
+            "xicon":".amw-bill-payment-close-icon",           
+            "cancelautopayradiobutton":".ant-radio-input",
+
             "highlightOverlay": "div[class= 'overlay highlight']",
-            "profileClose":  "span[class= 'icon-close']",
+            "profileClose":  "//div[@class='close']/a/button",
             "nextArrowCT": "button[class= 'slick-arrow slick-next']",
             "gallonsAmonthText": ".slick-slide[data-index='2'] span[text()='gallons a month']",
             "tipTitle": "//*[@id='conservationTips']/div/div/div[2]/div/div/div/div[2]/div/div/h3",
@@ -49,6 +67,9 @@
             "makePaymentLabel": "label[class= 'amw-detailed-card-title']",
             "autoPayContinueButtonNew": "//a[text()='Continue']",
             "messageTitle": "//*[@class='message-list-item'][1]//*[@class='message-block']",
+            "messageTitle2": "//*[@class='message-list-item'][2]//*[@class='message-block']",
+            "messageTitle3": "//*[@class='message-list-item'][3]//*[@class='message-block']",
+
             "messageIcon": "//*[@class='icon-block']//*[@class='icon-message']",
 
             "alertTitle1": "//*[@class='message-list-item'][1]//*[@class='message-block']",
@@ -77,7 +98,6 @@
 
             "servicePeriodLabel": ".amw-bill-period",
             "makePaymentButton": ".amw-bill-payment-card-button",
-            "autoPayContinueButton": ".amw-pay-bill-now-button",
             "paymentsDropdownMenu": "//a[text()='Payments']",
             "billingAndPaymentsDropdownMenu": "//a[text()='Billing & Payments']",
             "makePaymentDropdownMenuItem": "//a[text()='Make Payment']",
