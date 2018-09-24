@@ -1,5 +1,5 @@
 @am_NavyFooter
-Feature: Navy Footer page links redirection in new tab
+Feature: Navy Footer links redirection in new tab
 
     Scenario: verify user able to open Navy Footer Links in new tab link in new browser tab
         When user clicks on Leak Detection Information link in Footer

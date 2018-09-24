@@ -1,5 +1,5 @@
 @am_serviceAlerts
-Feature: Dashboard service alerts verfication
+Feature: Service alerts content and link verfication
 
 Scenario: verify user able to validate service alerts
 When user fetched content and date month from service alerts
