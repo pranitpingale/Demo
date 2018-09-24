@@ -9,10 +9,6 @@
    </parameter>
    <parameter>
        <key>Host</key>
-<<<<<<< HEAD
        <value>ENTPWHOSS003</value>
-=======
-       <value>ENTPWHOSS007</value>
->>>>>>> c4823abbdd36726471741342e6e7e3328324294a
    </parameter>
 </environment>
