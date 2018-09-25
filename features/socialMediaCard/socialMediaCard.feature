@@ -1,5 +1,5 @@
 @am_mediaCard
-Feature: Validate social media links on Marketing card
+Feature: Social Media Marketing card all links verification
 
     Scenario: Verify user is able to click and verify all social media link on marketing cards
     When user click on Facebook link on media cards
