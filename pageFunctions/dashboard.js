@@ -137,6 +137,7 @@ class dashboardLib {
         browser.moveTo(conservationTipsSMenu,0,60)
         //dashboardPage.headerusageMenu.click()
         console.log("conservation tips menu found")
+        dashboardPage.conservationTipsSubMenu.waitForExist(2000)
         dashboardPage.conservationTipsSubMenu.click()
         console.log("conservation tips sub menu click")
         //dashboardPage.conservationTipsSubMenu.waitForExist(10000)
