@@ -94,8 +94,8 @@ Then(/^user changes the alert settings & confirms alert settings changed success
 Then(/^user changes the address & confirms address changed successfully with message$/, function () {
 
 //scroll down page till change button to change address is visible
-browser.pause(2000)
-browser.moveToObject('//*[@id="CustomerAddress"]/div/div[2]/div/div[2]/div/button',0,890);
+browser.pause(3000)
+browser.moveToObject('//*//div[@id="CustomerAddress"]//div[@class="edit"]',0,920);
 browser.pause(2000)
 
 //click on change button

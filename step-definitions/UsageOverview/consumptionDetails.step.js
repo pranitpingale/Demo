@@ -78,9 +78,9 @@ downloadButton.click()
 browser.pause(100)
 
 //PDF Button
-var pdfButton = $('//*[contains(text(),"Download PDF")]/parent::button')
-pdfButton.click()
-browser.pause(10000)
+// var pdfButton = $('//*[contains(text(),"Download PDF")]/parent::button')
+// pdfButton.click()
+// browser.pause(10000)
 
 });
 
