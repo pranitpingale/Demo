@@ -42,7 +42,7 @@ browser.pause(4000)
 //enter numbers in primary phone field
 browser.moveToObject('#primaryPhone',0,600)
 var primaryphone1 = $('#primaryPhone')
-browser.setValue('#primaryPhone', '1234567644');
+browser.setValue('#primaryPhone', '1234567646');
 browser.pause(2000)
 //click on the checkbox
 // browser.moveToObject('#primaryPhone',0,900)
@@ -50,12 +50,12 @@ browser.pause(2000)
 //dynamic xpath of checkboxes : change indexes to 2 or 3 as required
 // var checkboxNonurgent1 = $('//*[contains(text(),"Email")]/ancestor::*[@class="section"]//*[@class="check"][1]/button')
 // checkboxNonurgent1.click()
-browser.pause(3000)
-
+browser.pause(1000)
+browser.moveToObject('//input[@id="primaryEmail"]',0,600)
 var primaryEmail = $('//input[@id="primaryEmail"]')
 primaryEmail.clearElement()
 browser.setValue('//input[@id="primaryEmail"]', 'pranit.pingale@accionlabs.com');
-browser.pause(3000)
+browser.pause(4000)
 var confPrimaryEmail = $('//input[@id="primaryConfirmEmail"]')
 confPrimaryEmail.clearElement()
 browser.setValue('//input[@id="primaryConfirmEmail"]', 'pranit.pingale@accionlabs.com');
@@ -209,6 +209,7 @@ browser.pause(1000)
 var secAccPhone = $('//*[@id="phone"]')
 browser.setValue('//*[@id="phone"]', '1234563890');
 browser.pause(2000)
+browser.moveToObject('#acknowledge',0,900)
 var secAccCheckBox = $('#acknowledge')
 secAccCheckBox.click()
 
