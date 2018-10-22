@@ -134,7 +134,7 @@
             "twitterFooterLink": "//i[@class= 'fa fa-twitter']",
             "youtubeFooterLink": "//i[@class= 'fa fa-youtube-play']",
             "blogFooterLink": "//i[@class= 'fa fa-rss']",
-            "puddleDuckFooterLink": "#root > div:nth-child(3) > div.defaultLayout > div:nth-child(3) > div > div.footer-block-white > div > div.section.social-link-section > ul > li.puddle > a > svg > use",
+            "puddleDuckFooterLink": "//*[@class='puddle']//a",
 
             "leakDetectionlink": "//a[text()='Leak Detection Information']",
             "leakDetectionSpanishlink": "//a[text()='Leak Detection Information Spanish']",
@@ -161,11 +161,11 @@
             "learnMore3Text": "//td[@class= 'alert-body-td']//pre",
 
             
-             "cardFacebook":"//div[@class= 'card-footer']//a[@href= 'https://www.facebook.com/caamwater']",
-             "cardTwitter":"//div[@class= 'card-footer']//a[@href= 'https://twitter.com/caamwater']",
-            "cardYoutube":"//div[@class= 'card-footer']//a[@href= 'https://www.youtube.com/user/caamwater']",
-             "cardBlog":"//div[@class= 'card-footer']//a[@href= 'https://waterstreet.blog/']",
-            "cardPuddle":"//div[@class= 'card-footer']//a[@href= 'https://amwater.com/corp/about-us/puddles']"
+             "cardFacebook":"//div[@class= 'card-footer']//*[contains(@href,'facebook')]",
+             "cardTwitter":"//div[@class= 'card-footer']//*[contains(@href,'twitter')]",
+            "cardYoutube":"//div[@class= 'card-footer']//*[contains(@href,'youtube')]",
+             "cardBlog":"//div[@class= 'card-footer']//*[contains(@href,'blog')]",
+            "cardPuddle":"//div[@class= 'card-footer']//*[contains(@href,'puddle')]"
 
 
         }

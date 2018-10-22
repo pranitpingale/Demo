@@ -245,13 +245,11 @@ validateBlogPage(){
              
 
 }
-
-
 //Puddle Duck navigation
 navigateToFooterPuddleDuck(){
 
     commonLib.scrollToScreenBottom()
-    dashboardPage.PuddleDuckFooterink.waitForExist(50000)
+    dashboardPage.PuddleDuckFooterink.waitForExist(30000)
     console.log(dashboardPage.PuddleDuckFooterink.isExisting());
     commonLib.clickElement(dashboardPage.PuddleDuckFooterink)
 

@@ -148,15 +148,15 @@ When(/^user clicks on Facebook link in Footer$/, function () {
         
 });
 
-Then(/^user validate Facebook link with page title \"([^\"]*)\"$/, function (expMessage) {
+// Then(/^user validate Facebook link with page title \"([^\"]*)\"$/, function (expMessage) {
 
-    commonLib.switchWindowTab()
-    var facebookheaderText = commonLib.getElementText(footerLinkPage.FacebookVisibleText)
-    console.log(facebookheaderText);
-    commonLib.assertElementText(footerLinkPage.FacebookVisibleText, expMessage)
+//     commonLib.switchWindowTab()
+//     var facebookheaderText = commonLib.getElementText(footerLinkPage.FacebookVisibleText)
+//     console.log(facebookheaderText);
+//     commonLib.assertElementText(footerLinkPage.FacebookVisibleText, expMessage)
     
     
-});
+// });
 
 Then(/^Facebook link is successfully redirecting to Facebook by validating page url$/, function () {
 
@@ -171,15 +171,15 @@ When(/^user clicks on Twitter link in Footer$/, function () {
         
 });
 
-Then(/^user validate Twitter link with page \"([^\"]*)\"$/, function (expMessage) {
+// Then(/^user validate Twitter link with page \"([^\"]*)\"$/, function (expMessage) {
 
-    commonLib.switchWindowTab()
-    var twitterkheaderText = commonLib.getElementText(footerLinkPage.TwitterVisibleText)
-    console.log(twitterkheaderText);
-    commonLib.assertElementText(footerLinkPage.TwitterVisibleText, expMessage)
+//     commonLib.switchWindowTab()
+//     var twitterkheaderText = commonLib.getElementText(footerLinkPage.TwitterVisibleText)
+//     console.log(twitterkheaderText);
+//     commonLib.assertElementText(footerLinkPage.TwitterVisibleText, expMessage)
     
     
-});
+// });
 
 Then(/^Twitter link is successfully redirecting to Twitter by validating page url$/, function () {
 
@@ -194,15 +194,15 @@ When(/^user clicks on Youtube link in Footer$/, function () {
         
 });
 
-Then(/^user validate Youtube link with page \"([^\"]*)\"$/, function (expMessage) {
+// Then(/^user validate Youtube link with page \"([^\"]*)\"$/, function (expMessage) {
 
-    commonLib.switchWindowTab()
-    var youtubekheaderText = commonLib.getElementText(footerLinkPage.YoutubeVisibleText)
-    console.log(youtubekheaderText);
-    commonLib.assertElementText(footerLinkPage.YoutubeVisibleText, expMessage)
+//     commonLib.switchWindowTab()
+//     var youtubekheaderText = commonLib.getElementText(footerLinkPage.YoutubeVisibleText)
+//     console.log(youtubekheaderText);
+//     commonLib.assertElementText(footerLinkPage.YoutubeVisibleText, expMessage)
     
     
-});
+// });
 
 Then(/^Youtube link is successfully redirecting to Youtube Page by validating page url$/, function () {
 
@@ -230,15 +230,15 @@ When(/^user clicks on PuddleDuck link in Footer$/, function () {
         
 });
 
-Then(/^user validate PuddleDuck link with page \"([^\"]*)\"$/, function (expMessage) {
+// Then(/^user validate PuddleDuck link with page \"([^\"]*)\"$/, function (expMessage) {
 
-    commonLib.switchWindowTab()
-    var puddleDuckkheaderText = commonLib.getElementText(footerLinkPage.PuddleDuckVisibleText)
-    console.log(puddleDuckkheaderText);
-    commonLib.assertElementText(footerLinkPage.PuddleDuckVisibleText, expMessage)
+//     commonLib.switchWindowTab()
+//     var puddleDuckkheaderText = commonLib.getElementText(footerLinkPage.PuddleDuckVisibleText)
+//     console.log(puddleDuckkheaderText);
+//     commonLib.assertElementText(footerLinkPage.PuddleDuckVisibleText, expMessage)
     
     
-});
+// });
 
 Then(/^PuddleDuck link is successfully redirecting to PuddleDuck Page by validating page url$/, function () {
 

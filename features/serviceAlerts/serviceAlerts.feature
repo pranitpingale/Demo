@@ -6,4 +6,3 @@ When user fetched content and date month from service alerts
 Then user click on View More link
 Then user validate alerts page by validating page title 
 And by validating content text "Latest Alerts"
-
