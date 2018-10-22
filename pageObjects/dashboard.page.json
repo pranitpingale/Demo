@@ -115,7 +115,7 @@
             "modalWindowCloseButton": ".amw-bill-payment-close-icon",
             "makePaymentCloseModalView": "//*[@id='root']/div[8]/div[2]/div[3]/div/div[2]/div[1]/a/img",
 
-            "autopayContinueButton": ".amw-pay-bill-now-button",
+            "autopayContinueButton": "//a[@class='amw-pay-bill-now-button']",
 
             "servicesRequestCard": "//h2[text()='Service Request']//following-sibling::div[@class='amw-bill-card']",
             "serviceRequestDescription": "p[class= 'amw-service-request-text']",

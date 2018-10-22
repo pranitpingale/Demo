@@ -66,7 +66,7 @@ When(/^user click on Conservation Tips to verfiy detailed content$/, function ()
 
 Then(/^user navigates to each conservation tips and verify the content for each tips$/, function () {
 
-
+    browser.pause(2000)
     dashboardPage.tipSummary.waitForExist(2000)
     commonLib.assertValue(true, dashboardPage.tipSummary.isExisting()) 
     commonLib.assertValue(true, dashboardPage.tipSummary.isExisting())    
