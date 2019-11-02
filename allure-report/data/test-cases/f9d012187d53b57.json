@@ -1,0 +1,151 @@
+{
+  "uid" : "f9d012187d53b57",
+  "name" : "User can check the redirection to usage projection card from the header menu",
+  "fullName" : "A registered user can open different menu and submenu.User can check the redirection to usage projection card from the header menu",
+  "historyId" : "45d3d20a146be84bc6c7006427c9c811",
+  "time" : {
+    "start" : 1570874745103,
+    "stop" : 1570874767965,
+    "duration" : 22862
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "again user navigates to usage menu header menu present in dashboard",
+      "time" : {
+        "start" : 1570874758162,
+        "stop" : 1570874760567,
+        "duration" : 2405
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "60cd792a041af110",
+        "name" : "Screenshot",
+        "source" : "60cd792a041af110.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user click on usage projection sub menu",
+      "time" : {
+        "start" : 1570874760568,
+        "stop" : 1570874762972,
+        "duration" : 2404
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9db30d7e995883a4",
+        "name" : "Screenshot",
+        "source" : "9db30d7e995883a4.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "usage projection card is displayed in focus with a label as \"Usage Projection\"",
+      "time" : {
+        "start" : 1570874762972,
+        "stop" : 1570874765381,
+        "duration" : 2409
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bd6e31b8770fa1d6",
+        "name" : "Screenshot",
+        "source" : "bd6e31b8770fa1d6.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8572751a182129e2",
+      "name" : "Screenshot",
+      "source" : "8572751a182129e2.png",
+      "type" : "image/png",
+      "size" : 191159
+    }, {
+      "uid" : "11f108b30a1cbec9",
+      "name" : "Screenshot",
+      "source" : "11f108b30a1cbec9.png",
+      "type" : "image/png",
+      "size" : 191159
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check the redirection to usage projection card from the header menu"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f9d012187d53b57.json",
+  "parameterValues" : [ "chrome" ]
+}

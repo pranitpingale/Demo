@@ -1,0 +1,382 @@
+{
+  "uid" : "aa0f80b5267e54d0",
+  "name" : "verify user able to open Navy Footer Links in new tab link in new browser tab",
+  "fullName" : "Navy Footer links redirection in new tab.verify user able to open Navy Footer Links in new tab link in new browser tab",
+  "historyId" : "2ab5262e1d10d0801ae20150bde3d0d2",
+  "time" : {
+    "start" : 1570874755652,
+    "stop" : 1570874806943,
+    "duration" : 51291
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user clicks on Leak Detection Information link in Footer",
+      "time" : {
+        "start" : 1570874769143,
+        "stop" : 1570874771739,
+        "duration" : 2596
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3dc128f3134e35e4",
+        "name" : "Screenshot",
+        "source" : "3dc128f3134e35e4.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "validate Leak Detection Information link is successfully redirecting to Leak Detection Information page by verifying url",
+      "time" : {
+        "start" : 1570874771739,
+        "stop" : 1570874774344,
+        "duration" : 2605
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ff3d95a8992656dc",
+        "name" : "Screenshot",
+        "source" : "ff3d95a8992656dc.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user click on Leak Detection Information Spanish link in Footer",
+      "time" : {
+        "start" : 1570874774344,
+        "stop" : 1570874776894,
+        "duration" : 2550
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "543813aedda43889",
+        "name" : "Screenshot",
+        "source" : "543813aedda43889.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "validate Leak Detection Information Spanish link is successfully redirecting to Leak Detection Information page by verifying url",
+      "time" : {
+        "start" : 1570874776894,
+        "stop" : 1570874779420,
+        "duration" : 2526
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7c31476d5961cdb0",
+        "name" : "Screenshot",
+        "source" : "7c31476d5961cdb0.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user click on bill calculator link in Navy Footer",
+      "time" : {
+        "start" : 1570874779420,
+        "stop" : 1570874781935,
+        "duration" : 2515
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9b9b6f00c35db33e",
+        "name" : "Screenshot",
+        "source" : "9b9b6f00c35db33e.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user validate Bill calculator page with page title \"CUSTOMER BILL CALCULATOR\"",
+      "time" : {
+        "start" : 1570874781935,
+        "stop" : 1570874784471,
+        "duration" : 2536
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eec5381161c84ca9",
+        "name" : "Screenshot",
+        "source" : "eec5381161c84ca9.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "validate Bill Calculator link is successfully redirecting to Bill Calculator page by verifying url",
+      "time" : {
+        "start" : 1570874784472,
+        "stop" : 1570874786953,
+        "duration" : 2481
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "68269f35f19dfae0",
+        "name" : "Screenshot",
+        "source" : "68269f35f19dfae0.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user click on Search for openings link",
+      "time" : {
+        "start" : 1570874786953,
+        "stop" : 1570874789498,
+        "duration" : 2545
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ac5793fff37718c7",
+        "name" : "Screenshot",
+        "source" : "ac5793fff37718c7.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "validate the career opening page with text \"Career Opportunities\"",
+      "time" : {
+        "start" : 1570874789502,
+        "stop" : 1570874791898,
+        "duration" : 2396
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c3de89fcb51519e",
+        "name" : "Screenshot",
+        "source" : "1c3de89fcb51519e.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "validate Career opening page by verifying url",
+      "time" : {
+        "start" : 1570874791899,
+        "stop" : 1570874794391,
+        "duration" : 2492
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c0d3ae1506f12026",
+        "name" : "Screenshot",
+        "source" : "c0d3ae1506f12026.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user click on view Accomadation Policy",
+      "time" : {
+        "start" : 1570874794393,
+        "stop" : 1570874796917,
+        "duration" : 2524
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8a84d906917356d3",
+        "name" : "Screenshot",
+        "source" : "8a84d906917356d3.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user validate accomodation page with text \"ACCOMMODATIONS\"",
+      "time" : {
+        "start" : 1570874796918,
+        "stop" : 1570874799385,
+        "duration" : 2467
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db12464c0b20746b",
+        "name" : "Screenshot",
+        "source" : "db12464c0b20746b.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "verify accomodation page by validating url",
+      "time" : {
+        "start" : 1570874799386,
+        "stop" : 1570874801811,
+        "duration" : 2425
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "503b85691dbfc293",
+        "name" : "Screenshot",
+        "source" : "503b85691dbfc293.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user click on Adjustment Request form",
+      "time" : {
+        "start" : 1570874801812,
+        "stop" : 1570874804313,
+        "duration" : 2501
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "37e04f25e8c3814e",
+        "name" : "Screenshot",
+        "source" : "37e04f25e8c3814e.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "38999c378fcb24fa",
+      "name" : "Screenshot",
+      "source" : "38999c378fcb24fa.png",
+      "type" : "image/png",
+      "size" : 191159
+    }, {
+      "uid" : "2e8c64b1afcaea8a",
+      "name" : "Screenshot",
+      "source" : "2e8c64b1afcaea8a.png",
+      "type" : "image/png",
+      "size" : 191212
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "hasContent" : true,
+    "attachmentsCount" : 16,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Navy Footer links redirection in new tab"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Navy Footer links redirection in new tab"
+  }, {
+    "name" : "testClass",
+    "value" : "Navy Footer links redirection in new tab"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify user able to open Navy Footer Links in new tab link in new browser tab"
+  }, {
+    "name" : "package",
+    "value" : "Navy Footer links redirection in new tab"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "aa0f80b5267e54d0.json",
+  "parameterValues" : [ "chrome" ]
+}

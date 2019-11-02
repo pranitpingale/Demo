@@ -1,0 +1,214 @@
+{
+  "uid" : "4130c8bea8f1b194",
+  "name" : "user can see projected gallons from usage projection card",
+  "fullName" : "User navigates to Usage projection card and verifies the data..user can see projected gallons from usage projection card",
+  "historyId" : "f2a881cd2a89f31da4b355dc4ba64fdd",
+  "time" : {
+    "start" : 1570874902754,
+    "stop" : 1570874934143,
+    "duration" : 31389
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user navigates to usage projection card",
+      "time" : {
+        "start" : 1570874916289,
+        "stop" : 1570874918673,
+        "duration" : 2384
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5976ba902eec9cf6",
+        "name" : "Screenshot",
+        "source" : "5976ba902eec9cf6.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user navigates to usage projection",
+      "time" : {
+        "start" : 1570874918673,
+        "stop" : 1570874921075,
+        "duration" : 2402
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "571b5deaeedccd9",
+        "name" : "Screenshot",
+        "source" : "571b5deaeedccd9.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user view projected gallons",
+      "time" : {
+        "start" : 1570874921075,
+        "stop" : 1570874923678,
+        "duration" : 2603
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9459475dffe54679",
+        "name" : "Screenshot",
+        "source" : "9459475dffe54679.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user view current month projection",
+      "time" : {
+        "start" : 1570874923678,
+        "stop" : 1570874926272,
+        "duration" : 2594
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "875b13b08d53dbbc",
+        "name" : "Screenshot",
+        "source" : "875b13b08d53dbbc.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user view days left",
+      "time" : {
+        "start" : 1570874926272,
+        "stop" : 1570874928832,
+        "duration" : 2560
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "35dd0e235ab005c0",
+        "name" : "Screenshot",
+        "source" : "35dd0e235ab005c0.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user view service period",
+      "time" : {
+        "start" : 1570874928832,
+        "stop" : 1570874931411,
+        "duration" : 2579
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b9c2ae4b2b877a2e",
+        "name" : "Screenshot",
+        "source" : "b9c2ae4b2b877a2e.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "91038bec32657a39",
+      "name" : "Screenshot",
+      "source" : "91038bec32657a39.png",
+      "type" : "image/png",
+      "size" : 191159
+    }, {
+      "uid" : "9d31aa138f54a419",
+      "name" : "Screenshot",
+      "source" : "9d31aa138f54a419.png",
+      "type" : "image/png",
+      "size" : 191159
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User navigates to Usage projection card and verifies the data."
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "User navigates to Usage projection card and verifies the data."
+  }, {
+    "name" : "testClass",
+    "value" : "User navigates to Usage projection card and verifies the data."
+  }, {
+    "name" : "testMethod",
+    "value" : "user can see projected gallons from usage projection card"
+  }, {
+    "name" : "package",
+    "value" : "User navigates to Usage projection card and verifies the data."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4130c8bea8f1b194.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,193 @@
+{
+  "uid" : "9f1efe952c2780a1",
+  "name" : "verify service information is attached and opens in billing and payments table",
+  "fullName" : "Biliing and Payment history.verify service information is attached and opens in billing and payments table",
+  "historyId" : "aa8ff40286f6972a01928bba0897c1cf",
+  "time" : {
+    "start" : 1570874535407,
+    "stop" : 1570874563252,
+    "duration" : 27845
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user navigates to Billing and Payments page",
+      "time" : {
+        "start" : 1570874548274,
+        "stop" : 1570874550809,
+        "duration" : 2535
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f815c23d9610c001",
+        "name" : "Screenshot",
+        "source" : "f815c23d9610c001.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user clicks on the service link under column IMPORTANT INFORMATION",
+      "time" : {
+        "start" : 1570874550810,
+        "stop" : 1570874553306,
+        "duration" : 2496
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e15c1ca2b2cda84f",
+        "name" : "Screenshot",
+        "source" : "e15c1ca2b2cda84f.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "information is displayed in a new tab",
+      "time" : {
+        "start" : 1570874553306,
+        "stop" : 1570874555831,
+        "duration" : 2525
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dcaa5cafca60d70f",
+        "name" : "Screenshot",
+        "source" : "dcaa5cafca60d70f.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "new tab contains information as pdf",
+      "time" : {
+        "start" : 1570874555874,
+        "stop" : 1570874558376,
+        "duration" : 2502
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e705dfa335f1b0e9",
+        "name" : "Screenshot",
+        "source" : "e705dfa335f1b0e9.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user closes new tab",
+      "time" : {
+        "start" : 1570874558377,
+        "stop" : 1570874560774,
+        "duration" : 2397
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1bac6e6005824d",
+        "name" : "Screenshot",
+        "source" : "1bac6e6005824d.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "402a7d6d14e27cf9",
+      "name" : "Screenshot",
+      "source" : "402a7d6d14e27cf9.png",
+      "type" : "image/png",
+      "size" : 191159
+    }, {
+      "uid" : "1826fab0e3f767cc",
+      "name" : "Screenshot",
+      "source" : "1826fab0e3f767cc.png",
+      "type" : "image/png",
+      "size" : 191159
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "testClass",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify service information is attached and opens in billing and payments table"
+  }, {
+    "name" : "package",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9f1efe952c2780a1.json",
+  "parameterValues" : [ "chrome" ]
+}

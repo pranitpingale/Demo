@@ -1,0 +1,10 @@
+[ {
+  "values" : [ "chrome" ],
+  "name" : "Browser(s)"
+}, {
+  "values" : [ "LAPTOP-9HK56A1O" ],
+  "name" : "Host"
+}, {
+  "values" : [ "Windows 10" ],
+  "name" : "Operating System"
+} ]

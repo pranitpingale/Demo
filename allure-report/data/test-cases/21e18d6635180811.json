@@ -1,0 +1,151 @@
+{
+  "uid" : "21e18d6635180811",
+  "name" : "User has an option to Update AutoPay information",
+  "fullName" : "AutoPay enrollment.User has an option to Update AutoPay information",
+  "historyId" : "1a856877946b4e7daec07b39bff8bc0f",
+  "time" : {
+    "start" : 1570874432334,
+    "stop" : 1570874455552,
+    "duration" : 23218
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user is enrolled for AutoPay to update information",
+      "time" : {
+        "start" : 1570874445307,
+        "stop" : 1570874447822,
+        "duration" : 2515
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "711bf5f1051a5589",
+        "name" : "Screenshot",
+        "source" : "711bf5f1051a5589.png",
+        "type" : "image/png",
+        "size" : 191467
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user updates AutoPay enrollment and gets the message \"You successfully enrolled in Auto Pay! You will receive a confirmation email shortly.\"",
+      "time" : {
+        "start" : 1570874447825,
+        "stop" : 1570874450334,
+        "duration" : 2509
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3a6488f41d63982d",
+        "name" : "Screenshot",
+        "source" : "3a6488f41d63982d.png",
+        "type" : "image/png",
+        "size" : 191467
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user closes success message dialog and AutoPay card is displayed with updated Information",
+      "time" : {
+        "start" : 1570874450336,
+        "stop" : 1570874452895,
+        "duration" : 2559
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "51e5ef7bd9175a67",
+        "name" : "Screenshot",
+        "source" : "51e5ef7bd9175a67.png",
+        "type" : "image/png",
+        "size" : 191416
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ad23dbbc28c50f4",
+      "name" : "Screenshot",
+      "source" : "ad23dbbc28c50f4.png",
+      "type" : "image/png",
+      "size" : 191416
+    }, {
+      "uid" : "e316076cf4b2fddf",
+      "name" : "Screenshot",
+      "source" : "e316076cf4b2fddf.png",
+      "type" : "image/png",
+      "size" : 191467
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "AutoPay enrollment"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "AutoPay enrollment"
+  }, {
+    "name" : "testClass",
+    "value" : "AutoPay enrollment"
+  }, {
+    "name" : "testMethod",
+    "value" : "User has an option to Update AutoPay information"
+  }, {
+    "name" : "package",
+    "value" : "AutoPay enrollment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "21e18d6635180811.json",
+  "parameterValues" : [ "chrome" ]
+}

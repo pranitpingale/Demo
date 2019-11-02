@@ -1,0 +1,151 @@
+{
+  "uid" : "21afdcf4dace8e49",
+  "name" : "paperless card should be displayed if paperless is not enrolled for the user",
+  "fullName" : "Paperless billing in dashboard.paperless card should be displayed if paperless is not enrolled for the user",
+  "historyId" : "b4a7a350b0913df5e92090022f0c0e83",
+  "time" : {
+    "start" : 1570874796368,
+    "stop" : 1570874820082,
+    "duration" : 23714
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user navigates to Edit User Profile page",
+      "time" : {
+        "start" : 1570874809816,
+        "stop" : 1570874812359,
+        "duration" : 2543
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3ea0f14fd1b05871",
+        "name" : "Screenshot",
+        "source" : "3ea0f14fd1b05871.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user navigates to the paperless enrollment section",
+      "time" : {
+        "start" : 1570874812359,
+        "stop" : 1570874815003,
+        "duration" : 2644
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8eff8a9080e12e83",
+        "name" : "Screenshot",
+        "source" : "8eff8a9080e12e83.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "unsubscribe paperless if it is subscribed and navigate to dashboard \"Go Paperless\"",
+      "time" : {
+        "start" : 1570874815003,
+        "stop" : 1570874817629,
+        "duration" : 2626
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "29623a202d091cd8",
+        "name" : "Screenshot",
+        "source" : "29623a202d091cd8.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "1bbbb1c90b88a71",
+      "name" : "Screenshot",
+      "source" : "1bbbb1c90b88a71.png",
+      "type" : "image/png",
+      "size" : 191159
+    }, {
+      "uid" : "9b307052a1069e27",
+      "name" : "Screenshot",
+      "source" : "9b307052a1069e27.png",
+      "type" : "image/png",
+      "size" : 191212
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Paperless billing in dashboard"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Paperless billing in dashboard"
+  }, {
+    "name" : "testClass",
+    "value" : "Paperless billing in dashboard"
+  }, {
+    "name" : "testMethod",
+    "value" : "paperless card should be displayed if paperless is not enrolled for the user"
+  }, {
+    "name" : "package",
+    "value" : "Paperless billing in dashboard"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "21afdcf4dace8e49.json",
+  "parameterValues" : [ "chrome" ]
+}

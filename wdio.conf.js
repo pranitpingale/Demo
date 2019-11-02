@@ -60,7 +60,7 @@ exports.config = {
             // maxInstances can get overwritten per capability. So if you have an in-house Selenium
             // grid with only 5 firefox instances available you can make sure that not more than
             // 5 instances get started at a time.
-            maxInstances: 5,
+            maxInstances: 3,
             //
             browserName:'chrome',
             acceptSslCerts: true,
@@ -115,7 +115,7 @@ exports.config = {
     //
     //
     //*************************************** QA URL *********************************************** //
-    baseUrl: 'https://hsynlwsss101.amwaternp.net:8443/selfservice-web/login.do',
+    baseUrl: 'https://google.com',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 120000,
@@ -149,7 +149,7 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['selenium-standalone', 'firefox-profile', 'iedriver'],
+    services: ['selenium-standalone', 'firefox-profile'],
 
     firefoxProfile: {
         

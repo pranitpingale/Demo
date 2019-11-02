@@ -1,0 +1,172 @@
+{
+  "uid" : "9173532166df107e",
+  "name" : "user can unenroll from paperless billing enrollment",
+  "fullName" : "Paperless billing enrollment.user can unenroll from paperless billing enrollment",
+  "historyId" : "f9f1f6d7bbad9e423ace3d1ce9558426",
+  "time" : {
+    "start" : 1570874587532,
+    "stop" : 1570874613576,
+    "duration" : 26044
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user navigates to Edit User Profile page and clicks on Unenroll button",
+      "time" : {
+        "start" : 1570874600864,
+        "stop" : 1570874603383,
+        "duration" : 2519
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "57c2d0a820f48710",
+        "name" : "Screenshot",
+        "source" : "57c2d0a820f48710.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user accepts acknowledgement and submits form",
+      "time" : {
+        "start" : 1570874603383,
+        "stop" : 1570874605976,
+        "duration" : 2593
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f80b7c4c68550f0d",
+        "name" : "Screenshot",
+        "source" : "f80b7c4c68550f0d.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "discontinue paperless billing successfull message is displayed \"Discontinue Paperless Billing has been Successful.\"",
+      "time" : {
+        "start" : 1570874605976,
+        "stop" : 1570874608527,
+        "duration" : 2551
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "61f32132acb7a748",
+        "name" : "Screenshot",
+        "source" : "61f32132acb7a748.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user closes success mesage dialog and go paperless card is displayed in Dashboard",
+      "time" : {
+        "start" : 1570874608527,
+        "stop" : 1570874611032,
+        "duration" : 2505
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e2b887a199dd6153",
+        "name" : "Screenshot",
+        "source" : "e2b887a199dd6153.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a23ee871573a618f",
+      "name" : "Screenshot",
+      "source" : "a23ee871573a618f.png",
+      "type" : "image/png",
+      "size" : 191159
+    }, {
+      "uid" : "8f9e5dcc6ac8e17f",
+      "name" : "Screenshot",
+      "source" : "8f9e5dcc6ac8e17f.png",
+      "type" : "image/png",
+      "size" : 191159
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Paperless billing enrollment"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Paperless billing enrollment"
+  }, {
+    "name" : "testClass",
+    "value" : "Paperless billing enrollment"
+  }, {
+    "name" : "testMethod",
+    "value" : "user can unenroll from paperless billing enrollment"
+  }, {
+    "name" : "package",
+    "value" : "Paperless billing enrollment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9173532166df107e.json",
+  "parameterValues" : [ "chrome" ]
+}

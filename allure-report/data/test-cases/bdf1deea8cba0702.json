@@ -1,0 +1,172 @@
+{
+  "uid" : "bdf1deea8cba0702",
+  "name" : "User can submit the feedback using all the manadatory fields",
+  "fullName" : "A registered user can submit the feedback.User can submit the feedback using all the manadatory fields",
+  "historyId" : "af975facda297980d58f526e4511fd01",
+  "time" : {
+    "start" : 1570874568188,
+    "stop" : 1570874594034,
+    "duration" : 25846
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user navigates to feedback modal view",
+      "time" : {
+        "start" : 1570874581615,
+        "stop" : 1570874584031,
+        "duration" : 2416
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e8d91a5d0ad875a4",
+        "name" : "Screenshot",
+        "source" : "e8d91a5d0ad875a4.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user selects radio button for first question and second question",
+      "time" : {
+        "start" : 1570874584032,
+        "stop" : 1570874586537,
+        "duration" : 2505
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "823fb0486d7eb6e8",
+        "name" : "Screenshot",
+        "source" : "823fb0486d7eb6e8.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user submit the feedback form",
+      "time" : {
+        "start" : 1570874586538,
+        "stop" : 1570874589137,
+        "duration" : 2599
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "70150fa79d5ab02e",
+        "name" : "Screenshot",
+        "source" : "70150fa79d5ab02e.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "feedback is successfull with message \"Thank you for providing your feedback\"",
+      "time" : {
+        "start" : 1570874589137,
+        "stop" : 1570874591520,
+        "duration" : 2383
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "56cba6238040771b",
+        "name" : "Screenshot",
+        "source" : "56cba6238040771b.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "bf4a25ef21031c69",
+      "name" : "Screenshot",
+      "source" : "bf4a25ef21031c69.png",
+      "type" : "image/png",
+      "size" : 191159
+    }, {
+      "uid" : "ecfc61db1f3eaf2c",
+      "name" : "Screenshot",
+      "source" : "ecfc61db1f3eaf2c.png",
+      "type" : "image/png",
+      "size" : 191159
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can submit the feedback"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can submit the feedback"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can submit the feedback"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can submit the feedback using all the manadatory fields"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can submit the feedback"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bdf1deea8cba0702.json",
+  "parameterValues" : [ "chrome" ]
+}

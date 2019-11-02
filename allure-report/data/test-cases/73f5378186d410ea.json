@@ -1,0 +1,151 @@
+{
+  "uid" : "73f5378186d410ea",
+  "name" : "User can check the redirection to usage overview card from the header menu",
+  "fullName" : "A registered user can open different menu and submenu.User can check the redirection to usage overview card from the header menu",
+  "historyId" : "5d9c7ab6d4d927e6adafbf50dbd3d9c6",
+  "time" : {
+    "start" : 1570874721853,
+    "stop" : 1570874745103,
+    "duration" : 23250
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "again user navigates to usage menu from header",
+      "time" : {
+        "start" : 1570874734906,
+        "stop" : 1570874737470,
+        "duration" : 2564
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "15eb3fece04a6239",
+        "name" : "Screenshot",
+        "source" : "15eb3fece04a6239.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user click on usage overview sub menu",
+      "time" : {
+        "start" : 1570874737474,
+        "stop" : 1570874739970,
+        "duration" : 2496
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ef9131fd67854beb",
+        "name" : "Screenshot",
+        "source" : "ef9131fd67854beb.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "usage overview card is displayed in focus with a label as \"Usage Overview\"",
+      "time" : {
+        "start" : 1570874739973,
+        "stop" : 1570874742479,
+        "duration" : 2506
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6a88933f824ef625",
+        "name" : "Screenshot",
+        "source" : "6a88933f824ef625.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "671eb3de84ca7d3d",
+      "name" : "Screenshot",
+      "source" : "671eb3de84ca7d3d.png",
+      "type" : "image/png",
+      "size" : 191159
+    }, {
+      "uid" : "a9ccf140e53ea20b",
+      "name" : "Screenshot",
+      "source" : "a9ccf140e53ea20b.png",
+      "type" : "image/png",
+      "size" : 191212
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check the redirection to usage overview card from the header menu"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "73f5378186d410ea.json",
+  "parameterValues" : [ "chrome" ]
+}

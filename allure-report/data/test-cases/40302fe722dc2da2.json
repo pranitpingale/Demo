@@ -1,0 +1,277 @@
+{
+  "uid" : "40302fe722dc2da2",
+  "name" : "User can check account & meter information",
+  "fullName" : "A registered user can Login to Dashboard and can see the account information.User can check account & meter information",
+  "historyId" : "6621bb1fc9c25bab48985f7dbb3de451",
+  "time" : {
+    "start" : 1570874408516,
+    "stop" : 1570874447825,
+    "duration" : 39309
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user navigates to Dashboard page",
+      "time" : {
+        "start" : 1570874422387,
+        "stop" : 1570874424836,
+        "duration" : 2449
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "51819e461ea107f0",
+        "name" : "Screenshot",
+        "source" : "51819e461ea107f0.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user clicks on plus button to expand the account information",
+      "time" : {
+        "start" : 1570874424836,
+        "stop" : 1570874427312,
+        "duration" : 2476
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "29b1004b98524f08",
+        "name" : "Screenshot",
+        "source" : "29b1004b98524f08.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user clicks on account number & verifies it",
+      "time" : {
+        "start" : 1570874427313,
+        "stop" : 1570874429784,
+        "duration" : 2471
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "abc4e2447aa86789",
+        "name" : "Screenshot",
+        "source" : "abc4e2447aa86789.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user clicks on Meters service type & verifies the same",
+      "time" : {
+        "start" : 1570874429785,
+        "stop" : 1570874432265,
+        "duration" : 2480
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "907e9971d9fa9c58",
+        "name" : "Screenshot",
+        "source" : "907e9971d9fa9c58.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user clicks on meter serial number & verifies the same",
+      "time" : {
+        "start" : 1570874432265,
+        "stop" : 1570874434872,
+        "duration" : 2607
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5bb06e8f182a1c5b",
+        "name" : "Screenshot",
+        "source" : "5bb06e8f182a1c5b.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user clicks on meter size & verifes it",
+      "time" : {
+        "start" : 1570874434872,
+        "stop" : 1570874437509,
+        "duration" : 2637
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7625c4447b3177cf",
+        "name" : "Screenshot",
+        "source" : "7625c4447b3177cf.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user clicks on meter location & verifes it",
+      "time" : {
+        "start" : 1570874437511,
+        "stop" : 1570874440122,
+        "duration" : 2611
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3dbf7946621d0fde",
+        "name" : "Screenshot",
+        "source" : "3dbf7946621d0fde.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user clicks on installation date & verifes it",
+      "time" : {
+        "start" : 1570874440123,
+        "stop" : 1570874442710,
+        "duration" : 2587
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6299967987dd7fe1",
+        "name" : "Screenshot",
+        "source" : "6299967987dd7fe1.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user is displayed with all the account information",
+      "time" : {
+        "start" : 1570874442710,
+        "stop" : 1570874445230,
+        "duration" : 2520
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d5383004d27b401f",
+        "name" : "Screenshot",
+        "source" : "d5383004d27b401f.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "676a0ad21fdcf81e",
+      "name" : "Screenshot",
+      "source" : "676a0ad21fdcf81e.png",
+      "type" : "image/png",
+      "size" : 191212
+    }, {
+      "uid" : "d9022b37ec98fa6d",
+      "name" : "Screenshot",
+      "source" : "d9022b37ec98fa6d.png",
+      "type" : "image/png",
+      "size" : 191212
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "hasContent" : true,
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can Login to Dashboard and can see the account information"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can Login to Dashboard and can see the account information"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can Login to Dashboard and can see the account information"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check account & meter information"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can Login to Dashboard and can see the account information"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "40302fe722dc2da2.json",
+  "parameterValues" : [ "chrome" ]
+}

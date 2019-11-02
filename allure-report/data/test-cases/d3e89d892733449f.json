@@ -1,0 +1,235 @@
+{
+  "uid" : "d3e89d892733449f",
+  "name" : "Validate number of search results for a valid zip code",
+  "fullName" : "Check Payment Locations by Zip codes.Validate number of search results for a valid zip code",
+  "historyId" : "e045dfb11d48d8a2a2bbde23e49c2eef",
+  "time" : {
+    "start" : 1570874830027,
+    "stop" : 1570874863440,
+    "duration" : 33413
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user clicks on Payment Locations search button in Dashboard",
+      "time" : {
+        "start" : 1570874842981,
+        "stop" : 1570874845478,
+        "duration" : 2497
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e4b1164043b433e3",
+        "name" : "Screenshot",
+        "source" : "e4b1164043b433e3.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user enters \"08043\"",
+      "time" : {
+        "start" : 1570874845478,
+        "stop" : 1570874847892,
+        "duration" : 2414
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9c63826e40318f2f",
+        "name" : "Screenshot",
+        "source" : "9c63826e40318f2f.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user clicks on Search button",
+      "time" : {
+        "start" : 1570874847892,
+        "stop" : 1570874850449,
+        "duration" : 2557
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b934eff3d6abbb0c",
+        "name" : "Screenshot",
+        "source" : "b934eff3d6abbb0c.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "show more link is enabled",
+      "time" : {
+        "start" : 1570874850449,
+        "stop" : 1570874853012,
+        "duration" : 2563
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "710d56a2bc6c17e",
+        "name" : "Screenshot",
+        "source" : "710d56a2bc6c17e.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "number of search results displayed is \"3\"",
+      "time" : {
+        "start" : 1570874853013,
+        "stop" : 1570874855641,
+        "duration" : 2628
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "43a179c649d37caa",
+        "name" : "Screenshot",
+        "source" : "43a179c649d37caa.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user clicks on show more link",
+      "time" : {
+        "start" : 1570874855641,
+        "stop" : 1570874858197,
+        "duration" : 2556
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce967d33a913f267",
+        "name" : "Screenshot",
+        "source" : "ce967d33a913f267.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "number of search results displayed is \"6\"",
+      "time" : {
+        "start" : 1570874858197,
+        "stop" : 1570874860775,
+        "duration" : 2578
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9f8088f920cbd6e4",
+        "name" : "Screenshot",
+        "source" : "9f8088f920cbd6e4.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a2bebafa48aa0d46",
+      "name" : "Screenshot",
+      "source" : "a2bebafa48aa0d46.png",
+      "type" : "image/png",
+      "size" : 191159
+    }, {
+      "uid" : "4d35cf89ccaf080d",
+      "name" : "Screenshot",
+      "source" : "4d35cf89ccaf080d.png",
+      "type" : "image/png",
+      "size" : 191159
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate number of search results for a valid zip code"
+  }, {
+    "name" : "package",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d3e89d892733449f.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,130 @@
+{
+  "uid" : "18ad342d6512847f",
+  "name" : "service request availibility",
+  "fullName" : "Validate fields Service Request card.service request availibility",
+  "historyId" : "60618eaf3e1e12ec590a571daf65658b",
+  "time" : {
+    "start" : 1570874861968,
+    "stop" : 1570874882620,
+    "duration" : 20652
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "customer support hours \"Hours: Monday - Friday 7 am - 7 pm\" is visible in the card",
+      "time" : {
+        "start" : 1570874874968,
+        "stop" : 1570874877565,
+        "duration" : 2597
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "20abd8701f753a5f",
+        "name" : "Screenshot",
+        "source" : "20abd8701f753a5f.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "emergency suppport \"For emergencies: We are available 24/7\" is visible in the card",
+      "time" : {
+        "start" : 1570874877565,
+        "stop" : 1570874880027,
+        "duration" : 2462
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "27eef89645de7883",
+        "name" : "Screenshot",
+        "source" : "27eef89645de7883.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e9d677d605f7fa0",
+      "name" : "Screenshot",
+      "source" : "e9d677d605f7fa0.png",
+      "type" : "image/png",
+      "size" : 191159
+    }, {
+      "uid" : "6626becbb16edc54",
+      "name" : "Screenshot",
+      "source" : "6626becbb16edc54.png",
+      "type" : "image/png",
+      "size" : 191159
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Validate fields Service Request card"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Validate fields Service Request card"
+  }, {
+    "name" : "testClass",
+    "value" : "Validate fields Service Request card"
+  }, {
+    "name" : "testMethod",
+    "value" : "service request availibility"
+  }, {
+    "name" : "package",
+    "value" : "Validate fields Service Request card"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "18ad342d6512847f.json",
+  "parameterValues" : [ "chrome" ]
+}

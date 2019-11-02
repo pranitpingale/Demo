@@ -1,0 +1,151 @@
+{
+  "uid" : "f03ee4776d211d1a",
+  "name" : "User can download the pdf messages available in message section",
+  "fullName" : "A registered user can check for messages alerts & open request.User can download the pdf messages available in message section",
+  "historyId" : "fbc089bf7766a4b17b24935083c7f6a0",
+  "time" : {
+    "start" : 1570874408550,
+    "stop" : 1570874432334,
+    "duration" : 23784
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user navigates to messages",
+      "time" : {
+        "start" : 1570874422354,
+        "stop" : 1570874424797,
+        "duration" : 2443
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "badf24eb52377786",
+        "name" : "Screenshot",
+        "source" : "badf24eb52377786.png",
+        "type" : "image/png",
+        "size" : 191237
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user see the messages available in the section with message icon and title",
+      "time" : {
+        "start" : 1570874424797,
+        "stop" : 1570874427231,
+        "duration" : 2434
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c71fd3a237e8bd5",
+        "name" : "Screenshot",
+        "source" : "1c71fd3a237e8bd5.png",
+        "type" : "image/png",
+        "size" : 191185
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user can download the selected pdf messages",
+      "time" : {
+        "start" : 1570874427231,
+        "stop" : 1570874429746,
+        "duration" : 2515
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4e14cc14cdc5e40d",
+        "name" : "Screenshot",
+        "source" : "4e14cc14cdc5e40d.png",
+        "type" : "image/png",
+        "size" : 191185
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "cd7f7b1eea974164",
+      "name" : "Screenshot",
+      "source" : "cd7f7b1eea974164.png",
+      "type" : "image/png",
+      "size" : 191237
+    }, {
+      "uid" : "13b5ae433e09233d",
+      "name" : "Screenshot",
+      "source" : "13b5ae433e09233d.png",
+      "type" : "image/png",
+      "size" : 191237
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can download the pdf messages available in message section"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f03ee4776d211d1a.json",
+  "parameterValues" : [ "chrome" ]
+}

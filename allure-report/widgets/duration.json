@@ -1,0 +1,561 @@
+[ {
+  "uid" : "dd8b021da0982b9e",
+  "name" : "User can check all the  conservation tips are displayed with correct content in detail",
+  "time" : {
+    "start" : 1570874530446,
+    "stop" : 1570874553459,
+    "duration" : 23013
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "13f6ca097eef3f93",
+  "name" : "verify user able to open Blog footer icon link in new browser tab",
+  "time" : {
+    "start" : 1570874755477,
+    "stop" : 1570874776210,
+    "duration" : 20733
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d909a7d8e2775086",
+  "name" : "verify user able to open Youtube footer icon link in new browser tab",
+  "time" : {
+    "start" : 1570874734940,
+    "stop" : 1570874755474,
+    "duration" : 20534
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5933bb1c29ac3f0c",
+  "name" : "To verify if user can make changes successfully in various fields of Edit Profile section",
+  "time" : {
+    "start" : 1570874528176,
+    "stop" : 1570874564179,
+    "duration" : 36003
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7ec38ea57bf03178",
+  "name" : "verify invoice is attached and opens in billing and payments table",
+  "time" : {
+    "start" : 1570874507273,
+    "stop" : 1570874535407,
+    "duration" : 28134
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4130c8bea8f1b194",
+  "name" : "user can see projected gallons from usage projection card",
+  "time" : {
+    "start" : 1570874902754,
+    "stop" : 1570874934143,
+    "duration" : 31389
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e0d28168973e7810",
+  "name" : "verify user able to open Facebook footer icon link in new browser tab",
+  "time" : {
+    "start" : 1570874693303,
+    "stop" : 1570874714165,
+    "duration" : 20862
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7143fd633e3c87c5",
+  "name" : "To verify if user can verify email notifications that are being sent to primary email id when user changes something successfully  of Edit Profile section",
+  "time" : {
+    "start" : 1570874558584,
+    "stop" : 1570874582509,
+    "duration" : 23925
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a02df9208285991a",
+  "name" : "Validate Payment Locations Page default status",
+  "time" : {
+    "start" : 1570874801857,
+    "stop" : 1570874830027,
+    "duration" : 28170
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "21f160554db5d3fe",
+  "name" : "User cannot submit the feedback using one manadatory fields",
+  "time" : {
+    "start" : 1570874667461,
+    "stop" : 1570874693303,
+    "duration" : 25842
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "20ceb4a1151968e",
+  "name" : "User can make payment by cash",
+  "time" : {
+    "start" : 1570874674928,
+    "stop" : 1570874698356,
+    "duration" : 23428
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3e0754bd0b0bdcb7",
+  "name" : "User can check the alerts available in alerts section",
+  "time" : {
+    "start" : 1570874452952,
+    "stop" : 1570874476187,
+    "duration" : 23235
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f03ee4776d211d1a",
+  "name" : "User can download the pdf messages available in message section",
+  "time" : {
+    "start" : 1570874408550,
+    "stop" : 1570874432334,
+    "duration" : 23784
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9f1efe952c2780a1",
+  "name" : "verify service information is attached and opens in billing and payments table",
+  "time" : {
+    "start" : 1570874535407,
+    "stop" : 1570874563252,
+    "duration" : 27845
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bee0012d050e0d0b",
+  "name" : "Verify acknowledgement during paperless billing enrollment",
+  "time" : {
+    "start" : 1570874639527,
+    "stop" : 1570874669996,
+    "duration" : 30469
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6d5bc703255d4753",
+  "name" : "User can contact the amwater team using contact us link",
+  "time" : {
+    "start" : 1570874767965,
+    "stop" : 1570874791149,
+    "duration" : 23184
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a5e1401699a66747",
+  "name" : "User can submit the feedback using all the fields",
+  "time" : {
+    "start" : 1570874641984,
+    "stop" : 1570874667461,
+    "duration" : 25477
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "73f5378186d410ea",
+  "name" : "User can check the redirection to usage overview card from the header menu",
+  "time" : {
+    "start" : 1570874721853,
+    "stop" : 1570874745103,
+    "duration" : 23250
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "97c70c981cb7f691",
+  "name" : "service request number",
+  "time" : {
+    "start" : 1570874843895,
+    "stop" : 1570874861968,
+    "duration" : 18073
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d109a2f40c3e0a79",
+  "name" : "User has an option to Cancel AutoPay Enrollment",
+  "time" : {
+    "start" : 1570874455552,
+    "stop" : 1570874478655,
+    "duration" : 23103
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "40302fe722dc2da2",
+  "name" : "User can check account & meter information",
+  "time" : {
+    "start" : 1570874408516,
+    "stop" : 1570874447825,
+    "duration" : 39309
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6ed7927ea7d2a709",
+  "name" : "verify user able to validate service alerts",
+  "time" : {
+    "start" : 1570874812013,
+    "stop" : 1570874838078,
+    "duration" : 26065
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7f7c55835791f224",
+  "name" : "User can submit the feedback using all the fields",
+  "time" : {
+    "start" : 1570874594034,
+    "stop" : 1570874619879,
+    "duration" : 25845
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bdf1deea8cba0702",
+  "name" : "User can submit the feedback using all the manadatory fields",
+  "time" : {
+    "start" : 1570874568188,
+    "stop" : 1570874594034,
+    "duration" : 25846
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7f2062405425f8b",
+  "name" : "Validate locations are not diplayed for invalid zip code",
+  "time" : {
+    "start" : 1570874919909,
+    "stop" : 1570874945908,
+    "duration" : 25999
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "21afdcf4dace8e49",
+  "name" : "paperless card should be displayed if paperless is not enrolled for the user",
+  "time" : {
+    "start" : 1570874796368,
+    "stop" : 1570874820082,
+    "duration" : 23714
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f2b811e68fc80081",
+  "name" : "Verify thank you message during paperless billing enrollment",
+  "time" : {
+    "start" : 1570874613576,
+    "stop" : 1570874639527,
+    "duration" : 25951
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "59c4a580fd8954fe",
+  "name" : "autopay card should be displayed if autopay is not enrolled for the user",
+  "time" : {
+    "start" : 1570874453466,
+    "stop" : 1570874477838,
+    "duration" : 24372
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9f4b7f27e8a16a75",
+  "name" : "verify user able to open Feedback footer link and verify it",
+  "time" : {
+    "start" : 1570874615987,
+    "stop" : 1570874641984,
+    "duration" : 25997
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2fc41dbe34edd2cd",
+  "name" : "User can see the open request available in the section or not",
+  "time" : {
+    "start" : 1570874432334,
+    "stop" : 1570874452951,
+    "duration" : 20617
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "35ccb878c022e5a2",
+  "name" : "User has an option to enroll for AutoPay",
+  "time" : {
+    "start" : 1570874408509,
+    "stop" : 1570874432334,
+    "duration" : 23825
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "aa0f80b5267e54d0",
+  "name" : "verify user able to open Navy Footer Links in new tab link in new browser tab",
+  "time" : {
+    "start" : 1570874755652,
+    "stop" : 1570874806943,
+    "duration" : 51291
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "968bf22ce14f32ff",
+  "name" : "Display Billing and payments history monthwise",
+  "time" : {
+    "start" : 1570874483011,
+    "stop" : 1570874507273,
+    "duration" : 24262
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5ade76f5df890a10",
+  "name" : "User can check the redirection to payment location card from the header menu",
+  "time" : {
+    "start" : 1570874698324,
+    "stop" : 1570874721853,
+    "duration" : 23529
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4674432f8a5409ec",
+  "name" : "User can check his basic information",
+  "time" : {
+    "start" : 1570874916742,
+    "stop" : 1570874938098,
+    "duration" : 21356
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "96a39f7d68b85825",
+  "name" : "User can check all the  conservation tips are displayed with correct content",
+  "time" : {
+    "start" : 1570874507273,
+    "stop" : 1570874530446,
+    "duration" : 23173
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b14fa7069b797920",
+  "name" : "User can make payment by Electronic Check",
+  "time" : {
+    "start" : 1570874698356,
+    "stop" : 1570874724473,
+    "duration" : 26117
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b081ab645a72e3cf",
+  "name" : "User can check the latest alert are displaying at top",
+  "time" : {
+    "start" : 1570874499491,
+    "stop" : 1570874523005,
+    "duration" : 23514
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5500233414cf3664",
+  "name" : "User cannot submit the feedback using one manadatory fields",
+  "time" : {
+    "start" : 1570874619879,
+    "stop" : 1570874646140,
+    "duration" : 26261
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8350fd992ee57b78",
+  "name" : "User can check the make payment modal view are displayed with cash payment selected as default on opening cash payment from header menu",
+  "time" : {
+    "start" : 1570874651293,
+    "stop" : 1570874674913,
+    "duration" : 23620
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "da6c36fcea14be7b",
+  "name" : "verify user able to open PuddleDuck footer icon link in new browser tab",
+  "time" : {
+    "start" : 1570874776210,
+    "stop" : 1570874796858,
+    "duration" : 20648
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1c2f9bfbc1170363",
+  "name" : "Verify user is able to click and verify all social media link on marketing cards",
+  "time" : {
+    "start" : 1570874843190,
+    "stop" : 1570874897543,
+    "duration" : 54353
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "65f78f989ef29a38",
+  "name" : "verify user able to open Terms Of Use footer link in new browser tab",
+  "time" : {
+    "start" : 1570874592659,
+    "stop" : 1570874615986,
+    "duration" : 23327
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "324b920a3e9946b3",
+  "name" : "User can check the conservation tips are displayed with correct content",
+  "time" : {
+    "start" : 1570874483784,
+    "stop" : 1570874507273,
+    "duration" : 23489
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "21e18d6635180811",
+  "name" : "User has an option to Update AutoPay information",
+  "time" : {
+    "start" : 1570874432334,
+    "stop" : 1570874455552,
+    "duration" : 23218
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6e7f9594fd7ba5cb",
+  "name" : "verify user able to open Twitter footer icon link in new browser tab",
+  "time" : {
+    "start" : 1570874714165,
+    "stop" : 1570874734940,
+    "duration" : 20775
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d3e89d892733449f",
+  "name" : "Validate number of search results for a valid zip code",
+  "time" : {
+    "start" : 1570874830027,
+    "stop" : 1570874863440,
+    "duration" : 33413
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b26901a44ec5cac4",
+  "name" : "User can make payment by Debit or Credit card",
+  "time" : {
+    "start" : 1570874724473,
+    "stop" : 1570874750389,
+    "duration" : 25916
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4b495d8cc36e43a4",
+  "name" : "user can see monthly consumption details from usage overview card",
+  "time" : {
+    "start" : 1570874887805,
+    "stop" : 1570874911632,
+    "duration" : 23827
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f9d012187d53b57",
+  "name" : "User can check the redirection to usage projection card from the header menu",
+  "time" : {
+    "start" : 1570874745103,
+    "stop" : 1570874767965,
+    "duration" : 22862
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "45669e2eebc24c37",
+  "name" : "verify user able to open privacy policy footer link in new browser tab",
+  "time" : {
+    "start" : 1570874569378,
+    "stop" : 1570874592658,
+    "duration" : 23280
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3ab2d33519c22486",
+  "name" : "Validate address - currency and phone number in the results displayed for a valid zip code",
+  "time" : {
+    "start" : 1570874892088,
+    "stop" : 1570874919909,
+    "duration" : 27821
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9173532166df107e",
+  "name" : "user can unenroll from paperless billing enrollment",
+  "time" : {
+    "start" : 1570874587532,
+    "stop" : 1570874613576,
+    "duration" : 26044
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "18ad342d6512847f",
+  "name" : "service request availibility",
+  "time" : {
+    "start" : 1570874861968,
+    "stop" : 1570874882620,
+    "duration" : 20652
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4f12f29b7e2538d1",
+  "name" : "service request description",
+  "time" : {
+    "start" : 1570874825239,
+    "stop" : 1570874843894,
+    "duration" : 18655
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "236ab56347e828e4",
+  "name" : "User can check the make payment modal view are displayed with all the payment method from header menu",
+  "time" : {
+    "start" : 1570874674913,
+    "stop" : 1570874698324,
+    "duration" : 23411
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

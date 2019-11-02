@@ -1,0 +1,114 @@
+{
+  "total" : 22,
+  "items" : [ {
+    "uid" : "688b66f3cd0a851e305676c6bde25a00",
+    "name" : "Footer page links redirection in new tab",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 10,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "a4aa52e5792f81746e30f4d2f3811a94",
+    "name" : "A registered user can open different menu and submenu",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "2a8be02400e1deb6bc47d57b56878286",
+    "name" : "A registered user can check for messages alerts & open request",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "0acf0d5a60ca2ef5d8d4e0ab81fc076f",
+    "name" : "Check Payment Locations by Zip codes",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "ab3174645ca17b50f6611a4e432038d1",
+    "name" : "AutoPay enrollment",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "56ac3e99fe6af9fc1d87f3aafecc2526",
+    "name" : "Biliing and Payment history",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "754ec1f80f26b22ff5b590ab7d4e5094",
+    "name" : "A registered user can see the conservation tips",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "9302cf87ba1789cbf7044084d56369e5",
+    "name" : "A registered user can submit the feedback",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "c75fb86725d80a235f0876b5e312818e",
+    "name" : "Paperless billing enrollment",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "d0852dbd46f75da53bc94224927ce397",
+    "name" : "A registered user can pay by available Payment methods",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

@@ -1,0 +1,193 @@
+{
+  "uid" : "7ec38ea57bf03178",
+  "name" : "verify invoice is attached and opens in billing and payments table",
+  "fullName" : "Biliing and Payment history.verify invoice is attached and opens in billing and payments table",
+  "historyId" : "c7a537f6db10c7f120d59d9b794d7bae",
+  "time" : {
+    "start" : 1570874507273,
+    "stop" : 1570874535407,
+    "duration" : 28134
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user navigates to Billing and Payments page",
+      "time" : {
+        "start" : 1570874520345,
+        "stop" : 1570874522875,
+        "duration" : 2530
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b621c4109c888a82",
+        "name" : "Screenshot",
+        "source" : "b621c4109c888a82.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user clicks on the invoicing link under column TRANSACTION TYPE",
+      "time" : {
+        "start" : 1570874522875,
+        "stop" : 1570874525400,
+        "duration" : 2525
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c71297e165c383a",
+        "name" : "Screenshot",
+        "source" : "1c71297e165c383a.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "information is displayed in a new tab",
+      "time" : {
+        "start" : 1570874525401,
+        "stop" : 1570874527904,
+        "duration" : 2503
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a4be0d645fe55c6a",
+        "name" : "Screenshot",
+        "source" : "a4be0d645fe55c6a.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "new tab contains information as pdf",
+      "time" : {
+        "start" : 1570874527905,
+        "stop" : 1570874530426,
+        "duration" : 2521
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "37523d4ef00c1ffa",
+        "name" : "Screenshot",
+        "source" : "37523d4ef00c1ffa.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user closes new tab",
+      "time" : {
+        "start" : 1570874530426,
+        "stop" : 1570874532878,
+        "duration" : 2452
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a60a26a81e1ed36b",
+        "name" : "Screenshot",
+        "source" : "a60a26a81e1ed36b.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6cbacb199fae497a",
+      "name" : "Screenshot",
+      "source" : "6cbacb199fae497a.png",
+      "type" : "image/png",
+      "size" : 191159
+    }, {
+      "uid" : "84582fb260784a34",
+      "name" : "Screenshot",
+      "source" : "84582fb260784a34.png",
+      "type" : "image/png",
+      "size" : 191212
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "testClass",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify invoice is attached and opens in billing and payments table"
+  }, {
+    "name" : "package",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7ec38ea57bf03178.json",
+  "parameterValues" : [ "chrome" ]
+}

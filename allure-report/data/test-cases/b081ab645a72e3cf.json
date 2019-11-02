@@ -1,0 +1,160 @@
+{
+  "uid" : "b081ab645a72e3cf",
+  "name" : "User can check the latest alert are displaying at top",
+  "fullName" : "A registered user can check for messages alerts & open request.User can check the latest alert are displaying at top",
+  "historyId" : "a4c0132b9458d6ff88df8ebbc08f53e8",
+  "time" : {
+    "start" : 1570874499491,
+    "stop" : 1570874523005,
+    "duration" : 23514
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user again navigates to message",
+      "time" : {
+        "start" : 1570874512598,
+        "stop" : 1570874515255,
+        "duration" : 2657
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "df74d393592a3853",
+        "name" : "Screenshot",
+        "source" : "df74d393592a3853.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user see the messages available in the section with each of them having the message icon",
+      "time" : {
+        "start" : 1570874515255,
+        "stop" : 1570874517857,
+        "duration" : 2602
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "56d95f7ca2cd67b",
+        "name" : "Screenshot",
+        "source" : "56d95f7ca2cd67b.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user see the latest message is displaying on the top",
+      "time" : {
+        "start" : 1570874517858,
+        "stop" : 1570874520397,
+        "duration" : 2539
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e374d0733b8c7a0c",
+        "name" : "Screenshot",
+        "source" : "e374d0733b8c7a0c.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "5496677bb06093ea",
+      "name" : "Screenshot",
+      "source" : "5496677bb06093ea.png",
+      "type" : "image/png",
+      "size" : 191159
+    }, {
+      "uid" : "ab88e09c413d274",
+      "name" : "Screenshot",
+      "source" : "ab88e09c413d274.png",
+      "type" : "image/png",
+      "size" : 191159
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check the latest alert are displaying at top"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "834b88eedf577dd",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Cannot read property 'scrollTo' of null",
+      "time" : {
+        "start" : 1570874476187,
+        "stop" : 1570874499491,
+        "duration" : 23304
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b081ab645a72e3cf.json",
+  "parameterValues" : [ "chrome" ]
+}

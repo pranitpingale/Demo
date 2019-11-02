@@ -1,0 +1,151 @@
+{
+  "uid" : "3e0754bd0b0bdcb7",
+  "name" : "User can check the alerts available in alerts section",
+  "fullName" : "A registered user can check for messages alerts & open request.User can check the alerts available in alerts section",
+  "historyId" : "59d74a5111f5b033f3957337a03cf82",
+  "time" : {
+    "start" : 1570874452952,
+    "stop" : 1570874476187,
+    "duration" : 23235
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user navigates to alerts",
+      "time" : {
+        "start" : 1570874465856,
+        "stop" : 1570874468409,
+        "duration" : 2553
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "529617ae91813e52",
+        "name" : "Screenshot",
+        "source" : "529617ae91813e52.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user see the alerts available in the section with each having alert icon",
+      "time" : {
+        "start" : 1570874468410,
+        "stop" : 1570874470995,
+        "duration" : 2585
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "faacebfde5b2d8ef",
+        "name" : "Screenshot",
+        "source" : "faacebfde5b2d8ef.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user see the alerts available in the section with each having alert title",
+      "time" : {
+        "start" : 1570874470995,
+        "stop" : 1570874473594,
+        "duration" : 2599
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "86c9f676a3bdca08",
+        "name" : "Screenshot",
+        "source" : "86c9f676a3bdca08.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "882cad9aad6ff5ae",
+      "name" : "Screenshot",
+      "source" : "882cad9aad6ff5ae.png",
+      "type" : "image/png",
+      "size" : 191159
+    }, {
+      "uid" : "12fb63b6d118f07",
+      "name" : "Screenshot",
+      "source" : "12fb63b6d118f07.png",
+      "type" : "image/png",
+      "size" : 191212
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check the alerts available in alerts section"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can check for messages alerts & open request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3e0754bd0b0bdcb7.json",
+  "parameterValues" : [ "chrome" ]
+}

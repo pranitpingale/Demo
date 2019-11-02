@@ -1,0 +1,151 @@
+{
+  "uid" : "59c4a580fd8954fe",
+  "name" : "autopay card should be displayed if autopay is not enrolled for the user",
+  "fullName" : "autopay in dashboard.autopay card should be displayed if autopay is not enrolled for the user",
+  "historyId" : "3eee35acf0ad4cafe4b54fb1aca496d8",
+  "time" : {
+    "start" : 1570874453466,
+    "stop" : 1570874477838,
+    "duration" : 24372
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user navigates to Edit User Profile page to check for autopay",
+      "time" : {
+        "start" : 1570874467377,
+        "stop" : 1570874469985,
+        "duration" : 2608
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ec774add9258f969",
+        "name" : "Screenshot",
+        "source" : "ec774add9258f969.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user navigates to the autopay enrollment section",
+      "time" : {
+        "start" : 1570874469985,
+        "stop" : 1570874472590,
+        "duration" : 2605
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cd13d8ab3fe432b8",
+        "name" : "Screenshot",
+        "source" : "cd13d8ab3fe432b8.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "unenroll autopay if it is subscribed and navigate to dashboard \"Auto Pay\"",
+      "time" : {
+        "start" : 1570874472591,
+        "stop" : 1570874475213,
+        "duration" : 2622
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "78b25df09f975349",
+        "name" : "Screenshot",
+        "source" : "78b25df09f975349.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ad93655ca12c2e2d",
+      "name" : "Screenshot",
+      "source" : "ad93655ca12c2e2d.png",
+      "type" : "image/png",
+      "size" : 191212
+    }, {
+      "uid" : "f2d5e26951d524dc",
+      "name" : "Screenshot",
+      "source" : "f2d5e26951d524dc.png",
+      "type" : "image/png",
+      "size" : 191159
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "autopay in dashboard"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "autopay in dashboard"
+  }, {
+    "name" : "testClass",
+    "value" : "autopay in dashboard"
+  }, {
+    "name" : "testMethod",
+    "value" : "autopay card should be displayed if autopay is not enrolled for the user"
+  }, {
+    "name" : "package",
+    "value" : "autopay in dashboard"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "59c4a580fd8954fe.json",
+  "parameterValues" : [ "chrome" ]
+}

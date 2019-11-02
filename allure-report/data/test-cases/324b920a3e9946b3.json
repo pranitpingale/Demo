@@ -1,0 +1,151 @@
+{
+  "uid" : "324b920a3e9946b3",
+  "name" : "User can check the conservation tips are displayed with correct content",
+  "fullName" : "A registered user can see the conservation tips.User can check the conservation tips are displayed with correct content",
+  "historyId" : "f8a4636499908eb4fcb618799c72065",
+  "time" : {
+    "start" : 1570874483784,
+    "stop" : 1570874507273,
+    "duration" : 23489
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user navigates to usage menu",
+      "time" : {
+        "start" : 1570874497057,
+        "stop" : 1570874499544,
+        "duration" : 2487
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "97b98c1d702b2806",
+        "name" : "Screenshot",
+        "source" : "97b98c1d702b2806.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user click on Conservation Tips",
+      "time" : {
+        "start" : 1570874499544,
+        "stop" : 1570874502063,
+        "duration" : 2519
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e5e29318bdc219b5",
+        "name" : "Screenshot",
+        "source" : "e5e29318bdc219b5.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Conservation tips is displayed on the card \"Conservation Tips\"",
+      "time" : {
+        "start" : 1570874502064,
+        "stop" : 1570874504615,
+        "duration" : 2551
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2aa89715b1c24e7e",
+        "name" : "Screenshot",
+        "source" : "2aa89715b1c24e7e.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "51a928ea5d53d622",
+      "name" : "Screenshot",
+      "source" : "51a928ea5d53d622.png",
+      "type" : "image/png",
+      "size" : 191159
+    }, {
+      "uid" : "68aa73e1776db8c3",
+      "name" : "Screenshot",
+      "source" : "68aa73e1776db8c3.png",
+      "type" : "image/png",
+      "size" : 191212
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can see the conservation tips"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can see the conservation tips"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can see the conservation tips"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check the conservation tips are displayed with correct content"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can see the conservation tips"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "324b920a3e9946b3.json",
+  "parameterValues" : [ "chrome" ]
+}

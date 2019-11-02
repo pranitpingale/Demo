@@ -1,0 +1,151 @@
+{
+  "uid" : "236ab56347e828e4",
+  "name" : "User can check the make payment modal view are displayed with all the payment method from header menu",
+  "fullName" : "A registered user can open different menu and submenu.User can check the make payment modal view are displayed with all the payment method from header menu",
+  "historyId" : "24995d9ed318e1ea8afc9d110a9af249",
+  "time" : {
+    "start" : 1570874674913,
+    "stop" : 1570874698324,
+    "duration" : 23411
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "again user navigates to payment menu",
+      "time" : {
+        "start" : 1570874687871,
+        "stop" : 1570874690489,
+        "duration" : 2618
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c206f023b125190c",
+        "name" : "Screenshot",
+        "source" : "c206f023b125190c.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user click on make payment",
+      "time" : {
+        "start" : 1570874690489,
+        "stop" : 1570874693065,
+        "duration" : 2576
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9e5f8b2004be653",
+        "name" : "Screenshot",
+        "source" : "f9e5f8b2004be653.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "all the payment methods are displayed under make payment modal view with label \"Make a Payment\"",
+      "time" : {
+        "start" : 1570874693066,
+        "stop" : 1570874695662,
+        "duration" : 2596
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9728b49c167ae440",
+        "name" : "Screenshot",
+        "source" : "9728b49c167ae440.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "238730712b73bfd6",
+      "name" : "Screenshot",
+      "source" : "238730712b73bfd6.png",
+      "type" : "image/png",
+      "size" : 191159
+    }, {
+      "uid" : "7e51848c4aee43cc",
+      "name" : "Screenshot",
+      "source" : "7e51848c4aee43cc.png",
+      "type" : "image/png",
+      "size" : 191212
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check the make payment modal view are displayed with all the payment method from header menu"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can open different menu and submenu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "236ab56347e828e4.json",
+  "parameterValues" : [ "chrome" ]
+}

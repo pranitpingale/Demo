@@ -1,0 +1,151 @@
+{
+  "uid" : "4b495d8cc36e43a4",
+  "name" : "user can see monthly consumption details from usage overview card",
+  "fullName" : "User navigates to usage overview card and verifies the data.user can see monthly consumption details from usage overview card",
+  "historyId" : "b4cb770fc56b331adfe3ccd0c7ea6131",
+  "time" : {
+    "start" : 1570874887805,
+    "stop" : 1570874911632,
+    "duration" : 23827
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user navigates to usage overview page",
+      "time" : {
+        "start" : 1570874901480,
+        "stop" : 1570874903870,
+        "duration" : 2390
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "16787f36f31e30e",
+        "name" : "Screenshot",
+        "source" : "16787f36f31e30e.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user click on the radio button having month details",
+      "time" : {
+        "start" : 1570874903870,
+        "stop" : 1570874906273,
+        "duration" : 2403
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1615583b71ddeff3",
+        "name" : "Screenshot",
+        "source" : "1615583b71ddeff3.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user view monthly details",
+      "time" : {
+        "start" : 1570874906274,
+        "stop" : 1570874908896,
+        "duration" : 2622
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a1a5f0d3a589824",
+        "name" : "Screenshot",
+        "source" : "a1a5f0d3a589824.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ddd78091c5365d86",
+      "name" : "Screenshot",
+      "source" : "ddd78091c5365d86.png",
+      "type" : "image/png",
+      "size" : 191159
+    }, {
+      "uid" : "4943e5f8fe3158ef",
+      "name" : "Screenshot",
+      "source" : "4943e5f8fe3158ef.png",
+      "type" : "image/png",
+      "size" : 191212
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User navigates to usage overview card and verifies the data"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "User navigates to usage overview card and verifies the data"
+  }, {
+    "name" : "testClass",
+    "value" : "User navigates to usage overview card and verifies the data"
+  }, {
+    "name" : "testMethod",
+    "value" : "user can see monthly consumption details from usage overview card"
+  }, {
+    "name" : "package",
+    "value" : "User navigates to usage overview card and verifies the data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4b495d8cc36e43a4.json",
+  "parameterValues" : [ "chrome" ]
+}

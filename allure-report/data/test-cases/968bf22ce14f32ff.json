@@ -1,0 +1,151 @@
+{
+  "uid" : "968bf22ce14f32ff",
+  "name" : "Display Billing and payments history monthwise",
+  "fullName" : "Biliing and Payment history.Display Billing and payments history monthwise",
+  "historyId" : "555fd191e2d4421ed25289e25dcaf7f7",
+  "time" : {
+    "start" : 1570874483011,
+    "stop" : 1570874507273,
+    "duration" : 24262
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user navigates to Billing and Payments page",
+      "time" : {
+        "start" : 1570874496700,
+        "stop" : 1570874499318,
+        "duration" : 2618
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fcd769ebfc268e12",
+        "name" : "Screenshot",
+        "source" : "fcd769ebfc268e12.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user slides the slider bar to set statement period for 1 month",
+      "time" : {
+        "start" : 1570874499319,
+        "stop" : 1570874501965,
+        "duration" : 2646
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e0d8d20259864d2a",
+        "name" : "Screenshot",
+        "source" : "e0d8d20259864d2a.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "billing and payments table should display transactions only for the selected statement period",
+      "time" : {
+        "start" : 1570874501965,
+        "stop" : 1570874504589,
+        "duration" : 2624
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e7590d116fcff4a3",
+        "name" : "Screenshot",
+        "source" : "e7590d116fcff4a3.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f66c558986efd854",
+      "name" : "Screenshot",
+      "source" : "f66c558986efd854.png",
+      "type" : "image/png",
+      "size" : 191159
+    }, {
+      "uid" : "32a6653d511e9ee9",
+      "name" : "Screenshot",
+      "source" : "32a6653d511e9ee9.png",
+      "type" : "image/png",
+      "size" : 191159
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "testClass",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "testMethod",
+    "value" : "Display Billing and payments history monthwise"
+  }, {
+    "name" : "package",
+    "value" : "Biliing and Payment history"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "968bf22ce14f32ff.json",
+  "parameterValues" : [ "chrome" ]
+}

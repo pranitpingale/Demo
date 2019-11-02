@@ -1,0 +1,172 @@
+{
+  "uid" : "7f2062405425f8b",
+  "name" : "Validate locations are not diplayed for invalid zip code",
+  "fullName" : "Check Payment Locations by Zip codes.Validate locations are not diplayed for invalid zip code",
+  "historyId" : "f826b2a49ac95715875ac5ae8237dc5b",
+  "time" : {
+    "start" : 1570874919909,
+    "stop" : 1570874945908,
+    "duration" : 25999
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user clicks on Payment Locations search button in Dashboard",
+      "time" : {
+        "start" : 1570874932929,
+        "stop" : 1570874935461,
+        "duration" : 2532
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b0f9b43cff61728f",
+        "name" : "Screenshot",
+        "source" : "b0f9b43cff61728f.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user enter \"73302\" and clicks on search button",
+      "time" : {
+        "start" : 1570874935461,
+        "stop" : 1570874938057,
+        "duration" : 2596
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8c7752147592b549",
+        "name" : "Screenshot",
+        "source" : "8c7752147592b549.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "no search location results is shown",
+      "time" : {
+        "start" : 1570874938057,
+        "stop" : 1570874940683,
+        "duration" : 2626
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3cfc73e4aeb44b8e",
+        "name" : "Screenshot",
+        "source" : "3cfc73e4aeb44b8e.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "search result pane has text \"No Cash Payment Locations available for ZIP Code 73302.\" displayed",
+      "time" : {
+        "start" : 1570874940684,
+        "stop" : 1570874943258,
+        "duration" : 2574
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ba89d984b98a079c",
+        "name" : "Screenshot",
+        "source" : "ba89d984b98a079c.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "8f4120500cb4cd32",
+      "name" : "Screenshot",
+      "source" : "8f4120500cb4cd32.png",
+      "type" : "image/png",
+      "size" : 191159
+    }, {
+      "uid" : "ba6a9b4edb1382d1",
+      "name" : "Screenshot",
+      "source" : "ba6a9b4edb1382d1.png",
+      "type" : "image/png",
+      "size" : 191159
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "testMethod",
+    "value" : "Validate locations are not diplayed for invalid zip code"
+  }, {
+    "name" : "package",
+    "value" : "Check Payment Locations by Zip codes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7f2062405425f8b.json",
+  "parameterValues" : [ "chrome" ]
+}

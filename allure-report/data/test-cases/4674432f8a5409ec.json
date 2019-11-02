@@ -1,0 +1,130 @@
+{
+  "uid" : "4674432f8a5409ec",
+  "name" : "User can check his basic information",
+  "fullName" : "To check the users primary information.User can check his basic information",
+  "historyId" : "bde31f0d968a75ef1cd782d1ae58901c",
+  "time" : {
+    "start" : 1570874916742,
+    "stop" : 1570874938098,
+    "duration" : 21356
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user reaches to Dashboard page after the login",
+      "time" : {
+        "start" : 1570874930286,
+        "stop" : 1570874932906,
+        "duration" : 2620
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "573f92afeec83022",
+        "name" : "Screenshot",
+        "source" : "573f92afeec83022.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user verifies all his basic information",
+      "time" : {
+        "start" : 1570874932906,
+        "stop" : 1570874935451,
+        "duration" : 2545
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "69e265f252295f73",
+        "name" : "Screenshot",
+        "source" : "69e265f252295f73.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f7b0ed77e2b39606",
+      "name" : "Screenshot",
+      "source" : "f7b0ed77e2b39606.png",
+      "type" : "image/png",
+      "size" : 191159
+    }, {
+      "uid" : "f58a334c2e0b9856",
+      "name" : "Screenshot",
+      "source" : "f58a334c2e0b9856.png",
+      "type" : "image/png",
+      "size" : 191212
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To check the users primary information"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "To check the users primary information"
+  }, {
+    "name" : "testClass",
+    "value" : "To check the users primary information"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can check his basic information"
+  }, {
+    "name" : "package",
+    "value" : "To check the users primary information"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4674432f8a5409ec.json",
+  "parameterValues" : [ "chrome" ]
+}

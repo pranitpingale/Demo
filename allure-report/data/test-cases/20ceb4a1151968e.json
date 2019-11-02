@@ -1,0 +1,151 @@
+{
+  "uid" : "20ceb4a1151968e",
+  "name" : "User can make payment by cash",
+  "fullName" : "A registered user can pay by available Payment methods.User can make payment by cash",
+  "historyId" : "9372e6114cda30350c74f9a0132a3a27",
+  "time" : {
+    "start" : 1570874674928,
+    "stop" : 1570874698356,
+    "duration" : 23428
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+  "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Cannot read property 'scrollTo' of null",
+    "statusTrace" : "Error: An unknown server-side error occurred while processing the command.\n                    at execute(<Function>) -     at D:\\AutomationTools\\E2e_WebdriverIO\\node_modules\\wdio-sync\\build\\index.js:316:3",
+    "steps" : [ {
+      "name" : "user navigates to Make Payments page an selects payment method \"Cash\"",
+      "time" : {
+        "start" : 1570874688230,
+        "stop" : 1570874690758,
+        "duration" : 2528
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e3252689a5368cc1",
+        "name" : "Screenshot",
+        "source" : "e3252689a5368cc1.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "user pays with amount \"84\" and enters receipt number to submit",
+      "time" : {
+        "start" : 1570874690758,
+        "stop" : 1570874693287,
+        "duration" : 2529
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "358bd07b5a63387b",
+        "name" : "Screenshot",
+        "source" : "358bd07b5a63387b.png",
+        "type" : "image/png",
+        "size" : 191212
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "cash payment is successful with message \"You have successfully completed your CASH payment!\"",
+      "time" : {
+        "start" : 1570874693289,
+        "stop" : 1570874695761,
+        "duration" : 2472
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "39e49e7b16760175",
+        "name" : "Screenshot",
+        "source" : "39e49e7b16760175.png",
+        "type" : "image/png",
+        "size" : 191159
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "3a9c7bda121f376b",
+      "name" : "Screenshot",
+      "source" : "3a9c7bda121f376b.png",
+      "type" : "image/png",
+      "size" : 191159
+    }, {
+      "uid" : "c4eb6163babf182",
+      "name" : "Screenshot",
+      "source" : "c4eb6163babf182.png",
+      "type" : "image/png",
+      "size" : 191212
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "A registered user can pay by available Payment methods"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "suite",
+    "value" : "A registered user can pay by available Payment methods"
+  }, {
+    "name" : "testClass",
+    "value" : "A registered user can pay by available Payment methods"
+  }, {
+    "name" : "testMethod",
+    "value" : "User can make payment by cash"
+  }, {
+    "name" : "package",
+    "value" : "A registered user can pay by available Payment methods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "20ceb4a1151968e.json",
+  "parameterValues" : [ "chrome" ]
+}
